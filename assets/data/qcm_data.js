@@ -4386,23 +4386,27 @@ window.QCM_DATA = {
               "all_pages": [
                 29
               ],
-              "question": "Quels sont les panneaux qui mettent fin à ce panneau (B3) ? a                        b               c                    d",
+              "question": "Quels sont les panneaux qui mettent fin à ce panneau (B3) ?",
               "options": [
                 {
                   "id": "a",
-                  "text": "Panneau / Option A"
+                  "text": "Panneau a (B31 : Fin de toutes les interdictions)",
+                  "image": "assets/images/q_123_opt_a.png"
                 },
                 {
                   "id": "b",
-                  "text": "Panneau / Option B"
+                  "text": "Panneau b (B34a : Fin d'interdiction de dépasser pour poids lourds)",
+                  "image": "assets/images/q_123_opt_b.png"
                 },
                 {
                   "id": "c",
-                  "text": "Panneau / Option C"
+                  "text": "Panneau c (B34 : Fin d'interdiction de dépasser)",
+                  "image": "assets/images/q_123_opt_c.png"
                 },
                 {
                   "id": "d",
-                  "text": "Panneau / Option D"
+                  "text": "Panneau d (Sortie d'agglomération DASSA)",
+                  "image": "assets/images/q_123_opt_d.png"
                 }
               ],
               "raw_answer": "Réponse a-c-d",
@@ -4413,12 +4417,9 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [
-                "assets/images/q_123_1.png",
-                "assets/images/q_123_2.png",
-                "assets/images/q_123_3.png",
-                "assets/images/q_123_4.png"
+                "assets/images/q_123_b3.png"
               ],
-              "explanation": "Le panneau B3 interdit de dépasser tous les véhicules à moteur autres que les deux-roues sans side-car. La bonne réponse officielle est : « Panneau / Option A ; Panneau / Option C ; Panneau / Option D »."
+              "explanation": "Le panneau B3 interdit le dépassement à tous les véhicules à moteur (autres que les deux-roues sans side-car). Il prend fin par le panneau B34 (fin d'interdiction de dépasser - panneau c), par le panneau B31 (fin de toutes les interdictions précédemment notifiées - panneau a), ou par le panneau de sortie d'agglomération (panneau d). Le panneau b (B34a) ne concerne que les poids lourds."
             },
             {
               "id": 124,
@@ -5896,19 +5897,23 @@ window.QCM_DATA = {
               "options": [
                 {
                   "id": "a",
-                  "text": "Panneau / Option A"
+                  "text": "Balise a (J1 : Balise de virage blanche à sommet rouge)",
+                  "image": "assets/images/q_165_opt_a.png"
                 },
                 {
                   "id": "b",
-                  "text": "Panneau / Option B"
+                  "text": "Balise b (J11 : Dispositif d'alignement blanc)",
+                  "image": "assets/images/q_165_opt_b.png"
                 },
                 {
                   "id": "c",
-                  "text": "Panneau / Option C"
+                  "text": "Balise c (J1bis : Balise de virage en zone enneigée)",
+                  "image": "assets/images/q_165_opt_c.png"
                 },
                 {
                   "id": "d",
-                  "text": "Panneau / Option D"
+                  "text": "Balise d (J3 : Balise de virage / balisage des courbes)",
+                  "image": "assets/images/q_165_opt_d.png"
                 }
               ],
               "raw_answer": "Réponse : a-d",
@@ -5918,7 +5923,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Panneau / Option A ; Panneau / Option D »."
+              "explanation": "Les balises qui positionnent et délimitent un virage sont la balise de virage J1 (cylindrique blanche à capuchon rouge rétroréfléchissant - balise a) et la balise de virage J3 (profilée avec chevrons - balise d). La balise J11 sert au guidage latéral continu, et la J1bis aux zones de neige."
             },
             {
               "id": 166,

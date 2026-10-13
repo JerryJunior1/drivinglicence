@@ -987,6 +987,9 @@
     q.options.forEach(opt => {
       const optItem = document.createElement('div');
       optItem.className = 'quiz-option-item';
+      if (opt.image) {
+        optItem.classList.add('has-option-image');
+      }
       const isChecked = userSelected.has(opt.id);
 
       if (isChecked) {
@@ -1004,8 +1007,13 @@
         }
       }
 
+      const imgHtml = opt.image 
+        ? `<div class="option-image-wrap"><img src="${opt.image}" class="option-thumb-img" alt="Option ${opt.id.toUpperCase()}"></div>` 
+        : '';
+
       optItem.innerHTML = `
         <div class="option-indicator">${opt.id.toUpperCase()}</div>
+        ${imgHtml}
         <div class="option-text">${opt.text}</div>
       `;
 
