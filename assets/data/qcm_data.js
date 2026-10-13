@@ -4643,23 +4643,23 @@ window.QCM_DATA = {
               "all_pages": [
                 30
               ],
-              "question": "Cette  signalisation indique :",
+              "question": "Cette signalisation indique :",
               "options": [
                 {
                   "id": "a",
-                  "text": "une entrée d’agglomération"
+                  "text": "Une entrée d’agglomération"
                 },
                 {
                   "id": "b",
-                  "text": "une fin d’interdiction de klaxonner"
+                  "text": "Une fin d’interdiction de klaxonner"
                 },
                 {
                   "id": "c",
-                  "text": "une limitation de vitesse"
+                  "text": "Une limitation de vitesse"
                 },
                 {
                   "id": "d",
-                  "text": "une interdiction de klaxonner"
+                  "text": "Une interdiction de klaxonner"
                 }
               ],
               "raw_answer": "Réponse : a, c, d",
@@ -4669,8 +4669,10 @@ window.QCM_DATA = {
                 "d"
               ],
               "is_multiple_choice": true,
-              "images": [],
-              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « une entrée d’agglomération ; une limitation de vitesse ; une interdiction de klaxonner »."
+              "images": [
+                "assets/images/q_130_complete.png"
+              ],
+              "explanation": "Le panneau d’entrée d’agglomération (EB10 SAVE surmonté du cartouche RIE) indique une entrée en agglomération (a). Dès l’entrée en ville, la vitesse est limitée (c) et l’usage du klaxon est interdit sauf danger immédiat (d)."
             },
             {
               "id": 131,
@@ -5199,19 +5201,19 @@ window.QCM_DATA = {
               "options": [
                 {
                   "id": "a",
-                  "text": "20km/"
+                  "text": "20 km/h"
                 },
                 {
                   "id": "b",
-                  "text": "40km/h"
+                  "text": "40 km/h"
                 },
                 {
                   "id": "c",
-                  "text": "50km/h"
+                  "text": "50 km/h"
                 },
                 {
                   "id": "d",
-                  "text": "80km/h 34"
+                  "text": "80 km/h"
                 }
               ],
               "raw_answer": "Réponse b, c",
@@ -5221,10 +5223,9 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [
-                "assets/images/q_145_3.png",
-                "assets/images/q_145_4.png"
+                "assets/images/q_145_complete.png"
               ],
-              "explanation": "Le panneau B14 impose une limitation de vitesse : interdiction de rouler à une vitesse supérieure à celle indiquée. La bonne réponse officielle est : « 40km/h ; 50km/h »."
+              "explanation": "Le panneau B14 impose une vitesse maximale de 50 km/h et le panneau B25 impose une vitesse minimale obligatoire de 30 km/h. On doit donc rouler entre 30 km/h et 50 km/h : 40 km/h (b) et 50 km/h (c) sont autorisés."
             },
             {
               "id": 146,
@@ -5720,15 +5721,15 @@ window.QCM_DATA = {
               "options": [
                 {
                   "id": "a",
-                  "text": "que le premier virage est à 150m"
+                  "text": "Que le premier virage est à 150m"
                 },
                 {
                   "id": "b",
-                  "text": "plusieurs virages à 500m"
+                  "text": "Plusieurs virages à 500m"
                 },
                 {
                   "id": "c",
-                  "text": "plusieurs virages sur 500m"
+                  "text": "Plusieurs virages sur 500m"
                 },
                 {
                   "id": "d",
@@ -5742,9 +5743,9 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [
-                "assets/images/q_160_4.png"
+                "assets/images/q_160_complete.png"
               ],
-              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « plusieurs virages à 500m ; Un ralentissement »."
+              "explanation": "Le panneau de danger A1c complété par le panonceau de distance M1 (« 500m ») annonce une succession de virages débutant à 500 mètres (b) et impose un ralentissement (d). Pour indiquer une étendue (« sur 500m »), le panonceau comporterait deux flèches verticales."
             }
           ]
         },
@@ -5897,22 +5898,22 @@ window.QCM_DATA = {
               "options": [
                 {
                   "id": "a",
-                  "text": "Balise a (J1 : Balise de virage blanche à sommet rouge)",
+                  "text": "Balise a",
                   "image": "assets/images/q_165_opt_a.png"
                 },
                 {
                   "id": "b",
-                  "text": "Balise b (J11 : Dispositif d'alignement blanc)",
+                  "text": "Balise b",
                   "image": "assets/images/q_165_opt_b.png"
                 },
                 {
                   "id": "c",
-                  "text": "Balise c (J1bis : Balise de virage en zone enneigée)",
+                  "text": "Balise c",
                   "image": "assets/images/q_165_opt_c.png"
                 },
                 {
                   "id": "d",
-                  "text": "Balise d (J3 : Balise de virage / balisage des courbes)",
+                  "text": "Balise d",
                   "image": "assets/images/q_165_opt_d.png"
                 }
               ],
@@ -5922,8 +5923,10 @@ window.QCM_DATA = {
                 "d"
               ],
               "is_multiple_choice": true,
-              "images": [],
-              "explanation": "Les balises qui positionnent et délimitent un virage sont la balise de virage J1 (cylindrique blanche à capuchon rouge rétroréfléchissant - balise a) et la balise de virage J3 (profilée avec chevrons - balise d). La balise J11 sert au guidage latéral continu, et la J1bis aux zones de neige."
+              "images": [
+                "assets/images/q_165_complete.png"
+              ],
+              "explanation": "Les balises positionnant un virage sont la balise a et la balise d (balises de virage délimitant la courbe). La balise b est un délinéateur d’alignement et la balise c comporte un anneau intermédiaire spécifique."
             },
             {
               "id": 166,
@@ -5961,7 +5964,7 @@ window.QCM_DATA = {
               "all_pages": [
                 38
               ],
-              "question": "Ce panneau  B6a1-1  indique que le stationnement est :",
+              "question": "Ce panneau B6a1-1 indique que le stationnement est :",
               "options": [
                 {
                   "id": "a",
@@ -5986,10 +5989,9 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [
-                "assets/images/q_167_2.png",
-                "assets/images/q_167_3.png"
+                "assets/images/q_167_complete.png"
               ],
-              "explanation": "Le panneau B6a1 interdit le stationnement du côté où il est implanté jusqu'à la prochaine intersection. L'arrêt temporaire reste autorisé. La bonne réponse officielle est : « Gratuit, à durée limitée »."
+              "explanation": "Le panneau B6a1-1 (interdiction de stationner complétée par le panonceau de disque de contrôle) signale une zone bleue où le stationnement est gratuit mais obligatoire à durée limitée par disque de stationnement (b)."
             },
             {
               "id": 168,

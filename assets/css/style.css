@@ -1279,11 +1279,11 @@ body {
 
 .option-image-wrap {
   width: 68px;
-  height: 68px;
+  height: 76px;
   min-width: 68px;
   background: #ffffff;
   border-radius: var(--radius-sm);
-  padding: 5px;
+  padding: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
