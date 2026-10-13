@@ -894,8 +894,7 @@
               ],
               "is_multiple_choice": false,
               "images": [
-                "assets/images/q_22_5.png",
-                "assets/images/q_22_6.png"
+                "assets/images/q_22_5.png"
               ],
               "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je passe."
             },
@@ -908,7 +907,7 @@
                 8,
                 9
               ],
-              "question": "Que m’indique le panneau A1d1 ? 9",
+              "question": "Que m’indique le panneau A1d1 ?",
               "options": [
                 {
                   "id": "a",
@@ -928,7 +927,9 @@
                 "b"
               ],
               "is_multiple_choice": false,
-              "images": [],
+              "images": [
+                "assets/images/q_23_1.png"
+              ],
               "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Succession de virage sur 5 km dont le 1er est à gauche."
             },
             {
@@ -3175,7 +3176,7 @@
                 21,
                 22
               ],
-              "question": "A une intersection munie de feux tricolores dont le feu vert est allumé, que dois-je faire ? 22",
+              "question": "A une intersection munie de feux tricolores dont le feu vert est allumé, que dois-je faire ?",
               "options": [
                 {
                   "id": "a",
@@ -5928,7 +5929,7 @@
                 37,
                 38
               ],
-              "question": "On appelle indices « informels », les informations données : a c d b 38",
+              "question": "On appelle indices « informels », les informations données : a c d b",
               "options": [
                 {
                   "id": "a",
@@ -6940,7 +6941,7 @@
                 44,
                 45
               ],
-              "question": "Le panneau B7a : 45",
+              "question": "Le panneau B7a :",
               "options": [
                 {
                   "id": "a",
@@ -7107,7 +7108,7 @@
                 45,
                 46
               ],
-              "question": "Le panneau B2b : 46",
+              "question": "Le panneau B2b :",
               "options": [
                 {
                   "id": "a",
@@ -8374,7 +8375,9 @@
                 "b"
               ],
               "is_multiple_choice": false,
-              "images": [],
+              "images": [
+                "assets/images/q_236_1.png"
+              ],
               "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : panneau indiquant le caractère prioritaire de la route."
             },
             {
@@ -9018,7 +9021,7 @@
                 66,
                 67
               ],
-              "question": "A cette intersection I23, quel est le véhicule qui passera le dernier ? 67",
+              "question": "A cette intersection I23, quel est le véhicule qui passera le dernier ?",
               "options": [
                 {
                   "id": "a",
@@ -11117,7 +11120,7 @@
                 81,
                 82
               ],
-              "question": "En agglomération, le panneau à caractère prioritaire est répété : 82",
+              "question": "En agglomération, le panneau à caractère prioritaire est répété :",
               "options": [
                 {
                   "id": "a",
@@ -12326,7 +12329,7 @@
                 92,
                 93
               ],
-              "question": "Sur cette image Im7 P49, choisissez le panneau  manquant parmi les panneaux proposés a b c d e a b c d e a b c d e 93",
+              "question": "Sur cette image Im7 P49, choisissez le panneau  manquant parmi les panneaux proposés a b c d e a b c d e a b c d e",
               "options": [
                 {
                   "id": "a",
@@ -13596,7 +13599,7 @@
                 102,
                 103
               ],
-              "question": "Plus le rayon du virage est faible : 103",
+              "question": "Plus le rayon du virage est faible :",
               "options": [
                 {
                   "id": "a",
@@ -13768,7 +13771,7 @@
                 103,
                 104
               ],
-              "question": "Ajuster sa vitesse aux circonstances, c’est ralentir suffisamment : 104",
+              "question": "Ajuster sa vitesse aux circonstances, c’est ralentir suffisamment :",
               "options": [
                 {
                   "id": "a",
@@ -14625,7 +14628,7 @@
                 108,
                 109
               ],
-              "question": "Le panneau B7b : 109",
+              "question": "Le panneau B7b :",
               "options": [
                 {
                   "id": "a",
@@ -17035,7 +17038,7 @@
                 122,
                 123
               ],
-              "question": "La vitesse maximale autorisée sur une autoroute est : 123",
+              "question": "La vitesse maximale autorisée sur une autoroute est :",
               "options": [
                 {
                   "id": "a",
@@ -18556,7 +18559,7 @@
                 131,
                 132
               ],
-              "question": "Que dois-je faire à la vue d’une personne traversant ou s’apprêtant à s’engager sur la chaussée, canne blanche levée ? 132",
+              "question": "Que dois-je faire à la vue d’une personne traversant ou s’apprêtant à s’engager sur la chaussée, canne blanche levée ?",
               "options": [
                 {
                   "id": "a",
@@ -19216,7 +19219,7 @@
                 135,
                 136
               ],
-              "question": "En cas de brûlure par liquide  bouillant ou par vapeur : 136",
+              "question": "En cas de brûlure par liquide  bouillant ou par vapeur :",
               "options": [
                 {
                   "id": "a",
@@ -20890,7 +20893,7 @@
                 145,
                 146
               ],
-              "question": "Le contrôle d’alcoolémie est systématique : 146",
+              "question": "Le contrôle d’alcoolémie est systématique :",
               "options": [
                 {
                   "id": "a",
@@ -21057,7 +21060,7 @@
                 146,
                 147
               ],
-              "question": "De nuit pour signaler un accident : 147",
+              "question": "De nuit pour signaler un accident :",
               "options": [
                 {
                   "id": "a",
@@ -21400,7 +21403,7 @@
                 148,
                 149
               ],
-              "question": "Le réglage de la hauteur des faisceaux lumineux du véhicule : 149",
+              "question": "Le réglage de la hauteur des faisceaux lumineux du véhicule :",
               "options": [
                 {
                   "id": "a",
@@ -21568,7 +21571,7 @@
                 149,
                 150
               ],
-              "question": "Je dois faire vérifier le parallélisme des roues de mon véhicule : 150",
+              "question": "Je dois faire vérifier le parallélisme des roues de mon véhicule :",
               "options": [
                 {
                   "id": "a",
@@ -22100,7 +22103,7 @@
                 152,
                 153
               ],
-              "question": "Pendant l’arrêt au feu rouge : 153",
+              "question": "Pendant l’arrêt au feu rouge :",
               "options": [
                 {
                   "id": "a",
@@ -22271,7 +22274,7 @@
                 153,
                 154
               ],
-              "question": "L’absorption d’alcool : 154",
+              "question": "L’absorption d’alcool :",
               "options": [
                 {
                   "id": "a",
@@ -23421,7 +23424,7 @@
               "options": [
                 {
                   "id": "a",
-                  "text": "Voie réservée au cycliste 161"
+                  "text": "Voie réservée au cycliste"
                 },
                 {
                   "id": "b",
@@ -24068,7 +24071,7 @@
                 164,
                 165
               ],
-              "question": "La remorque doit avoir sa propre carte grise si le PTAC est supérieur à : 165",
+              "question": "La remorque doit avoir sa propre carte grise si le PTAC est supérieur à :",
               "options": [
                 {
                   "id": "a",
@@ -24552,7 +24555,7 @@
                 167,
                 168
               ],
-              "question": "A quoi sert le ralentisseur sur un véhicule poids lourd ? 168",
+              "question": "A quoi sert le ralentisseur sur un véhicule poids lourd ?",
               "options": [
                 {
                   "id": "a",
@@ -25165,7 +25168,7 @@
                 171,
                 172
               ],
-              "question": "En rase campagne, quel intervalle minimal de sécurité doit respecter deux véhicules de plus 3,5T de PTAC et de plus de 7m de long qui se suivent lorsqu’ils roulent à la même vitesse ? 172",
+              "question": "En rase campagne, quel intervalle minimal de sécurité doit respecter deux véhicules de plus 3,5T de PTAC et de plus de 7m de long qui se suivent lorsqu’ils roulent à la même vitesse ?",
               "options": [
                 {
                   "id": "a",
@@ -25316,7 +25319,7 @@
                 172,
                 173
               ],
-              "question": "Que signifie le panneau B8-1 : 173",
+              "question": "Que signifie le panneau B8-1 :",
               "options": [
                 {
                   "id": "a",
@@ -25635,7 +25638,7 @@
                 174,
                 175
               ],
-              "question": "Quels sont les renseignements qu’on peut retrouver sur la plaque de tare ou de surface ? 175",
+              "question": "Quels sont les renseignements qu’on peut retrouver sur la plaque de tare ou de surface ?",
               "options": [
                 {
                   "id": "a",
@@ -27726,7 +27729,7 @@
                 187,
                 188
               ],
-              "question": "Pour le calcul du nombre de personnes transportées, un enfant compte pour une demi-personne s’il est âgé de : 188",
+              "question": "Pour le calcul du nombre de personnes transportées, un enfant compte pour une demi-personne s’il est âgé de :",
               "options": [
                 {
                   "id": "a",
@@ -27886,7 +27889,7 @@
                 188,
                 189
               ],
-              "question": "Pour tourner à droite, je dois : 189",
+              "question": "Pour tourner à droite, je dois :",
               "options": [
                 {
                   "id": "a",
@@ -29482,7 +29485,7 @@
                 198,
                 199
               ],
-              "question": "Que faut-il faire pour éviter de polluer l’environnement par le gaz d’échappement de votre moteur ? 199",
+              "question": "Que faut-il faire pour éviter de polluer l’environnement par le gaz d’échappement de votre moteur ?",
               "options": [
                 {
                   "id": "a",
@@ -29823,7 +29826,7 @@
                 200,
                 201
               ],
-              "question": "Le moteur au régime élevé fait des à coups, à quoi cela peut-il être dû ? 201",
+              "question": "Le moteur au régime élevé fait des à coups, à quoi cela peut-il être dû ?",
               "options": [
                 {
                   "id": "a",
@@ -30002,7 +30005,7 @@
                 201,
                 202
               ],
-              "question": "En cas de début d’incendie sur véhicule : 202",
+              "question": "En cas de début d’incendie sur véhicule :",
               "options": [
                 {
                   "id": "a",
@@ -30175,7 +30178,7 @@
                 202,
                 203
               ],
-              "question": "A quoi sert le contrat d’assurance au tiers ? 203",
+              "question": "A quoi sert le contrat d’assurance au tiers ?",
               "options": [
                 {
                   "id": "a",

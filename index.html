@@ -368,15 +368,16 @@
     </div>
   </div>
 
-  <!-- Confirmation Modal (Reset Progress) -->
+  <!-- Reusable Confirmation Modal -->
   <div class="confirm-modal" id="confirm-modal" role="dialog" aria-modal="true">
     <div class="confirm-backdrop" id="confirm-backdrop"></div>
     <div class="confirm-card">
-      <h3 class="confirm-title">Réinitialiser votre progression ?</h3>
-      <p class="confirm-desc">Tous vos scores enregistrés et statuts de validation de séries seront effacés de ce navigateur.</p>
+      <div class="confirm-icon-box" id="confirm-icon">🚪</div>
+      <h3 class="confirm-title" id="confirm-title">Quitter le questionnaire ?</h3>
+      <p class="confirm-desc" id="confirm-desc">Votre progression en cours sur cette série ne sera pas enregistrée.</p>
       <div class="confirm-actions">
         <button class="btn btn-secondary" id="btn-confirm-cancel">Annuler</button>
-        <button class="btn btn-danger" id="btn-confirm-ok">Confirmer la réinitialisation</button>
+        <button class="btn btn-danger" id="btn-confirm-ok">Confirmer</button>
       </div>
     </div>
   </div>

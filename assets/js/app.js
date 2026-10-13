@@ -109,6 +109,9 @@
     lightboxImg: document.getElementById('lightbox-img'),
     confirmModal: document.getElementById('confirm-modal'),
     confirmBackdrop: document.getElementById('confirm-backdrop'),
+    confirmIcon: document.getElementById('confirm-icon'),
+    confirmTitle: document.getElementById('confirm-title'),
+    confirmDesc: document.getElementById('confirm-desc'),
     btnConfirmCancel: document.getElementById('btn-confirm-cancel'),
     btnConfirmOk: document.getElementById('btn-confirm-ok')
   };
@@ -236,6 +239,74 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+  // ==============================================================================
+  // CUSTOM CONFIRM & DIALOG MODAL SYSTEM
+  // ==============================================================================
+
+  let activeConfirmCleanup = null;
+
+  function showCustomConfirm({
+    icon = '⚠️',
+    title = 'Confirmation',
+    desc = '',
+    confirmText = 'Confirmer',
+    cancelText = 'Annuler',
+    isDanger = false,
+    hideCancel = false,
+    onConfirm = null,
+    onCancel = null
+  }) {
+    if (!dom.confirmModal) return;
+
+    if (activeConfirmCleanup) {
+      activeConfirmCleanup();
+    }
+
+    dom.confirmIcon.textContent = icon;
+    dom.confirmTitle.textContent = title;
+    dom.confirmDesc.textContent = desc;
+    dom.btnConfirmOk.textContent = confirmText;
+    dom.btnConfirmCancel.textContent = cancelText;
+
+    if (hideCancel) {
+      dom.btnConfirmCancel.style.display = 'none';
+    } else {
+      dom.btnConfirmCancel.style.display = '';
+    }
+
+    if (isDanger) {
+      dom.btnConfirmOk.className = 'btn btn-danger';
+    } else {
+      dom.btnConfirmOk.className = 'btn btn-primary';
+    }
+
+    dom.confirmModal.classList.add('active');
+
+    const cleanup = () => {
+      dom.confirmModal.classList.remove('active');
+      dom.btnConfirmOk.removeEventListener('click', handleOk);
+      dom.btnConfirmCancel.removeEventListener('click', handleCancel);
+      dom.confirmBackdrop.removeEventListener('click', handleCancel);
+      activeConfirmCleanup = null;
+    };
+
+    const handleOk = () => {
+      cleanup();
+      if (onConfirm) onConfirm();
+    };
+
+    const handleCancel = () => {
+      cleanup();
+      if (onCancel) onCancel();
+    };
+
+    dom.btnConfirmOk.addEventListener('click', handleOk);
+    dom.btnConfirmCancel.addEventListener('click', handleCancel);
+    dom.confirmBackdrop.addEventListener('click', handleCancel);
+
+    activeConfirmCleanup = cleanup;
+  }
+
   function bindGlobalEvents() {
     // Theme toggle
     dom.themeToggle.addEventListener('click', toggleTheme);
@@ -261,17 +332,17 @@
 
     // Reset progress confirmation
     dom.btnResetProgress.addEventListener('click', () => {
-      dom.confirmModal.classList.add('active');
-    });
-    dom.btnConfirmCancel.addEventListener('click', () => {
-      dom.confirmModal.classList.remove('active');
-    });
-    dom.confirmBackdrop.addEventListener('click', () => {
-      dom.confirmModal.classList.remove('active');
-    });
-    dom.btnConfirmOk.addEventListener('click', () => {
-      dom.confirmModal.classList.remove('active');
-      resetAllProgress();
+      showCustomConfirm({
+        icon: '🔄',
+        title: 'Réinitialiser votre progression ?',
+        desc: 'Tous vos scores enregistrés et statuts de validation de séries seront effacés de ce navigateur.',
+        confirmText: 'Réinitialiser',
+        cancelText: 'Annuler',
+        isDanger: true,
+        onConfirm: () => {
+          resetAllProgress();
+        }
+      });
     });
 
     // Series view back
@@ -292,16 +363,24 @@
       state.quizMode = 'exam';
     });
 
-    // Quiz controls
+    // Quiz controls - Quit quiz custom confirmation
     dom.btnQuizQuit.addEventListener('click', () => {
-      if (confirm("Voulez-vous vraiment quitter ce questionnaire ? Votre progression en cours ne sera pas enregistrée.")) {
-        if (state.timerInterval) clearInterval(state.timerInterval);
-        if (state.activeChapter) {
-          showView(dom.viewSeries);
-        } else {
-          showView(dom.viewDashboard);
+      showCustomConfirm({
+        icon: '🚪',
+        title: 'Quitter le questionnaire ?',
+        desc: 'Votre progression en cours sur cette série ne sera pas enregistrée.',
+        confirmText: 'Quitter',
+        cancelText: 'Continuer le test',
+        isDanger: true,
+        onConfirm: () => {
+          if (state.timerInterval) clearInterval(state.timerInterval);
+          if (state.activeChapter) {
+            showView(dom.viewSeries);
+          } else {
+            showView(dom.viewDashboard);
+          }
         }
-      }
+      });
     });
 
     dom.btnQuizPrev.addEventListener('click', goToPreviousQuestion);
@@ -564,8 +643,16 @@
         updateTimerDisplay();
         if (state.examSecondsLeft <= 0) {
           clearInterval(state.timerInterval);
-          alert("Temps écoulé ! Votre examen va être corrigé automatiquement.");
-          finishQuiz();
+          showCustomConfirm({
+            icon: '⏰',
+            title: 'Temps écoulé !',
+            desc: 'La durée maximale de 20 minutes est expirée. Votre examen va être corrigé automatiquement.',
+            confirmText: 'Voir mes résultats',
+            hideCancel: true,
+            onConfirm: () => {
+              finishQuiz();
+            }
+          });
         }
       }, 1000);
     } else {
@@ -729,16 +816,10 @@
     }
     const current = state.userAnswers[q.id];
 
-    if (q.is_multiple_choice) {
-      // Multiple choices toggle
-      if (current.has(optId)) {
-        current.delete(optId);
-      } else {
-        current.add(optId);
-      }
+    // Free choice: candidate can select one or multiple answers on every question
+    if (current.has(optId)) {
+      current.delete(optId);
     } else {
-      // Single choice
-      current.clear();
       current.add(optId);
     }
 
@@ -972,9 +1053,17 @@
           return;
         }
       }
-      alert("Félicitations ! Vous avez terminé toutes les séries de ce chapitre !");
-      showView(dom.viewDashboard);
-      renderDashboard();
+      showCustomConfirm({
+        icon: '🏆',
+        title: 'Félicitations !',
+        desc: 'Vous avez terminé toutes les séries de ce chapitre ! Retournez au tableau de bord pour vous entraîner sur un autre chapitre ou tenter un examen blanc.',
+        confirmText: 'Retour au tableau de bord',
+        hideCancel: true,
+        onConfirm: () => {
+          showView(dom.viewDashboard);
+          renderDashboard();
+        }
+      });
     }
   }
 
@@ -1025,6 +1114,13 @@
 
   // Keyboard Shortcuts (A, B, C, D, Left, Right, Enter, Escape)
   function handleKeyboardShortcuts(e) {
+    if (dom.confirmModal && dom.confirmModal.classList.contains('active')) {
+      if (e.key === 'Escape') {
+        if (activeConfirmCleanup) activeConfirmCleanup();
+      }
+      return;
+    }
+
     if (dom.imageLightbox.classList.contains('active')) {
       if (e.key === 'Escape') closeLightbox();
       return;
@@ -1038,7 +1134,8 @@
     const key = e.key.toLowerCase();
     if (['a', 'b', 'c', 'd', 'e'].includes(key)) {
       const matchOpt = q.options.find(o => o.id === key);
-      if (matchOpt && (!state.quizMode === 'training' || !state.validatedQuestions[state.currentQIndex])) {
+      const isLocked = state.quizMode === 'training' && state.validatedQuestions[state.currentQIndex];
+      if (matchOpt && !isLocked) {
         toggleOptionSelection(q, key);
       }
     } else if (e.key === 'ArrowRight') {
