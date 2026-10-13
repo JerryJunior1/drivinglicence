@@ -183,7 +183,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Le Code de la route distingue 4 grandes catégories de signalisation : la signalisation verticale (les panneaux), la signalisation horizontale (les marquages au sol), la signalisation lumineuse (les feux) et les ordres donnés par les agents de sécurité routière (qui priment sur toutes les autres)."
+              "explanation": "Le Code de la route distingue 4 grandes catégories de signalisation : la signalisation verticale (panneaux), horizontale (marquages peints au sol), lumineuse (feux tricolores) et les signaux ou ordres donnés par les agents de police ou de gendarmerie."
             },
             {
               "id": 2,
@@ -214,7 +214,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "La signalisation horizontale correspond exclusivement aux marques, lignes et symboles peints directement sur la chaussée pour guider la circulation."
+              "explanation": "La signalisation horizontale correspond exclusivement à l'ensemble des marques et bandes peintes directement sur la chaussée (lignes continues, discontinues, zébras, flèches de guidage)."
             },
             {
               "id": 3,
@@ -245,7 +245,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "La signalisation verticale regroupe tous les panneaux de signalisation implantés sur des poteaux ou portiques en bordure de route."
+              "explanation": "La signalisation verticale regroupe tous les panneaux de signalisation fixes ou mobiles implantés sur des supports ou portiques aux abords de la route."
             },
             {
               "id": 4,
@@ -276,7 +276,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "La signalisation lumineuse désigne l'ensemble des feux tricolores (rouge, jaune/orange, vert) et des signaux lumineux temporaires qui régulent les carrefours et zones de travaux."
+              "explanation": "La signalisation lumineuse désigne l'ensemble des feux tricolores (rouge, jaune, vert) et signaux clignotants qui régulent la circulation des véhicules et des piétons."
             },
             {
               "id": 5,
@@ -308,7 +308,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les ordres et gestes des agents de la police et de la gendarmerie sont au sommet de la hiérarchie routière : ils prévalent toujours sur les feux, les panneaux et les règles habituelles."
+              "explanation": "Au sommet de la hiérarchie de la signalisation routière se trouvent les ordres et gestes des agents de police ou de gendarmerie : ils prévalent toujours sur les feux, les panneaux et les règles générales de priorité."
             },
             {
               "id": 6,
@@ -339,7 +339,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Sur une ligne mixte, le conducteur doit uniquement respecter la ligne la plus proche de sa voie. Si la ligne discontinue est de votre côté, le dépassement est autorisé ; si c'est la ligne continue, il est interdit."
+              "explanation": "Sur une ligne mixte (ligne continue doublée d'une ligne discontinue), le conducteur doit uniquement respecter la ligne située de son côté. Si la ligne discontinue est de votre côté, vous pouvez la franchir pour dépasser."
             },
             {
               "id": 7,
@@ -370,7 +370,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Une ligne jaune continue peinte sur la bordure d'un trottoir interdit formellement à la fois l'arrêt et le stationnement de tout véhicule."
+              "explanation": "Une ligne jaune continue peinte sur la bordure du trottoir interdit formellement à la fois l'arrêt et le stationnement le long de ce trottoir."
             },
             {
               "id": 8,
@@ -401,7 +401,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Sur route en rase campagne, l'intervalle standard entre deux traits d'une ligne discontinue blanche centrale (type T1) est de 10 mètres pour 3 mètres de trait plein."
+              "explanation": "En rase campagne, la ligne discontinue de guidage standard (type T1) est composée de traits de 3 mètres séparés par des intervalles de 10 mètres."
             },
             {
               "id": 9,
@@ -433,7 +433,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Une ligne jaune discontinue peinte sur la bordure du trottoir interdit le stationnement, mais autorise l'arrêt temporaire (par exemple pour faire monter ou descendre un passager)."
+              "explanation": "Une ligne jaune discontinue peinte sur la bordure du trottoir interdit le stationnement, mais autorise l'arrêt momentané (par exemple pour faire monter ou descendre un passager)."
             },
             {
               "id": 10,
@@ -464,7 +464,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Une ligne blanche continue dans l'axe de la chaussée est infranchissable : il est strictement interdit de la couper ou de la chevaucher, même pour dépasser."
+              "explanation": "Une ligne blanche continue axiale est infranchissable : il est formellement interdit de la franchir ou de la chevaucher, même pour dépasser un véhicule lent."
             },
             {
               "id": 11,
@@ -500,7 +500,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Serrer ma droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Serrer ma droite »."
             },
             {
               "id": 12,
@@ -537,7 +537,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "La bande d'arrêt d'urgence est réservée aux véhicules prioritaires en mission urgente (ambulances, pompiers, forces de l'ordre) et aux véhicules d'entretien, ou en cas de panne absolue d'un usager."
+              "explanation": "La bande d'arrêt d'urgence est strictement réservée à l'arrêt d'urgence des véhicules en panne et à la circulation des véhicules prioritaires d'intervention (police, pompiers, SAMU) en mission."
             },
             {
               "id": 13,
@@ -568,7 +568,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Une alternance de rouge et de blanc le long du trottoir signale une interdiction de stationner le long de cette bordure."
+              "explanation": "Une bordure de trottoir peinte en alternance de rouge et de blanc interdit le stationnement de tout véhicule le long du trottoir."
             },
             {
               "id": 14,
@@ -603,7 +603,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les zébras (hachures blanches) délimitent un espace neutre sur lequel il est formellement interdit de circuler, de s'arrêter ou de stationner."
+              "explanation": "Les zébras (hachures blanches) délimitent une zone neutre sur laquelle il est strictement interdit de circuler, de s'arrêter ou de stationner."
             },
             {
               "id": 15,
@@ -636,7 +636,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_15_1.png"
               ],
-              "explanation": "Le panneau carré à fond bleu C13 indique une impasse (voie sans issue pour les véhicules)."
+              "explanation": "Le panneau C13 (carré bleu avec symbole d'impasse) indique que la voie abordée est sans issue pour les véhicules."
             },
             {
               "id": 16,
@@ -673,7 +673,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_16_2.png"
               ],
-              "explanation": "Devant un panneau STOP (AB4), le marquage au sol impose l'arrêt absolu des roues à la limite de la chaussée abordée, et de céder le passage à tous les usagers venant de droite comme de gauche."
+              "explanation": "À la vue d'un panneau STOP (AB4), le conducteur doit marquer un temps d'arrêt absolu à la limite de la chaussée abordée et céder le passage aux usagers venant de gauche et de droite."
             },
             {
               "id": 17,
@@ -707,7 +707,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_17_3.png"
               ],
-              "explanation": "Le panneau A15c annonce un danger : le débouché ou la présence d'animaux domestiques ou de cavaliers sur la chaussée."
+              "explanation": "Le panneau A15c annonce la traversée ou le débouché de cavaliers et d'animaux de monte sur la chaussée."
             },
             {
               "id": 18,
@@ -745,7 +745,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_18_1.png"
               ],
-              "explanation": "Le panneau A19 indique un risque de chute de pierres depuis la paroi rocheuse ou la présence de pierres tombées sur la chaussée."
+              "explanation": "Le panneau A19 signale un risque de chute de pierres depuis la falaise ou la présence de pierres tombées sur la chaussée."
             },
             {
               "id": 19,
@@ -778,7 +778,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_19_2.png"
               ],
-              "explanation": "Le panneau A21a signale le débouché possible de cyclistes ou de cyclomotoristes venant de la droite ou de la gauche."
+              "explanation": "Le panneau A21a annonce le débouché possible de cyclistes ou de cyclomotoristes venant de la droite ou de la gauche."
             },
             {
               "id": 20,
@@ -811,7 +811,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_20_3.png"
               ],
-              "explanation": "Le panneau triangulaire pointe en bas 'Cédez le passage' (AB3a) impose de ralentir et de céder la priorité aux véhicules circulant sur la voie prioritaire, venant de gauche comme de droite."
+              "explanation": "Le panneau triangulaire pointe en bas 'Cédez le passage' (AB3a) impose de ralentir et de laisser passer tous les véhicules circulant sur la route prioritaire, venant de gauche comme de droite."
             }
           ]
         },
@@ -859,7 +859,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_21_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Priorité de passage."
+              "explanation": "Le panneau triangulaire avec flèche barrée (panneau de priorité ponctuelle AB2) indique que vous avez la priorité de passage à la prochaine intersection sur les véhicules débouchant des voies transversales."
             },
             {
               "id": 22,
@@ -896,7 +896,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_22_5.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je passe."
+              "explanation": "Le panneau AB6 (losange jaune bordé de blanc) signale une route à caractère prioritaire. À la prochaine intersection, vous bénéficiez de la priorité et vous passez sans céder le passage."
             },
             {
               "id": 23,
@@ -930,7 +930,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_23_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Succession de virage sur 5 km dont le 1er est à gauche."
+              "explanation": "Le panneau A1d annonce une succession de virages dont le premier est à gauche. Le panonceau comportant les deux flèches verticales (« ↑ 5 km ↑ ») est un panonceau d'étendue : la zone sinueuse s'étend sur une longueur de 5 km à partir du panneau."
             },
             {
               "id": 24,
@@ -967,7 +967,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_24_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Chaussée rétrécie par la droite à 200m."
+              "explanation": "Le panneau A3a1 annonce une chaussée rétrécie par la droite débutant à la distance de 200 mètres indiquée par le panonceau."
             },
             {
               "id": 25,
@@ -1005,7 +1005,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_25_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Panneau flèche barrée ; Panneau losange fond jaune."
+              "explanation": "Lorsque vous rencontrez un panneau 'Cédez le passage' (triangle pointe en bas), les usagers circulant sur la voie prioritaire perpendiculaire rencontrent soit un panneau de priorité ponctuelle (flèche barrée AB2), soit un losange jaune de route à caractère prioritaire (AB6)."
             },
             {
               "id": 26,
@@ -1040,7 +1040,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : 50m."
+              "explanation": "En agglomération, compte tenu de la vitesse maximale autorisée de 50 km/h, les panneaux de danger sont implantés à 50 mètres en amont du danger pour permettre un ralentissement progressif."
             },
             {
               "id": 27,
@@ -1075,7 +1075,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : 150m."
+              "explanation": "En rase campagne, la vitesse étant plus élevée, les panneaux de danger sont implantés à 150 mètres du danger signalé pour garantir une distance d'arrêt suffisante."
             },
             {
               "id": 28,
@@ -1107,7 +1107,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Réduire ma vitesse."
+              "explanation": "À la rencontre d'un panneau de danger, la première obligation du conducteur est de ralentir et d'adapter son allure à la nature du risque signalé."
             },
             {
               "id": 29,
@@ -1138,7 +1138,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je ne peux ni m’arrêter ni stationner."
+              "explanation": "Il est formellement interdit de s'arrêter ou de stationner à proximité immédiate d'un panneau de danger ou d'un virage masquant la visibilité."
             },
             {
               "id": 30,
@@ -1175,7 +1175,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_30_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Débouché de cyclistes venant de gauche seulement."
+              "explanation": "Le panneau A21b annonce le débouché de cyclistes venant de la gauche seulement."
             },
             {
               "id": 31,
@@ -1208,7 +1208,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_31_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Débouché sur un quai ou une berge."
+              "explanation": "Le panneau A20 annonce le débouché de la chaussée sur un quai ou une berge sans barrière de protection."
             },
             {
               "id": 32,
@@ -1245,7 +1245,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_32_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Descente dangereuse."
+              "explanation": "Le panneau A16 annonce une descente particulièrement dangereuse, imposant d'enclencher le frein moteur pour ne pas surchauffer les freins."
             },
             {
               "id": 33,
@@ -1278,7 +1278,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_33_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Débouché sur un pont mobile."
+              "explanation": "Le panneau A6 annonce le débouché sur un pont mobile dont la traversée peut être interrompue pour le passage de bateaux."
             },
             {
               "id": 34,
@@ -1312,7 +1312,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_34_5.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Stationnement interdit à partir du panneau."
+              "explanation": "Le panneau B6a1 interdit le stationnement du côté où il est placé : l'interdiction commence à la hauteur du panneau et s'applique jusqu'à la prochaine intersection."
             },
             {
               "id": 35,
@@ -1346,7 +1346,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_35_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je peux m’arrêter avant ou après le panneau ; Je peux stationner avant le panneau."
+              "explanation": "Le panneau B6a1 interdit le stationnement mais autorise l'arrêt temporaire. De plus, l'interdiction ne s'appliquant qu'à partir du panneau, il est autorisé de stationner avant le panneau."
             },
             {
               "id": 36,
@@ -1379,7 +1379,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_36_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je ne peux stationner nulle part dans la rue où se trouve le panneau."
+              "explanation": "Le panneau B6b1 annonce l'entrée d'une zone où le stationnement est interdit sur toute l'étendue de la rue et du quartier jusqu'au panneau de fin de zone."
             },
             {
               "id": 37,
@@ -1413,7 +1413,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_37_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : M’interdit de circuler dans les deux sens ; M’oblige à faire demi-tour si possible."
+              "explanation": "Le panneau B0 (disque blanc cerclé de rouge sans inscription) interdit la circulation dans les deux sens à tout véhicule : vous devez faire demi-tour si possible."
             },
             {
               "id": 38,
@@ -1446,7 +1446,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_38_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Interdit l’accès aux autos et aux motos."
+              "explanation": "Le panneau B7a interdit l'accès à tous les véhicules à moteur (automobiles et motocyclettes), mais n'interdit pas l'accès aux cyclomoteurs."
             },
             {
               "id": 39,
@@ -1480,7 +1480,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_39_5.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je peux rouler à 40km/h ; Je dois rouler au moins à 30 km/h."
+              "explanation": "Le panneau B25 (disque bleu avec le chiffre 30) impose une vitesse minimale obligatoire : il est obligatoire de rouler au moins à 30 km/h (on peut donc rouler à 40 km/h)."
             },
             {
               "id": 40,
@@ -1514,7 +1514,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_40_6.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Tourner à droite avant le panneau."
+              "explanation": "Le panneau d'obligation B21-1 (flèche blanche oblique dirigée vers le bas à droite) oblige les usagers à tourner à droite avant le panneau."
             }
           ]
         },
@@ -1559,7 +1559,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_41_4.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Un virage très dangereux ; Un rétrécissement de la chaussée ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "La balise J4 (panneau rectangulaire à chevrons) signale un virage particulièrement prononcé ou dangereux. La bonne réponse officielle est : « Un virage très dangereux ; Un rétrécissement de la chaussée »."
             },
             {
               "id": 42,
@@ -1594,7 +1594,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Rien de tout ce qui précède ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Rien de tout ce qui précède »."
             },
             {
               "id": 43,
@@ -1633,7 +1633,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_43_5.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Carrefour à sens giratoire ; Terre-plein à contourner par la droite ; Céder le passage aux usagers venant de gauche."
+              "explanation": "Le panneau A25 annonce un carrefour à sens giratoire avec terre-plein central à contourner par la droite. La bonne réponse officielle est : « Carrefour à sens giratoire ; Terre-plein à contourner par la droite ; Céder le passage aux usagers venant de gauche »."
             },
             {
               "id": 44,
@@ -1666,7 +1666,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_44_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Céder le passage aux usagers venant en sens inverse."
+              "explanation": "Le panneau B15 impose de céder le passage à la circulation venant en sens inverse dans un passage étroit ou rétrécissement. La bonne réponse officielle est : « Céder le passage aux usagers venant en sens inverse »."
             },
             {
               "id": 45,
@@ -1701,7 +1701,7 @@ window.QCM_DATA = {
                 "assets/images/q_45_2.png",
                 "assets/images/q_45_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Circulation dangereuse dans les deux sens."
+              "explanation": "Le panneau A18 annonce une circulation à double sens. Contrairement aux autres panneaux de danger avancés de 50 m ou 150 m, le panneau A18 s'applique immédiatement à sa hauteur (à 0 m)."
             },
             {
               "id": 46,
@@ -1732,7 +1732,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : 0m."
+              "explanation": "Le panneau A18 annonce une circulation à double sens. Contrairement aux autres panneaux de danger avancés de 50 m ou 150 m, le panneau A18 s'applique immédiatement à sa hauteur (à 0 m)."
             },
             {
               "id": 47,
@@ -1765,7 +1765,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_47_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Le panneau \"priorité par rapport à la circulation venant en sens inverse\"."
+              "explanation": "Le panneau B15 vous impose de céder le passage aux véhicules venant en sens inverse. L'usager en face rencontre le panneau carré bleu C18 qui lui accorde la priorité."
             },
             {
               "id": 48,
@@ -1798,7 +1798,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_48_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Le panneau \"circulation à sens unique\"."
+              "explanation": "Le panneau B1 signale un sens interdit dans votre direction. Les usagers abordant la voie par l'autre extrémité rencontrent le panneau carré C12 indiquant une circulation à sens unique."
             },
             {
               "id": 49,
@@ -1831,7 +1831,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_49_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Accès interdit aux véhicules de transport de marchandises."
+              "explanation": "Le panneau B8 (disque rouge avec silhouette de camion) interdit l'accès aux véhicules affectés au transport de marchandises de plus de 3,5 tonnes."
             },
             {
               "id": 50,
@@ -1865,7 +1865,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_50_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Accès interdit aux véhicules transportant  des produits explosifs ou facilement inflammables 14."
+              "explanation": "Le panneau B18a interdit l'accès aux véhicules transportant des matières explosives ou facilement inflammables. La bonne réponse officielle est : « Accès interdit aux véhicules transportant  des produits explosifs ou facilement inflammables 14 »."
             },
             {
               "id": 51,
@@ -1898,7 +1898,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_51_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Avant chaque virage."
+              "explanation": "Le panneau A1c annonce une succession de virages dangereux dont le premier est à droite. Il impose de ralentir avant chaque virage. La bonne réponse officielle est : « Avant chaque virage »."
             },
             {
               "id": 52,
@@ -1929,7 +1929,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Stationner avant le panneau."
+              "explanation": "Réglementation du stationnement : Les interdictions signalées par panneau s'appliquent à partir du panneau jusqu'à la prochaine intersection. La bonne règle est : « Stationner avant le panneau »."
             },
             {
               "id": 53,
@@ -1966,7 +1966,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_53_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Accès interdit à 10km au véhicule dont la hauteur avec ou sans chargement dépasse 3,5m."
+              "explanation": "Le panneau B12 interdit l'accès aux véhicules dont la hauteur (avec chargement) dépasse la valeur indiquée. La bonne réponse officielle est : « Accès interdit à 10km au véhicule dont la hauteur avec ou sans chargement dépasse 3,5m »."
             },
             {
               "id": 54,
@@ -2004,7 +2004,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_54_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Fin d’interdiction de dépasser aux véhicules de transport de marchandise dont le PTAC excède 3,5T."
+              "explanation": "Le panneau B34a indique la fin d'interdiction de dépasser pour les poids lourds de transport de marchandises. La bonne réponse officielle est : « Fin d’interdiction de dépasser aux véhicules de transport de marchandise dont le PTAC excède 3,5T »."
             },
             {
               "id": 55,
@@ -2041,7 +2041,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_55_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Fin de voie réservée aux véhicules de transport en commun de personnes."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Fin de voie réservée aux véhicules de transport en commun de personnes »."
             },
             {
               "id": 56,
@@ -2078,7 +2078,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_56_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Voie  réservée aux véhicules de transport en commun de personnes."
+              "explanation": "Le panneau B27 (disque bleu avec symbole de bus) réserve obligatoirement la voie aux véhicules de transport en commun de personnes. La bonne réponse officielle est : « Voie  réservée aux véhicules de transport en commun de personnes »."
             },
             {
               "id": 57,
@@ -2115,7 +2115,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_57_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Accès interdit aux cyclomoteurs."
+              "explanation": "Le panneau B9g interdit l'accès aux cyclomoteurs (deux-roues de cylindrée inférieure ou égale à 50 cm³). La bonne réponse officielle est : « Accès interdit aux cyclomoteurs »."
             },
             {
               "id": 58,
@@ -2149,7 +2149,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_58_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Accès interdit aux véhicules dont la longueur dépasse 10m avec ou sans chargement."
+              "explanation": "Le panneau B10a interdit l'accès aux véhicules ou ensembles de véhicules dont la longueur dépasse le chiffre indiqué. La bonne réponse officielle est : « Accès interdit aux véhicules dont la longueur dépasse 10m avec ou sans chargement »."
             },
             {
               "id": 59,
@@ -2186,7 +2186,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_59_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Vitesse limitée à 60km/h pour les motocyclettes."
+              "explanation": "Le panneau B14 impose une limitation de vitesse : interdiction de rouler à une vitesse supérieure à celle indiquée. La bonne réponse officielle est : « Vitesse limitée à 60km/h pour les motocyclettes »."
             },
             {
               "id": 60,
@@ -2219,7 +2219,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_60_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Concerne tout véhicule à moteur roulant à moins de 60km/h."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Concerne tout véhicule à moteur roulant à moins de 60km/h »."
             }
           ]
         },
@@ -2264,7 +2264,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_61_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : A tout véhicule de transport de marchandises ; Aux véhicules de transport de marchandises dont le PTAC est supérieur à 3,5T."
+              "explanation": "Le panneau B8 (disque rouge avec silhouette de camion) interdit l'accès aux véhicules affectés au transport de marchandises de plus de 3,5 tonnes."
             },
             {
               "id": 62,
@@ -2297,7 +2297,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_62_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Accès interdit aux véhicules pesant plus de 5,5T."
+              "explanation": "Le panneau B13 interdit l'accès aux véhicules dont le poids total en charge (PTAC) excède le tonnage indiqué. La bonne réponse officielle est : « Accès interdit aux véhicules pesant plus de 5,5T »."
             },
             {
               "id": 63,
@@ -2335,7 +2335,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_63_5.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Les véhicules de transport de marchandises."
+              "explanation": "Le panneau B14 impose une limitation de vitesse : interdiction de rouler à une vitesse supérieure à celle indiquée. La bonne réponse officielle est : « Les véhicules de transport de marchandises »."
             },
             {
               "id": 64,
@@ -2370,7 +2370,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Ralentir, serrer sa droite et passer en faisant attention au danger."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Ralentir, serrer sa droite et passer en faisant attention au danger »."
             },
             {
               "id": 65,
@@ -2403,7 +2403,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_65_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Ralentir, serrer ma droite et passer avec prudence."
+              "explanation": "Le panneau A7 annonce un passage à niveau avec barrières ou demi-barrières à fonctionnement automatique. La bonne réponse officielle est : « Ralentir, serrer ma droite et passer avec prudence »."
             },
             {
               "id": 66,
@@ -2436,7 +2436,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_66_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : A voir une barrière et des rails."
+              "explanation": "Le panneau A7 annonce un passage à niveau avec barrières ou demi-barrières à fonctionnement automatique. La bonne réponse officielle est : « A voir une barrière et des rails »."
             },
             {
               "id": 67,
@@ -2469,7 +2469,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_67_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : A voir un panneau de position et des rails."
+              "explanation": "Le panneau A8 annonce un passage à niveau sans barrières ni demi-barrières (danger accru nécessitant un arrêt et une écoute attentive). La bonne réponse officielle est : « A voir un panneau de position et des rails »."
             },
             {
               "id": 68,
@@ -2503,7 +2503,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_68_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Ralentir, regarder à gauche et à droite avant de traverser les rails."
+              "explanation": "Le panneau A8 annonce un passage à niveau sans barrières ni demi-barrières (danger accru nécessitant un arrêt et une écoute attentive). La bonne réponse officielle est : « Ralentir, regarder à gauche et à droite avant de traverser les rails »."
             },
             {
               "id": 69,
@@ -2536,7 +2536,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_69_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Ralentir, faire attention aux enfants et s’arrêter au besoin pour les laisser passer."
+              "explanation": "Le panneau A13a annonce un endroit fréquenté par des enfants (proximité d'école ou d'aire de jeux). La bonne réponse officielle est : « Ralentir, faire attention aux enfants et s’arrêter au besoin pour les laisser passer »."
             },
             {
               "id": 70,
@@ -2569,7 +2569,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_70_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Serrer sa droite, s’arrêter et laisser le véhicule passer."
+              "explanation": "Le panneau A3 annonce un rétrécissement de la chaussée des deux côtés. La bonne réponse officielle est : « Serrer sa droite, s’arrêter et laisser le véhicule passer »."
             },
             {
               "id": 71,
@@ -2608,7 +2608,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_71_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Garer son véhicule ; Changer de direction ; Faire demi-tour."
+              "explanation": "Le panneau B1 (disque rouge barré d'une bande blanche horizontale) signale un sens interdit à tout véhicule. De l'autre côté de la rue se trouve le panneau C12 de sens unique. La bonne réponse officielle est : « Garer son véhicule ; Changer de direction ; Faire demi-tour »."
             },
             {
               "id": 72,
@@ -2645,7 +2645,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_72_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Aucun dépassement n’est autorisé."
+              "explanation": "Le panneau B3 interdit de dépasser tous les véhicules à moteur autres que les deux-roues sans side-car. La bonne réponse officielle est : « Aucun dépassement n’est autorisé »."
             },
             {
               "id": 73,
@@ -2684,7 +2684,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_73_5.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : A un véhicule poids lourd, de dépasser une voiture ; A un véhicule poids lourd, de dépasser un autre véhicule poids lourd 19."
+              "explanation": "Le panneau B33 indique la fin de limitation de vitesse. La bonne réponse officielle est : « A un véhicule poids lourd, de dépasser une voiture ; A un véhicule poids lourd, de dépasser un autre véhicule poids lourd 19 »."
             },
             {
               "id": 74,
@@ -2718,7 +2718,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_74_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : A moins de 50km /h ; A 50km/h."
+              "explanation": "Le panneau B14 impose une limitation de vitesse : interdiction de rouler à une vitesse supérieure à celle indiquée. La bonne réponse officielle est : « A moins de 50km /h ; A 50km/h »."
             },
             {
               "id": 75,
@@ -2751,7 +2751,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_75_5.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : S’arrêter pour laisser l’usager venant en sens inverse."
+              "explanation": "Le panneau B15 impose de céder le passage à la circulation venant en sens inverse dans un passage étroit ou rétrécissement. La bonne réponse officielle est : « S’arrêter pour laisser l’usager venant en sens inverse »."
             },
             {
               "id": 76,
@@ -2784,7 +2784,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_76_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Tourner à droite à la prochaine intersection."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Tourner à droite à la prochaine intersection »."
             },
             {
               "id": 77,
@@ -2822,7 +2822,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_77_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : A 30km/h ; A plus de 30km/h."
+              "explanation": "Le panneau B25 (disque bleu avec le chiffre 30) impose une vitesse minimale obligatoire de 30 km/h. La bonne réponse officielle est : « A 30km/h ; A plus de 30km/h »."
             },
             {
               "id": 78,
@@ -2856,7 +2856,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_78_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : La fin de tous les panneaux d’interdiction sauf ceux de stationnement et d’arrêt interdit."
+              "explanation": "Le panneau B31 (disque blanc barré de noir) indique la fin de toutes les interdictions précédemment notifiées aux véhicules en mouvement. La bonne réponse officielle est : « La fin de tous les panneaux d’interdiction sauf ceux de stationnement et d’arrêt interdit »."
             },
             {
               "id": 79,
@@ -2891,7 +2891,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_79_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : A n’importe quelle vitesse tout en respectant la règlementation en vigueur ; A moins de 50km/h ; A plus de 50km/h."
+              "explanation": "Le panneau B33 indique la fin de limitation de vitesse. La bonne réponse officielle est : « A n’importe quelle vitesse tout en respectant la règlementation en vigueur ; A moins de 50km/h ; A plus de 50km/h »."
             },
             {
               "id": 80,
@@ -2924,7 +2924,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_80_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Il est mis fin à l’interdiction de dépasser à tout véhicule."
+              "explanation": "Le panneau B34 indique la fin d'interdiction de dépasser. La bonne réponse officielle est : « Il est mis fin à l’interdiction de dépasser à tout véhicule »."
             }
           ]
         },
@@ -2968,7 +2968,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_81_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Ralentir, s’assurer qu’aucun train n’arrive ni de droite ni de gauche sur les rails avant de passer."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Ralentir, s’assurer qu’aucun train n’arrive ni de droite ni de gauche sur les rails avant de passer »."
             },
             {
               "id": 82,
@@ -3000,7 +3000,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Vert-jaune-rouge ; Rouge-vert-jaune."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Vert-jaune-rouge ; Rouge-vert-jaune »."
             },
             {
               "id": 83,
@@ -3036,7 +3036,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je ralentis et je passe ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je ralentis et je passe »."
             },
             {
               "id": 84,
@@ -3072,7 +3072,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Vert-jaune-rouge ; Rouge-vert-jaune."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Vert-jaune-rouge ; Rouge-vert-jaune »."
             },
             {
               "id": 85,
@@ -3103,7 +3103,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Je m’arrête."
+              "explanation": "Règle des feux tricolores : Les feux de signalisation régissent la traversée de l'intersection. La règle officielle confirme que : « Je m’arrête »."
             },
             {
               "id": 86,
@@ -3134,7 +3134,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle fondamentale : Les injonctions et gestes des agents de sécurité routière (police, gendarmerie) prévalent systématiquement sur les feux tricolores, les panneaux et le marquage au sol. La bonne réponse est : Je suis les indications de l’agent de sécurité."
+              "explanation": "Règle de priorité : Les gestes et ordres de l'agent de circulation prévalent sur les feux et panneaux. La règle officielle pour cette situation est : « Je suis les indications de l’agent de sécurité »."
             },
             {
               "id": 87,
@@ -3165,7 +3165,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Vert-jaune-rouge."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Vert-jaune-rouge »."
             },
             {
               "id": 88,
@@ -3197,7 +3197,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Je passe avec prudence."
+              "explanation": "Règle des feux tricolores : Les feux de signalisation régissent la traversée de l'intersection. La règle officielle confirme que : « Je passe avec prudence »."
             },
             {
               "id": 89,
@@ -3228,7 +3228,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le feu rouge ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le feu rouge »."
             },
             {
               "id": 90,
@@ -3259,7 +3259,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « A m’arrêter ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « A m’arrêter »."
             },
             {
               "id": 91,
@@ -3290,7 +3290,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : J’applique la règle de priorité à droite."
+              "explanation": "Règle des feux tricolores : Les feux de signalisation régissent la traversée de l'intersection. La règle officielle confirme que : « J’applique la règle de priorité à droite »."
             },
             {
               "id": 92,
@@ -3321,7 +3321,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je me conforme au panneau."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Je me conforme au panneau »."
             },
             {
               "id": 93,
@@ -3353,7 +3353,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Je m’arrête."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Je m’arrête »."
             },
             {
               "id": 94,
@@ -3384,7 +3384,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je me conforme aux feux."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Je me conforme aux feux »."
             },
             {
               "id": 95,
@@ -3415,7 +3415,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Je pratique la règle de la priorité à droite."
+              "explanation": "Règle des feux tricolores : Les feux de signalisation régissent la traversée de l'intersection. La règle officielle confirme que : « Je pratique la règle de la priorité à droite »."
             },
             {
               "id": 96,
@@ -3450,7 +3450,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Réglementer la circulation."
+              "explanation": "Règle de priorité : Les gestes et ordres de l'agent de circulation prévalent sur les feux et panneaux. La règle officielle pour cette situation est : « Réglementer la circulation »."
             },
             {
               "id": 97,
@@ -3485,7 +3485,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je passe ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je passe »."
             },
             {
               "id": 98,
@@ -3521,7 +3521,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je m’arrête ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je m’arrête »."
             },
             {
               "id": 99,
@@ -3553,7 +3553,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Je passe si je suis engagé dans l’intersection ; Je ralentis et je m’arrête, si je le vois de face."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je passe si je suis engagé dans l’intersection ; Je ralentis et je m’arrête, si je le vois de face »."
             },
             {
               "id": 100,
@@ -3588,7 +3588,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Les signes des agents ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Les signes des agents »."
             }
           ]
         },
@@ -3630,7 +3630,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je m’arrête ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je m’arrête »."
             },
             {
               "id": 102,
@@ -3661,7 +3661,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je passe ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je passe »."
             },
             {
               "id": 103,
@@ -3695,7 +3695,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_103_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Les usagers arrivant de gauche ou de droite perdent la priorité."
+              "explanation": "Le panneau AB2 (triangle avec flèche barrée) indique que vous bénéficiez de la priorité de passage à la prochaine intersection sur les usagers des routes secondaires. La bonne réponse officielle est : « Les usagers arrivant de gauche ou de droite perdent la priorité »."
             },
             {
               "id": 104,
@@ -3728,7 +3728,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_104_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Marquer un arrêt et céder le passage à gauche et à droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Le panneau STOP (AB4) impose un temps d'arrêt obligatoire et absolu des roues à la ligne continue peinte au sol, et de céder le passage à gauche et à droite. La bonne réponse officielle est : « Marquer un arrêt et céder le passage à gauche et à droite »."
             },
             {
               "id": 105,
@@ -3759,7 +3759,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Céder le passage à ma droite."
+              "explanation": "Règle des feux tricolores : Les feux de signalisation régissent la traversée de l'intersection. La règle officielle confirme que : « Céder le passage à ma droite »."
             },
             {
               "id": 106,
@@ -3792,7 +3792,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_106_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je m’arrête et je cède le passage aux usagers venant de ma droite et de ma gauche."
+              "explanation": "Le panneau STOP (AB4) impose un temps d'arrêt obligatoire et absolu des roues à la ligne continue peinte au sol, et de céder le passage à gauche et à droite. La bonne réponse officielle est : « Je m’arrête et je cède le passage aux usagers venant de ma droite et de ma gauche »."
             },
             {
               "id": 107,
@@ -3825,7 +3825,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_107_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je cède le passage à droite et à gauche."
+              "explanation": "Le panneau AB3a (triangle pointe en bas 'Cédez le passage') impose de ralentir et de céder la priorité aux véhicules circulant sur la route abordée, venant de gauche comme de droite. La bonne réponse officielle est : « Je cède le passage à droite et à gauche »."
             },
             {
               "id": 108,
@@ -3859,7 +3859,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_108_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Interdit l’accès à tous les véhicules à moteur."
+              "explanation": "Le panneau B7b interdit l'accès à tous les véhicules à moteur sans exception (y compris les cyclomoteurs). La bonne réponse officielle est : « Interdit l’accès à tous les véhicules à moteur »."
             },
             {
               "id": 109,
@@ -3893,7 +3893,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_109_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je ne peux pas m’arrêter ; Je ne peux ni m’arrêter ni stationner."
+              "explanation": "Le panneau B6d (disque rouge à fond bleu avec croix rouge) interdit formellement à la fois l'arrêt et le stationnement. La bonne réponse officielle est : « Je ne peux pas m’arrêter ; Je ne peux ni m’arrêter ni stationner »."
             },
             {
               "id": 110,
@@ -3926,7 +3926,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_110_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Accès interdit aux véhicules à traction animal."
+              "explanation": "Le panneau B9c interdit l'accès aux véhicules à traction animale. La bonne réponse officielle est : « Accès interdit aux véhicules à traction animal »."
             },
             {
               "id": 111,
@@ -3970,7 +3970,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_111_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : A 30 km/h ; A plus de 30 km/h ; A la vitesse réglementaire ; A moins de 30 km/h."
+              "explanation": "Le panneau B43 (disque bleu avec chiffre 30 barré d'une diagonale rouge) indique la fin de vitesse minimale obligatoire. La bonne réponse officielle est : « A 30 km/h ; A plus de 30 km/h ; A la vitesse réglementaire ; A moins de 30 km/h »."
             },
             {
               "id": 112,
@@ -4004,7 +4004,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_112_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je peux faire plus de 30 km/h ; Je peux faire moins de 30 km/h."
+              "explanation": "Le panneau B43 (disque bleu avec chiffre 30 barré d'une diagonale rouge) indique la fin de vitesse minimale obligatoire. La bonne réponse officielle est : « Je peux faire plus de 30 km/h ; Je peux faire moins de 30 km/h »."
             },
             {
               "id": 113,
@@ -4041,7 +4041,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Ralentir avant d’aborder le virage ; Bien serrer la droite avant d’aborder le virage ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Ralentir avant d’aborder le virage ; Bien serrer la droite avant d’aborder le virage »."
             },
             {
               "id": 114,
@@ -4078,7 +4078,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_114_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Interdiction de faire demi-tour jusqu’à la prochaine intersection."
+              "explanation": "Le panneau B2c interdit de faire demi-tour jusqu'à la prochaine intersection incluse. La bonne réponse officielle est : « Interdiction de faire demi-tour jusqu’à la prochaine intersection »."
             },
             {
               "id": 115,
@@ -4115,7 +4115,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_115_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je peux stationner avant le panneau."
+              "explanation": "Le panneau B6a1 interdit le stationnement du côté où il est implanté jusqu'à la prochaine intersection. L'arrêt temporaire reste autorisé. La bonne réponse officielle est : « Je peux stationner avant le panneau »."
             },
             {
               "id": 116,
@@ -4148,7 +4148,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_116_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je vais tout droit à la prochaine intersection."
+              "explanation": "Le panneau B21b (flèche blanche verticale vers le haut dans un cercle bleu) oblige à aller tout droit à la prochaine intersection. La bonne réponse officielle est : « Je vais tout droit à la prochaine intersection »."
             },
             {
               "id": 117,
@@ -4177,7 +4177,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_117_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : ."
+              "explanation": "Le panneau B43 (disque bleu barré de rouge avec le chiffre 30) signale la fin de l'obligation de rouler à la vitesse minimale de 30 km/h."
             },
             {
               "id": 118,
@@ -4211,7 +4211,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_118_5.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Circulation à sens unique."
+              "explanation": "Le panneau C12 (carré bleu avec flèche blanche vers le haut) indique une route ou chaussée à sens unique. La bonne réponse officielle est : « Circulation à sens unique »."
             },
             {
               "id": 119,
@@ -4244,7 +4244,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_119_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Débouché de cycliste venant de gauche seulement."
+              "explanation": "Le panneau A21b annonce le débouché de cyclistes venant de gauche seulement. La bonne réponse officielle est : « Débouché de cycliste venant de gauche seulement »."
             },
             {
               "id": 120,
@@ -4286,7 +4286,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_120_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je peux rouler à 50km/h strictement ; Je peux rouler à moins de 50km/h."
+              "explanation": "Le panneau B14 impose une limitation de vitesse : interdiction de rouler à une vitesse supérieure à celle indiquée. La bonne réponse officielle est : « Je peux rouler à 50km/h strictement ; Je peux rouler à moins de 50km/h »."
             }
           ]
         },
@@ -4335,7 +4335,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_121_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : je peux rouler à moins de 50km/h ; Je peux rouler à 50km/h strictement."
+              "explanation": "Le panneau B14 impose une limitation de vitesse : interdiction de rouler à une vitesse supérieure à celle indiquée. La bonne réponse officielle est : « je peux rouler à moins de 50km/h ; Je peux rouler à 50km/h strictement »."
             },
             {
               "id": 122,
@@ -4376,7 +4376,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_122_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je peux rouler à plus de 60km/h ; Je peux rouler à moins de 60km/h ; Je peux rouler à 60km/h strictement ; Je ne suis pas concerné par cette signalisation."
+              "explanation": "Le panneau B14 impose une limitation de vitesse : interdiction de rouler à une vitesse supérieure à celle indiquée. La bonne réponse officielle est : « Je peux rouler à plus de 60km/h ; Je peux rouler à moins de 60km/h ; Je peux rouler à 60km/h strictement ; Je ne suis pas concerné par cette signalisation »."
             },
             {
               "id": 123,
@@ -4418,7 +4418,7 @@ window.QCM_DATA = {
                 "assets/images/q_123_3.png",
                 "assets/images/q_123_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Panneau / Option A ; Panneau / Option C ; Panneau / Option D."
+              "explanation": "Le panneau B3 interdit de dépasser tous les véhicules à moteur autres que les deux-roues sans side-car. La bonne réponse officielle est : « Panneau / Option A ; Panneau / Option C ; Panneau / Option D »."
             },
             {
               "id": 124,
@@ -4451,7 +4451,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : vitesse limitée à 50km/h ; perte du caractère prioritaire de la route ; usage de l’avertisseur sonore interdit, sauf cas de danger."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « vitesse limitée à 50km/h ; perte du caractère prioritaire de la route ; usage de l’avertisseur sonore interdit, sauf cas de danger »."
             },
             {
               "id": 125,
@@ -4486,7 +4486,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « me demande de quitter le plus tôt cette voie ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « me demande de quitter le plus tôt cette voie »."
             },
             {
               "id": 126,
@@ -4529,7 +4529,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « m’indiquent la voie que je dois emprunter selon la direction ou je veux aller.je gagne cette voie dès la première flèche ; pour tourner, je me place dans la voie comportant des flèches orientées vers la direction que je veux emprunter ; pour aller tout droit, je me place dans la voie comportant des flèches droites ; les voies peuvent comporter des flèches bifides (à deux pointes), donnant le choix entre deux directions ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « m’indiquent la voie que je dois emprunter selon la direction ou je veux aller.je gagne cette voie dès la première flèche ; pour tourner, je me place dans la voie comportant des flèches orientées vers la direction que je veux emprunter ; pour aller tout droit, je me place dans la voie comportant des flèches droites ; les voies peuvent comporter des flèches bifides (à deux pointes), donnant le choix entre deux directions »."
             },
             {
               "id": 127,
@@ -4562,7 +4562,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_127_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Circulation à  double sens à 150m."
+              "explanation": "Le panneau A18 annonce une circulation dans les deux sens. Contrairement à la majorité des panneaux de danger qui sont avancés, le panneau A18 prend effet immédiatement à sa hauteur (à 0 m). La bonne réponse officielle est : « Circulation à  double sens à 150m »."
             },
             {
               "id": 128,
@@ -4599,7 +4599,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_128_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : de stationner après le panneau."
+              "explanation": "Le panneau B6a1 interdit le stationnement du côté où il est implanté jusqu'à la prochaine intersection. L'arrêt temporaire reste autorisé. La bonne réponse officielle est : « de stationner après le panneau »."
             },
             {
               "id": 129,
@@ -4632,7 +4632,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_129_3.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Précisent la position d’une intersection ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Précisent la position d’une intersection »."
             },
             {
               "id": 130,
@@ -4669,7 +4669,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « une entrée d’agglomération ; une limitation de vitesse ; une interdiction de klaxonner ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « une entrée d’agglomération ; une limitation de vitesse ; une interdiction de klaxonner »."
             },
             {
               "id": 131,
@@ -4708,7 +4708,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_131_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : de dépasser ; de rouler à plus de 70km."
+              "explanation": "Le panneau B31 (disque blanc barré de noir) indique la fin de toutes les interdictions précédemment notifiées aux véhicules en mouvement. La bonne réponse officielle est : « de dépasser ; de rouler à plus de 70km »."
             },
             {
               "id": 132,
@@ -4742,7 +4742,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_132_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : je vais aborder une succession de virage ; je dois réduire ma vitesse avant le premier  virage pour diminuer les effets de la force centrifuge."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « je vais aborder une succession de virage ; je dois réduire ma vitesse avant le premier  virage pour diminuer les effets de la force centrifuge »."
             },
             {
               "id": 133,
@@ -4777,7 +4777,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « jaune ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « jaune »."
             },
             {
               "id": 134,
@@ -4808,7 +4808,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : la circulation par voie."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « la circulation par voie »."
             },
             {
               "id": 135,
@@ -4841,7 +4841,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_135_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : deux demi – barrière à fonctionnement automatique avec feux clignotant."
+              "explanation": "Le panneau A7 annonce un passage à niveau avec barrières ou demi-barrières à fonctionnement automatique. La bonne réponse officielle est : « deux demi – barrière à fonctionnement automatique avec feux clignotant »."
             },
             {
               "id": 136,
@@ -4879,7 +4879,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_136_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : d’une limitation de vitesse."
+              "explanation": "Le panneau B31 (disque blanc barré de noir) indique la fin de toutes les interdictions précédemment notifiées aux véhicules en mouvement. La bonne réponse officielle est : « d’une limitation de vitesse »."
             },
             {
               "id": 137,
@@ -4912,7 +4912,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_137_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : a la prochaine intersection."
+              "explanation": "Le panneau AB2 (triangle avec flèche barrée) indique que vous bénéficiez de la priorité de passage à la prochaine intersection sur les usagers des routes secondaires. La bonne réponse officielle est : « a la prochaine intersection »."
             },
             {
               "id": 138,
@@ -4951,7 +4951,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_138_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Cédez le passage ; Stop ; D’intersection de routes de même nature."
+              "explanation": "Le panneau AB7 (losange jaune barré d'une bande noire) signale la fin de la route à caractère prioritaire. La bonne réponse officielle est : « Cédez le passage ; Stop ; D’intersection de routes de même nature »."
             },
             {
               "id": 139,
@@ -4992,7 +4992,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_139_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : 150m."
+              "explanation": "Le panneau AB1 annonce une intersection où le conducteur bénéficie de la priorité à droite. La bonne réponse officielle est : « 150m »."
             },
             {
               "id": 140,
@@ -5034,7 +5034,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_140_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : 150 mètres."
+              "explanation": "Le panneau AB2 (triangle avec flèche barrée) indique que vous bénéficiez de la priorité de passage à la prochaine intersection sur les usagers des routes secondaires. La bonne réponse officielle est : « 150 mètres »."
             }
           ]
         },
@@ -5086,7 +5086,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_141_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : A proximité de l’intersection."
+              "explanation": "Le panneau AB2 (triangle avec flèche barrée) indique que vous bénéficiez de la priorité de passage à la prochaine intersection sur les usagers des routes secondaires. La bonne réponse officielle est : « A proximité de l’intersection »."
             },
             {
               "id": 142,
@@ -5117,7 +5117,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : la circulation  aux intersections."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « la circulation  aux intersections »."
             },
             {
               "id": 143,
@@ -5150,7 +5150,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_143_5.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : je risque de projeter des gravillons sur les autres véhicules."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « je risque de projeter des gravillons sur les autres véhicules »."
             },
             {
               "id": 144,
@@ -5183,7 +5183,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_144_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « je ralentis et je m’arrête au poste de péage ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « je ralentis et je m’arrête au poste de péage »."
             },
             {
               "id": 145,
@@ -5223,7 +5223,7 @@ window.QCM_DATA = {
                 "assets/images/q_145_3.png",
                 "assets/images/q_145_4.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 40km/h ; 50km/h ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Le panneau B14 impose une limitation de vitesse : interdiction de rouler à une vitesse supérieure à celle indiquée. La bonne réponse officielle est : « 40km/h ; 50km/h »."
             },
             {
               "id": 146,
@@ -5257,7 +5257,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_146_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : L’accès est interdit à tous les véhicules ; La rue en sens inverse est à sens unique."
+              "explanation": "Le panneau B1 (disque rouge barré d'une bande blanche horizontale) signale un sens interdit à tout véhicule. De l'autre côté de la rue se trouve le panneau C12 de sens unique. La bonne réponse officielle est : « L’accès est interdit à tous les véhicules ; La rue en sens inverse est à sens unique »."
             },
             {
               "id": 147,
@@ -5296,7 +5296,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_147_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : un passage pour piétons ; l’obligation aux piétons d’emprunter la voie réservée ; un seul passage pour piétons."
+              "explanation": "Le panneau A13b annonce la proximité d'un passage pour piétons. La bonne réponse officielle est : « un passage pour piétons ; l’obligation aux piétons d’emprunter la voie réservée ; un seul passage pour piétons »."
             },
             {
               "id": 148,
@@ -5325,7 +5325,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_148_3.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « oui ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Le panneau B26 impose l'utilisation de chaînes à neige sur au moins deux roues motrices. La bonne réponse officielle est : « oui »."
             },
             {
               "id": 149,
@@ -5363,7 +5363,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_149_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : pas tous les véhicules ; elle commence à hauteur du panneau."
+              "explanation": "Le panneau B14 impose une limitation de vitesse : interdiction de rouler à une vitesse supérieure à celle indiquée. La bonne réponse officielle est : « pas tous les véhicules ; elle commence à hauteur du panneau »."
             },
             {
               "id": 150,
@@ -5398,7 +5398,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_150_5.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : je peux rencontre des animaux domestiques ; je ralentis 35."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « je peux rencontre des animaux domestiques ; je ralentis 35 »."
             },
             {
               "id": 151,
@@ -5433,7 +5433,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_151_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : plus de 30 km/h ; moins de 30 km/h ; la vitesse voulue, en respectant la règlementation en vigueur."
+              "explanation": "Le panneau B43 (disque bleu avec chiffre 30 barré d'une diagonale rouge) indique la fin de vitesse minimale obligatoire. La bonne réponse officielle est : « plus de 30 km/h ; moins de 30 km/h ; la vitesse voulue, en respectant la règlementation en vigueur »."
             },
             {
               "id": 152,
@@ -5468,7 +5468,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : un danger."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « un danger »."
             },
             {
               "id": 153,
@@ -5503,7 +5503,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : une obligation."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « une obligation »."
             },
             {
               "id": 154,
@@ -5538,7 +5538,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : une interdiction."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « une interdiction »."
             },
             {
               "id": 155,
@@ -5577,7 +5577,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_155_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : est temporaire ; impose un ralentissement 36 500m."
+              "explanation": "Le panneau AK5 annonce des travaux en cours sur la chaussée ou ses abords. La bonne réponse officielle est : « est temporaire ; impose un ralentissement 36 500m »."
             },
             {
               "id": 156,
@@ -5610,7 +5610,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_156_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : plusieurs virages."
+              "explanation": "Le panneau A1d annonce une succession de virages dangereux dont le premier est à gauche. La bonne réponse officielle est : « plusieurs virages »."
             },
             {
               "id": 157,
@@ -5639,7 +5639,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_157_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : je dois tourner à gauche."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « je dois tourner à gauche »."
             },
             {
               "id": 158,
@@ -5666,7 +5666,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : à hauteur du panneau."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « à hauteur du panneau »."
             },
             {
               "id": 159,
@@ -5704,7 +5704,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_159_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : oui ; c’est un signal avancé."
+              "explanation": "Le panneau AK5 annonce des travaux en cours sur la chaussée ou ses abords. La bonne réponse officielle est : « oui ; c’est un signal avancé »."
             },
             {
               "id": 160,
@@ -5743,7 +5743,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_160_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : plusieurs virages à 500m ; Un ralentissement."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « plusieurs virages à 500m ; Un ralentissement »."
             }
           ]
         },
@@ -5788,7 +5788,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_161_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « un danger particulier ; que je dois  ralentir et passer ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « un danger particulier ; que je dois  ralentir et passer »."
             },
             {
               "id": 162,
@@ -5819,7 +5819,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Bleue."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Bleue »."
             },
             {
               "id": 163,
@@ -5851,7 +5851,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « D’éviter les bouchons ; De faciliter la circulation ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « D’éviter les bouchons ; De faciliter la circulation »."
             },
             {
               "id": 164,
@@ -5882,7 +5882,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Facultatifs ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Facultatifs »."
             },
             {
               "id": 165,
@@ -5918,7 +5918,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Panneau / Option A ; Panneau / Option D ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Panneau / Option A ; Panneau / Option D »."
             },
             {
               "id": 166,
@@ -5946,7 +5946,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « par l’environnement en général ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « par l’environnement en général »."
             },
             {
               "id": 167,
@@ -5984,7 +5984,7 @@ window.QCM_DATA = {
                 "assets/images/q_167_2.png",
                 "assets/images/q_167_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Gratuit, à durée limitée."
+              "explanation": "Le panneau B6a1 interdit le stationnement du côté où il est implanté jusqu'à la prochaine intersection. L'arrêt temporaire reste autorisé. La bonne réponse officielle est : « Gratuit, à durée limitée »."
             },
             {
               "id": 168,
@@ -6017,7 +6017,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_168_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « circuler ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « circuler »."
             },
             {
               "id": 169,
@@ -6052,7 +6052,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « L’arrêt des bus ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « L’arrêt des bus »."
             },
             {
               "id": 170,
@@ -6091,7 +6091,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_170_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Autorise l’arrêt ; Interdit le stationnement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Autorise l’arrêt ; Interdit le stationnement »."
             },
             {
               "id": 171,
@@ -6125,7 +6125,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_171_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « m’arrêter ; circuler ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « m’arrêter ; circuler »."
             },
             {
               "id": 172,
@@ -6159,7 +6159,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_172_3.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « avancer à la limite de la ligne transversale 40 ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « avancer à la limite de la ligne transversale 40 »."
             },
             {
               "id": 173,
@@ -6193,7 +6193,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_173_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « m’arrêter à la limite de la ligne transversale ; franchir la ligne transversale en l’absence de tout véhicule ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « m’arrêter à la limite de la ligne transversale ; franchir la ligne transversale en l’absence de tout véhicule »."
             },
             {
               "id": 174,
@@ -6231,7 +6231,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_174_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « avancer à la limite de la ligne transversale ; avancer à la limite de la chaussée abordée ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « avancer à la limite de la ligne transversale ; avancer à la limite de la chaussée abordée »."
             },
             {
               "id": 175,
@@ -6259,7 +6259,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le marquage jaune ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le marquage jaune »."
             },
             {
               "id": 176,
@@ -6290,7 +6290,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Rien de tout ce qui précède."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « Rien de tout ce qui précède »."
             },
             {
               "id": 177,
@@ -6322,7 +6322,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Plusieurs rues ; Toutes les rues de l’agglomération."
+              "explanation": "Réglementation du stationnement : Les interdictions signalées par panneau s'appliquent à partir du panneau jusqu'à la prochaine intersection. La bonne règle est : « Plusieurs rues ; Toutes les rues de l’agglomération »."
             },
             {
               "id": 178,
@@ -6359,7 +6359,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Marquer l’arrêt au niveau de la ligne ; Céder le passage à gauche ; Céder le passage à droite."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Marquer l’arrêt au niveau de la ligne ; Céder le passage à gauche ; Céder le passage à droite »."
             },
             {
               "id": 179,
@@ -6393,7 +6393,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_179_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : aux cycles uniquement ; aux cyclistes et cyclomotoristes."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « aux cycles uniquement ; aux cyclistes et cyclomotoristes »."
             },
             {
               "id": 180,
@@ -6427,7 +6427,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_180_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « tous les véhicules affectés au transport de marchandises de plus de 6T ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « tous les véhicules affectés au transport de marchandises de plus de 6T »."
             }
           ]
         },
@@ -6476,7 +6476,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_181_2.png"
               ],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : commence  à la hauteur du panneau ; concerne tous les véhicules."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « commence  à la hauteur du panneau ; concerne tous les véhicules »."
             },
             {
               "id": 182,
@@ -6516,7 +6516,7 @@ window.QCM_DATA = {
                 "assets/images/q_182_1.png",
                 "assets/images/q_182_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : temporaire ; concerne tous les véhicules ; il faut ralentir."
+              "explanation": "Le panneau AK4 (fond jaune temporaire) signale une chaussée temporairement glissante en zone de travaux. La bonne réponse officielle est : « temporaire ; concerne tous les véhicules ; il faut ralentir »."
             },
             {
               "id": 183,
@@ -6548,7 +6548,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : commence  au panneau ; s’étend sur 300 mètres."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « commence  au panneau ; s’étend sur 300 mètres »."
             },
             {
               "id": 184,
@@ -6575,7 +6575,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « une bande cyclable ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « une bande cyclable »."
             },
             {
               "id": 185,
@@ -6606,7 +6606,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « est toujours interdit ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « est toujours interdit »."
             },
             {
               "id": 186,
@@ -6643,7 +6643,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : jaune clignotant ; éteint."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « jaune clignotant ; éteint »."
             },
             {
               "id": 187,
@@ -6676,7 +6676,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « de passer ; de m’arrêter ; d’accélérer ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « de passer ; de m’arrêter ; d’accélérer »."
             },
             {
               "id": 188,
@@ -6712,7 +6712,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : d’obligation ; d’interdiction."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « d’obligation ; d’interdiction »."
             },
             {
               "id": 189,
@@ -6743,7 +6743,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : d’indication de direction provisoire."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « d’indication de direction provisoire »."
             },
             {
               "id": 190,
@@ -6783,7 +6783,7 @@ window.QCM_DATA = {
                 "assets/images/q_190_1.png",
                 "assets/images/q_190_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « interdit l’accès aux véhicules de transport de marchandises ; impose la limitation de vitesse à tous  véhicules ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « interdit l’accès aux véhicules de transport de marchandises ; impose la limitation de vitesse à tous  véhicules »."
             },
             {
               "id": 191,
@@ -6821,7 +6821,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_191_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : signale une circulation dans les deux sens ; prend effet à partir du panneau."
+              "explanation": "Le panneau A18 annonce une circulation dans les deux sens. Contrairement à la majorité des panneaux de danger qui sont avancés, le panneau A18 prend effet immédiatement à sa hauteur (à 0 m). La bonne réponse officielle est : « signale une circulation dans les deux sens ; prend effet à partir du panneau »."
             },
             {
               "id": 192,
@@ -6860,7 +6860,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_192_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : la proximité d’une école ; un endroit fréquenté par les enfants ; un terrain de jeu."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « la proximité d’une école ; un endroit fréquenté par les enfants ; un terrain de jeu »."
             },
             {
               "id": 193,
@@ -6897,7 +6897,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_193_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je passe  derrière le piéton en laissant un intervalle d’au moins 1m."
+              "explanation": "Le panneau A13b annonce la proximité d'un passage pour piétons. La bonne réponse officielle est : « Je passe  derrière le piéton en laissant un intervalle d’au moins 1m »."
             },
             {
               "id": 194,
@@ -6930,7 +6930,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_194_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Le panneau \"sens interdit\"."
+              "explanation": "Le panneau C12 (carré bleu avec flèche blanche vers le haut) indique une route ou chaussée à sens unique. La bonne réponse officielle est : « Le panneau \"sens interdit\" »."
             },
             {
               "id": 195,
@@ -6964,7 +6964,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_195_5.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Interdit l’accès aux véhicules à moteur à l’exception des cyclomoteurs."
+              "explanation": "Le panneau B7a interdit l'accès à tous les véhicules à moteur (automobiles et motocyclettes), à l'exception des cyclomoteurs. La bonne réponse officielle est : « Interdit l’accès aux véhicules à moteur à l’exception des cyclomoteurs »."
             },
             {
               "id": 196,
@@ -6996,7 +6996,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « L’arrêt ; Le stationnement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « L’arrêt ; Le stationnement »."
             },
             {
               "id": 197,
@@ -7027,7 +7027,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le stationnement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le stationnement »."
             },
             {
               "id": 198,
@@ -7064,7 +7064,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_198_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : A la prochaine intersection."
+              "explanation": "Réglementation du stationnement : Les interdictions signalées par panneau s'appliquent à partir du panneau jusqu'à la prochaine intersection. La bonne règle est : « A la prochaine intersection »."
             },
             {
               "id": 199,
@@ -7097,7 +7097,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_199_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : A la prochaine intersection."
+              "explanation": "Réglementation du stationnement : Les interdictions signalées par panneau s'appliquent à partir du panneau jusqu'à la prochaine intersection. La bonne règle est : « A la prochaine intersection »."
             },
             {
               "id": 200,
@@ -7135,7 +7135,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_200_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Interdit de tourner à droite à la prochaine intersection."
+              "explanation": "Le panneau B2b interdit de tourner à droite à la prochaine intersection. La bonne réponse officielle est : « Interdit de tourner à droite à la prochaine intersection »."
             }
           ]
         },
@@ -7179,7 +7179,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_201_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Interdit de tourner à gauche à la prochaine intersection."
+              "explanation": "Le panneau B2a interdit de tourner à gauche à la prochaine intersection. La bonne réponse officielle est : « Interdit de tourner à gauche à la prochaine intersection »."
             },
             {
               "id": 202,
@@ -7217,7 +7217,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « se tourner de la file de droite ; manœuvrer au ralentir ; céder le passage aux piétons ; céder le passage aux usagers venant de la gauche et ne pas gêner ceux venant de droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « se tourner de la file de droite ; manœuvrer au ralentir ; céder le passage aux piétons ; céder le passage aux usagers venant de la gauche et ne pas gêner ceux venant de droite »."
             },
             {
               "id": 203,
@@ -7248,7 +7248,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « une ligne longitudinale constituée de plots délimitant les voies de circulation ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « une ligne longitudinale constituée de plots délimitant les voies de circulation »."
             },
             {
               "id": 204,
@@ -7286,7 +7286,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « à alerter le conducteur qui s’écarte de sa trajectoire ; à rompre la monotonie ; à sortir le conducteur de se tromper 47 ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « à alerter le conducteur qui s’écarte de sa trajectoire ; à rompre la monotonie ; à sortir le conducteur de se tromper 47 »."
             },
             {
               "id": 205,
@@ -7324,7 +7324,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_205_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : une voie de détresse."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « une voie de détresse »."
             }
           ]
         }
@@ -7376,7 +7376,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Au Bénin, les véhicules prioritaires lorsqu'ils utilisent leurs avertisseurs sonores et lumineux sont les services de secours médical (SAMU, SMUR), les sapeurs-pompiers, la police et la gendarmerie en mission."
+              "explanation": "Au Bénin, les véhicules d'intérêt général prioritaires en mission avec avertisseurs spéciaux en marche sont le SAMU, le SMUR, les sapeurs-pompiers et les forces de police ou de gendarmerie."
             },
             {
               "id": 207,
@@ -7407,7 +7407,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Même si le feu tricolore fonctionne, les injonctions de l'agent de police ou de gendarme priment impérativement sur la signalisation lumineuse."
+              "explanation": "Règle de hiérarchie routière : Les ordres de l'agent de police ou de gendarme prévalent toujours sur les feux de signalisation, les panneaux et les règles habituelles."
             },
             {
               "id": 208,
@@ -7438,7 +7438,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je me conforme uniquement aux feux."
+              "explanation": "Règle des feux tricolores : Les feux de signalisation régissent la traversée de l'intersection. La règle officielle confirme que : « Je me conforme uniquement aux feux »."
             },
             {
               "id": 209,
@@ -7469,7 +7469,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « La priorité à droite, la priorité de passage et la perte de priorité ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « La priorité à droite, la priorité de passage et la perte de priorité »."
             },
             {
               "id": 210,
@@ -7501,7 +7501,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "En matière de priorité, la règle fondamentale à toute intersection sans indication contraire est la priorité aux usagers arrivant par votre droite. Ici, la règle officielle confirme que : Passer quand ma droite est libre 49."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Passer quand ma droite est libre 49 »."
             },
             {
               "id": 211,
@@ -7532,7 +7532,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "En l'absence totale de signalisation (ni panneau, ni feu, ni marquage), la règle générale absolue du Code de la route est la priorité à droite."
+              "explanation": "À une intersection sans panneau ni feu régulateur, ou entre deux routes de même nature, la règle fondamentale absolue est la priorité à droite."
             },
             {
               "id": 212,
@@ -7563,7 +7563,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "À l'intersection de deux routes de même nature sans panneau, la priorité à droite s'applique sans exception."
+              "explanation": "À une intersection sans panneau ni feu régulateur, ou entre deux routes de même nature, la règle fondamentale absolue est la priorité à droite."
             },
             {
               "id": 213,
@@ -7600,7 +7600,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Toutes signalisations ; Les règles de circulation ; Les feux de signalisation."
+              "explanation": "Règle de hiérarchie routière : Les ordres de l'agent de police ou de gendarme prévalent toujours sur les feux de signalisation, les panneaux et les règles habituelles."
             },
             {
               "id": 214,
@@ -7631,7 +7631,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "En matière de priorité, la règle fondamentale à toute intersection sans indication contraire est la priorité aux usagers arrivant par votre droite. Ici, la règle officielle confirme que : Céder le passage uniquement aux véhicules venant de la droite."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Céder le passage uniquement aux véhicules venant de la droite »."
             },
             {
               "id": 215,
@@ -7663,7 +7663,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Je m’arrête."
+              "explanation": "Règle des feux tricolores : Les feux de signalisation régissent la traversée de l'intersection. La règle officielle confirme que : « Je m’arrête »."
             },
             {
               "id": 216,
@@ -7698,7 +7698,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « M’arrêter ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « M’arrêter »."
             },
             {
               "id": 217,
@@ -7733,7 +7733,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Je ralentis et je m’arrête.."
+              "explanation": "Un agent de police vu de face ou de dos constitue un barrage infranchissable : vous devez ralentir et vous arrêter. Lorsqu'il est vu de profil, le passage est autorisé."
             },
             {
               "id": 218,
@@ -7766,7 +7766,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_218_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Rien de tout ce qui  précède ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « Rien de tout ce qui  précède »."
             },
             {
               "id": 219,
@@ -7798,7 +7798,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Rien de tout ce qui précède 51."
+              "explanation": "Dans un carrefour à sens giratoire (panneau AB25), la priorité est accordée aux usagers engagés sur l'anneau venant de la gauche. La bonne réponse est : « Rien de tout ce qui précède 51 »."
             },
             {
               "id": 220,
@@ -7827,7 +7827,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_220_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 1. le véhicule bleu démarre, fait ¼ de tour et s’arrête 2. le véhicule jaune passe, 3. le véhicule rouge passe ensuite 4. le véhicule bleu passe après ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « 1. le véhicule bleu démarre, fait ¼ de tour et s’arrête 2. le véhicule jaune passe, 3. le véhicule rouge passe ensuite 4. le véhicule bleu passe après »."
             },
             {
               "id": 221,
@@ -7858,7 +7858,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle fondamentale : Les injonctions et gestes des agents de sécurité routière (police, gendarmerie) prévalent systématiquement sur les feux tricolores, les panneaux et le marquage au sol. La bonne réponse est : Je suis les indications de l’agent."
+              "explanation": "Règle de hiérarchie routière : Les ordres de l'agent de police ou de gendarme prévalent toujours sur les feux de signalisation, les panneaux et les règles habituelles."
             },
             {
               "id": 222,
@@ -7890,7 +7890,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "En matière de priorité, la règle fondamentale à toute intersection sans indication contraire est la priorité aux usagers arrivant par votre droite. Ici, la règle officielle confirme que : La priorité à droite 52."
+              "explanation": "En agglomération au Bénin, à l'intersection d'une route revêtue et d'une route en terre, la règle de la priorité à droite s'applique pleinement en l'absence de signalisation contraire."
             },
             {
               "id": 223,
@@ -7921,7 +7921,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "En matière de priorité, la règle fondamentale à toute intersection sans indication contraire est la priorité aux usagers arrivant par votre droite. Ici, la règle officielle confirme que : La perte de priorité."
+              "explanation": "Hors agglomération, un véhicule débouchant d'un chemin de terre ou d'une route non revêtue perd la priorité au profit des usagers circulant sur la route revêtue."
             },
             {
               "id": 224,
@@ -7957,7 +7957,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Devant le feu rouge ; Devant le triangle pointe en bas ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Devant le feu rouge ; Devant le triangle pointe en bas »."
             },
             {
               "id": 225,
@@ -7990,7 +7990,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_225_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule bleu, le véhicule jaune et le véhicule rouge ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « Le véhicule bleu, le véhicule jaune et le véhicule rouge »."
             }
           ]
         },
@@ -8040,7 +8040,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_226_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Il faut appliquer la règle de la priorité à droite ; La voiture rouge doit céder le passage à la jaune ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « Il faut appliquer la règle de la priorité à droite ; La voiture rouge doit céder le passage à la jaune »."
             },
             {
               "id": 227,
@@ -8073,7 +8073,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_227_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule jaune peut tourner immédiatement à droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « Le véhicule jaune peut tourner immédiatement à droite »."
             },
             {
               "id": 228,
@@ -8111,7 +8111,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_228_1.png"
               ],
-              "explanation": "En matière de priorité, la règle fondamentale à toute intersection sans indication contraire est la priorité aux usagers arrivant par votre droite. Ici, la règle officielle confirme que : La règle de la priorité à droite."
+              "explanation": "En agglomération au Bénin, à l'intersection d'une route revêtue et d'une route en terre, la règle de la priorité à droite s'applique pleinement en l'absence de signalisation contraire."
             },
             {
               "id": 229,
@@ -8149,7 +8149,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_229_2.png"
               ],
-              "explanation": "En matière de priorité, la règle fondamentale à toute intersection sans indication contraire est la priorité aux usagers arrivant par votre droite. Ici, la règle officielle confirme que : La priorité de passage par le véhicule rouge ; La perte de priorité par le véhicule jaune."
+              "explanation": "Hors agglomération, un véhicule débouchant d'un chemin de terre ou d'une route non revêtue perd la priorité au profit des usagers circulant sur la route revêtue."
             },
             {
               "id": 230,
@@ -8179,7 +8179,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_230_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 1. les véhicules jaune et bleu passent 2. le véhicule rouge passe 3. la moto passe après ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « 1. les véhicules jaune et bleu passent 2. le véhicule rouge passe 3. la moto passe après »."
             },
             {
               "id": 231,
@@ -8216,7 +8216,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_231_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le véhicule vert ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « le véhicule vert »."
             },
             {
               "id": 232,
@@ -8248,7 +8248,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le jeu de courtoisie et ensuite la règle de la priorité à droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle de priorité à droite : À toute intersection sans signalisation spécifique, le conducteur doit céder le passage aux véhicules venant de sa droite. Ici : « le jeu de courtoisie et ensuite la règle de la priorité à droite »."
             },
             {
               "id": 233,
@@ -8277,7 +8277,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_233_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 1. le véhicule jaune 2. le véhicule bleu ensuite 3. la moto après ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « 1. le véhicule jaune 2. le véhicule bleu ensuite 3. la moto après »."
             },
             {
               "id": 234,
@@ -8311,7 +8311,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_234_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le véhicule vert démarre, fait ¼  de tour et s’arrête,  le véhicule bleu tourne, le véhicule rouge passe et le vert continue ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « le véhicule vert démarre, fait ¼  de tour et s’arrête,  le véhicule bleu tourne, le véhicule rouge passe et le vert continue »."
             },
             {
               "id": 235,
@@ -8348,7 +8348,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_235_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « - le véhicule orange marque un arrêt -  les véhicules jaune, rouge et vert passent simultanément - le véhicule orange laisse passer les piétons et passera au feu vert. ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « - le véhicule orange marque un arrêt -  les véhicules jaune, rouge et vert passent simultanément - le véhicule orange laisse passer les piétons et passera au feu vert. »."
             },
             {
               "id": 236,
@@ -8378,7 +8378,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_236_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : panneau indiquant le caractère prioritaire de la route."
+              "explanation": "À l'intersection I6, les véhicules jaune et rouge circulent sur la voie prioritaire : ils ont donc rencontré le panneau indiquant le caractère prioritaire de la route (losange AB6), tandis que les véhicules sur la voie transversale rencontrent le STOP ou le Cédez le passage."
             },
             {
               "id": 237,
@@ -8411,7 +8411,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_237_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le véhicule bleu passe derrière le véhicule jaune et le véhicule vert après ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « le véhicule bleu passe derrière le véhicule jaune et le véhicule vert après »."
             },
             {
               "id": 238,
@@ -8444,7 +8444,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_238_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Les véhicules jaune et bleu passent simultanément le véhicule rouge laisse passer les piétons et tourne à droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « Les véhicules jaune et bleu passent simultanément le véhicule rouge laisse passer les piétons et tourne à droite »."
             },
             {
               "id": 239,
@@ -8476,7 +8476,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : La priorité est donnée aux véhicules engagés dans le sens giratoire."
+              "explanation": "Dans un carrefour à sens giratoire (panneau AB25), la priorité est accordée aux usagers engagés sur l'anneau venant de la gauche. La bonne réponse est : « La priorité est donnée aux véhicules engagés dans le sens giratoire »."
             },
             {
               "id": 240,
@@ -8509,7 +8509,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_240_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Attendre que la demi-barrière s’élève et que le feu rouge s’éteigne avant de démarrer ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Attendre que la demi-barrière s’élève et que le feu rouge s’éteigne avant de démarrer »."
             },
             {
               "id": 241,
@@ -8543,7 +8543,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_241_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Attendre devant le deuxième panneau de signalisation et ne passer qu’après l’extinction du feu ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Attendre devant le deuxième panneau de signalisation et ne passer qu’après l’extinction du feu »."
             },
             {
               "id": 242,
@@ -8576,7 +8576,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_242_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 100m environ du passage à niveau ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 100m environ du passage à niveau »."
             },
             {
               "id": 243,
@@ -8608,7 +8608,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : A la limite de la visibilité en l’absence de ligne blanche au sol ; Si à la ligne blanche, la visibilité est insuffisante, on marque un second arrêt à la limite de la chaussée abordée."
+              "explanation": "Réglementation du stationnement : Les interdictions signalées par panneau s'appliquent à partir du panneau jusqu'à la prochaine intersection. La bonne règle est : « A la limite de la visibilité en l’absence de ligne blanche au sol ; Si à la ligne blanche, la visibilité est insuffisante, on marque un second arrêt à la limite de la chaussée abordée »."
             },
             {
               "id": 244,
@@ -8638,7 +8638,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_244_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 1- le véhicule jaune 2- le véhicule rouge ensuite 3- la moto après ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « 1- le véhicule jaune 2- le véhicule rouge ensuite 3- la moto après »."
             },
             {
               "id": 245,
@@ -8671,7 +8671,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_245_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le véhicule bleu ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « le véhicule bleu »."
             }
           ]
         },
@@ -8712,7 +8712,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_246_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 1- le véhicule vert 2- le véhicule bleu ensuite 3- le véhicule rouge après ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « 1- le véhicule vert 2- le véhicule bleu ensuite 3- le véhicule rouge après »."
             },
             {
               "id": 247,
@@ -8749,7 +8749,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_247_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule Rouge ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « Le véhicule Rouge »."
             },
             {
               "id": 248,
@@ -8782,7 +8782,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_248_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Panneau d’intersection de deux routes de même nature."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « Panneau d’intersection de deux routes de même nature »."
             },
             {
               "id": 249,
@@ -8816,7 +8816,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_249_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule jaune ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « Le véhicule jaune »."
             },
             {
               "id": 250,
@@ -8845,7 +8845,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_250_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 1- Le véhicule rouge 2- Les véhicules jaune et vert ensuite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « 1- Le véhicule rouge 2- Les véhicules jaune et vert ensuite »."
             },
             {
               "id": 251,
@@ -8875,7 +8875,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_251_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 1- le véhicule rouge passe 2- le véhicule vert passe 3- le véhicule jaune passe après ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « 1- le véhicule rouge passe 2- le véhicule vert passe 3- le véhicule jaune passe après »."
             },
             {
               "id": 252,
@@ -8909,7 +8909,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_252_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 1- le véhicule bleu démarre fait un quart de tour et s’arrête 2- le véhicule jaune passe 3- le véhicule rouge passe ensuite 4 – enfin le véhicule bleu passe ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « 1- le véhicule bleu démarre fait un quart de tour et s’arrête 2- le véhicule jaune passe 3- le véhicule rouge passe ensuite 4 – enfin le véhicule bleu passe »."
             },
             {
               "id": 253,
@@ -8942,7 +8942,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_253_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 1- les véhicules jaune et bleu s’arrêtent 2-les véhicules vert et rouge passent 3- le véhicule bleu tourne ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « 1- les véhicules jaune et bleu s’arrêtent 2-les véhicules vert et rouge passent 3- le véhicule bleu tourne »."
             },
             {
               "id": 254,
@@ -8972,7 +8972,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_254_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 1- les véhicules jaune, bleu et vert marquent un arrêt 2- le véhicule rouge passe 3- les véhicules qui auront le feu vert passeront après le véhicule rouge ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « 1- les véhicules jaune, bleu et vert marquent un arrêt 2- le véhicule rouge passe 3- les véhicules qui auront le feu vert passeront après le véhicule rouge »."
             },
             {
               "id": 255,
@@ -9010,7 +9010,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_255_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Panneau d’intersection d’une route à grande circulation et d’une route secondaire ; Panneau indiquant le caractère prioritaire d’une route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « Panneau d’intersection d’une route à grande circulation et d’une route secondaire ; Panneau indiquant le caractère prioritaire d’une route »."
             },
             {
               "id": 256,
@@ -9044,7 +9044,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_256_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule jaune ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « Le véhicule jaune »."
             },
             {
               "id": 257,
@@ -9081,7 +9081,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_257_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Aucun véhicule ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « Aucun véhicule »."
             },
             {
               "id": 258,
@@ -9120,7 +9120,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Il serre sa droite sans accélérer ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Il serre sa droite sans accélérer »."
             },
             {
               "id": 259,
@@ -9158,7 +9158,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Lorsque je suis au sommet d’une côte où dans un virage ; Lorsque je suis sur le point d’être dépassé ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Lorsque je suis au sommet d’une côte où dans un virage ; Lorsque je suis sur le point d’être dépassé »."
             },
             {
               "id": 260,
@@ -9189,7 +9189,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « J’utilise mes avertisseurs lumineux ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « J’utilise mes avertisseurs lumineux »."
             },
             {
               "id": 261,
@@ -9221,7 +9221,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Pour tourner à gauche ; Pour dépasser puis se rabattre ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Pour tourner à gauche ; Pour dépasser puis se rabattre »."
             },
             {
               "id": 262,
@@ -9252,7 +9252,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « S’assurer que l’on n’est pas dans un cas d’interdiction ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « S’assurer que l’on n’est pas dans un cas d’interdiction »."
             },
             {
               "id": 263,
@@ -9287,7 +9287,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Par la gauche ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Par la gauche »."
             },
             {
               "id": 264,
@@ -9323,7 +9323,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Quand le véhicule à dépasser a déjà pris position pour tourner à gauche ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Quand le véhicule à dépasser a déjà pris position pour tourner à gauche »."
             },
             {
               "id": 265,
@@ -9354,7 +9354,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Quand l’usager dépassé apparaît dans le rétroviseur intérieur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Quand l’usager dépassé apparaît dans le rétroviseur intérieur »."
             }
           ]
         },
@@ -9396,7 +9396,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « En trois étapes ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « En trois étapes »."
             },
             {
               "id": 267,
@@ -9427,7 +9427,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Devant un panneau interdisant de dépasser et sur une ligne continue ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Devant un panneau interdisant de dépasser et sur une ligne continue »."
             },
             {
               "id": 268,
@@ -9458,7 +9458,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « La voie centrale ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « La voie centrale »."
             },
             {
               "id": 269,
@@ -9490,7 +9490,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 0,50m environ ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 0,50m environ »."
             },
             {
               "id": 270,
@@ -9521,7 +9521,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 1m environ."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 1m environ »."
             },
             {
               "id": 271,
@@ -9556,7 +9556,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je serre ma droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je serre ma droite »."
             },
             {
               "id": 272,
@@ -9595,7 +9595,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_272_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Un motocycliste sans side-car ; Un véhicule à traction animale ; Un cyclomotoriste sans side-car."
+              "explanation": "Le panneau B3 interdit de dépasser tous les véhicules à moteur autres que les deux-roues sans side-car. La bonne réponse officielle est : « Un motocycliste sans side-car ; Un véhicule à traction animale ; Un cyclomotoriste sans side-car »."
             },
             {
               "id": 273,
@@ -9628,7 +9628,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_273_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je ne dois pas dépasser."
+              "explanation": "Le panneau B3 interdit de dépasser tous les véhicules à moteur autres que les deux-roues sans side-car. La bonne réponse officielle est : « Je ne dois pas dépasser »."
             },
             {
               "id": 274,
@@ -9670,7 +9670,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Lorsqu’on veut s’insérer dans la circulation ; Lorsqu’on veut dépasser ou se rabattre ; Lorsqu’on veut changer de direction 71 ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Lorsqu’on veut s’insérer dans la circulation ; Lorsqu’on veut dépasser ou se rabattre ; Lorsqu’on veut changer de direction 71 »."
             },
             {
               "id": 275,
@@ -9707,7 +9707,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : En agglomération dans une rue non éclairée ; Lorsqu’on ne risque d’éblouir personne ; Lorsqu’on quitte une zone éclairée pour une zone sombre."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « En agglomération dans une rue non éclairée ; Lorsqu’on ne risque d’éblouir personne ; Lorsqu’on quitte une zone éclairée pour une zone sombre »."
             },
             {
               "id": 276,
@@ -9742,7 +9742,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Rien de tout ce qui précède ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Rien de tout ce qui précède »."
             },
             {
               "id": 277,
@@ -9773,7 +9773,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je contrôle, j’avertis et je déboîte ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je contrôle, j’avertis et je déboîte »."
             },
             {
               "id": 278,
@@ -9804,7 +9804,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : En arrivant à la hauteur du conducteur du véhicule à dépasser."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « En arrivant à la hauteur du conducteur du véhicule à dépasser »."
             },
             {
               "id": 279,
@@ -9836,7 +9836,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Par des appels sonores ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Par des appels sonores »."
             },
             {
               "id": 280,
@@ -9867,7 +9867,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Par des appels lumineux ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Par des appels lumineux »."
             },
             {
               "id": 281,
@@ -9899,7 +9899,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « On ne peut pas effectuer le dépassement ; On le peut si le véhicule qui me précède signal son intention de tourner à droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « On ne peut pas effectuer le dépassement ; On le peut si le véhicule qui me précède signal son intention de tourner à droite »."
             },
             {
               "id": 282,
@@ -9930,7 +9930,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je ne peux pas dépasser ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je ne peux pas dépasser »."
             },
             {
               "id": 283,
@@ -9961,7 +9961,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je ne suis pas autorisé à dépasser en 3ème position ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je ne suis pas autorisé à dépasser en 3ème position »."
             },
             {
               "id": 284,
@@ -9997,7 +9997,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je ne suis pas autorisé à dépasser ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je ne suis pas autorisé à dépasser »."
             },
             {
               "id": 285,
@@ -10028,7 +10028,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « On peut effectuer le dépassement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « On peut effectuer le dépassement »."
             }
           ]
         },
@@ -10074,7 +10074,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « A aucun passage à niveau ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « A aucun passage à niveau »."
             },
             {
               "id": 287,
@@ -10112,7 +10112,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_287_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule bleu est en infraction ; Le véhicule bleu effectue une mauvaise manœuvre ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le véhicule bleu est en infraction ; Le véhicule bleu effectue une mauvaise manœuvre »."
             },
             {
               "id": 288,
@@ -10151,7 +10151,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_288_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule jaune est en infraction ; Le véhicule jaune effectue une mauvaise manœuvre ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le véhicule jaune est en infraction ; Le véhicule jaune effectue une mauvaise manœuvre »."
             },
             {
               "id": 289,
@@ -10189,7 +10189,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_289_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule jaune effectue une bonne manœuvre ; Le véhicule jaune n’est pas en infraction ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le véhicule jaune effectue une bonne manœuvre ; Le véhicule jaune n’est pas en infraction »."
             },
             {
               "id": 290,
@@ -10228,7 +10228,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_290_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule vert effectue une bonne manœuvre ; Le véhicule vert n’est pas en infraction ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le véhicule vert effectue une bonne manœuvre ; Le véhicule vert n’est pas en infraction »."
             },
             {
               "id": 291,
@@ -10266,7 +10266,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_291_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule vert effectue une mauvaise manœuvre ; Le véhicule vert est en infraction ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le véhicule vert effectue une mauvaise manœuvre ; Le véhicule vert est en infraction »."
             },
             {
               "id": 292,
@@ -10305,7 +10305,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_292_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule vert n’est pas en infraction ; Le véhicule vert effectue une bonne manœuvre ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le véhicule vert n’est pas en infraction ; Le véhicule vert effectue une bonne manœuvre »."
             },
             {
               "id": 293,
@@ -10343,7 +10343,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_293_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule bleu est en infraction ; Le véhicule bleu effectue une mauvaise manœuvre ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le véhicule bleu est en infraction ; Le véhicule bleu effectue une mauvaise manœuvre »."
             },
             {
               "id": 294,
@@ -10382,7 +10382,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_294_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule jaune effectue une bonne manœuvre ; Le véhicule jaune n’est pas en infraction ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le véhicule jaune effectue une bonne manœuvre ; Le véhicule jaune n’est pas en infraction »."
             },
             {
               "id": 295,
@@ -10420,7 +10420,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_295_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule bleu n’est pas en infraction ; Le véhicule bleu effectue une bonne manœuvre ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le véhicule bleu n’est pas en infraction ; Le véhicule bleu effectue une bonne manœuvre »."
             },
             {
               "id": 296,
@@ -10452,7 +10452,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Sur la voie se trouvant la plus à gauche ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Sur la voie se trouvant la plus à gauche »."
             },
             {
               "id": 297,
@@ -10483,7 +10483,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Sur la voie de gauche pour effectuer un dépassement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Sur la voie de gauche pour effectuer un dépassement »."
             },
             {
               "id": 298,
@@ -10518,7 +10518,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « A aucun moment ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « A aucun moment »."
             },
             {
               "id": 299,
@@ -10549,7 +10549,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Vous augmentez l’écart latéral ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Vous augmentez l’écart latéral »."
             },
             {
               "id": 300,
@@ -10581,7 +10581,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Ralentir ; Serrer ma droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Ralentir ; Serrer ma droite »."
             },
             {
               "id": 301,
@@ -10616,7 +10616,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Circuler en code ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Circuler en code »."
             },
             {
               "id": 302,
@@ -10648,7 +10648,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Le véhicule encombrant."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Le véhicule encombrant »."
             },
             {
               "id": 303,
@@ -10679,7 +10679,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Le véhicule descendant."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Le véhicule descendant »."
             },
             {
               "id": 304,
@@ -10710,7 +10710,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Le camion."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Le camion »."
             },
             {
               "id": 305,
@@ -10741,7 +10741,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : Le véhicule descendant."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « Le véhicule descendant »."
             }
           ]
         },
@@ -10785,7 +10785,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Devant le panneau \"chaussée rétrécie\" et un obstacle devant moi ; Devant le panneau \"céder le passage\" aux usagers venant en sens inverse et devant un panneau \"chaussée rétrécie\"."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Devant le panneau \"chaussée rétrécie\" et un obstacle devant moi ; Devant le panneau \"céder le passage\" aux usagers venant en sens inverse et devant un panneau \"chaussée rétrécie\" »."
             },
             {
               "id": 307,
@@ -10816,7 +10816,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le camion ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le camion »."
             },
             {
               "id": 308,
@@ -10847,7 +10847,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le véhicule isolé ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le véhicule isolé »."
             },
             {
               "id": 309,
@@ -10882,7 +10882,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je regarde le bord droit de la chaussée ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je regarde le bord droit de la chaussée »."
             },
             {
               "id": 310,
@@ -10921,7 +10921,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 20 km/h."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « 20 km/h »."
             },
             {
               "id": 311,
@@ -10953,7 +10953,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Le véhicule descendant."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Le véhicule descendant »."
             },
             {
               "id": 312,
@@ -10985,7 +10985,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Quand se dresse un obstacle devant  moi ; Quand je suis au volant d’un véhicule encombrant."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Quand se dresse un obstacle devant  moi ; Quand je suis au volant d’un véhicule encombrant »."
             },
             {
               "id": 313,
@@ -11027,7 +11027,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je ne l’empêche pas si la manœuvre est régulière ; Je serre ma droite le plus possible ; Je maintiens mon allure et, au besoin je ralentis ; La nuit, je passe en feu de croisement quand il arrive à ma hauteur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je ne l’empêche pas si la manœuvre est régulière ; Je serre ma droite le plus possible ; Je maintiens mon allure et, au besoin je ralentis ; La nuit, je passe en feu de croisement quand il arrive à ma hauteur »."
             },
             {
               "id": 314,
@@ -11069,7 +11069,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « devant le feu  rouge ; devant le panneau « STOP » ; devant le panneau « Triangle pointe en bas » ; en sortant d’un chemin de terre, d’un garage ou d’un parking ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « devant le feu  rouge ; devant le panneau « STOP » ; devant le panneau « Triangle pointe en bas » ; en sortant d’un chemin de terre, d’un garage ou d’un parking »."
             },
             {
               "id": 315,
@@ -11109,7 +11109,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : tous les 5km ; après chaque intersection."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « tous les 5km ; après chaque intersection »."
             },
             {
               "id": 316,
@@ -11149,7 +11149,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Tous les kilomètres."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Tous les kilomètres »."
             },
             {
               "id": 317,
@@ -11180,7 +11180,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « faciliter l’écoulement des trafics ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « faciliter l’écoulement des trafics »."
             },
             {
               "id": 318,
@@ -11213,7 +11213,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « non respect des signaux ; non respect des règles de priorité ; des écarts sans avertir, sans contrôler ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « non respect des signaux ; non respect des règles de priorité ; des écarts sans avertir, sans contrôler »."
             },
             {
               "id": 319,
@@ -11246,7 +11246,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_319_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « continuer tout droit ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « continuer tout droit »."
             },
             {
               "id": 320,
@@ -11280,7 +11280,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_320_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « après le véhicule blanc ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « après le véhicule blanc »."
             },
             {
               "id": 321,
@@ -11313,7 +11313,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_321_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le jaune ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « le jaune »."
             },
             {
               "id": 322,
@@ -11347,7 +11347,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_322_3.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le bleu ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « le bleu »."
             },
             {
               "id": 323,
@@ -11380,7 +11380,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_323_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « ne peut tourner immédiatement à droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « ne peut tourner immédiatement à droite »."
             },
             {
               "id": 324,
@@ -11411,7 +11411,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « De voir le véhicule dans mon rétroviseur intérieur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « De voir le véhicule dans mon rétroviseur intérieur »."
             },
             {
               "id": 325,
@@ -11443,7 +11443,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Avec la vitesse ; Avec la charge du véhicule ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Avec la vitesse ; Avec la charge du véhicule »."
             }
           ]
         },
@@ -11487,7 +11487,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "En matière de priorité, la règle fondamentale à toute intersection sans indication contraire est la priorité aux usagers arrivant par votre droite. Ici, la règle officielle confirme que : je peux dépasser un véhicule ; je ne peux pas dépasser lorsqu’il y a un marquage au sol l’interdisant."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « je peux dépasser un véhicule ; je ne peux pas dépasser lorsqu’il y a un marquage au sol l’interdisant »."
             },
             {
               "id": 327,
@@ -11519,7 +11519,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « à droite aux intersections ; à gauche aux intersections ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « à droite aux intersections ; à gauche aux intersections »."
             },
             {
               "id": 328,
@@ -11550,7 +11550,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : à droite dans ma voie."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « à droite dans ma voie »."
             },
             {
               "id": 329,
@@ -11577,7 +11577,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « par la gauche ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « par la gauche »."
             },
             {
               "id": 330,
@@ -11612,7 +11612,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « à droite seulement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « à droite seulement »."
             },
             {
               "id": 331,
@@ -11647,7 +11647,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Le véhicule qui descend."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Le véhicule qui descend »."
             },
             {
               "id": 332,
@@ -11679,7 +11679,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je freine au début pour rétrograder et utiliser le frein moteur 86 ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je freine au début pour rétrograder et utiliser le frein moteur 86 »."
             },
             {
               "id": 333,
@@ -11709,7 +11709,7 @@ window.QCM_DATA = {
                 "assets/images/q_333_1.png",
                 "assets/images/q_333_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « rouge d’abord, bleue ensuite et enfin vert ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « rouge d’abord, bleue ensuite et enfin vert »."
             },
             {
               "id": 334,
@@ -11749,7 +11749,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « priorité à droite ; rouge, bleu, jaune ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « priorité à droite ; rouge, bleu, jaune »."
             },
             {
               "id": 335,
@@ -11793,7 +11793,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_335_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « perte de priorité ; priorité de passage ; jaune et bleu simultanément puis rouge ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « perte de priorité ; priorité de passage ; jaune et bleu simultanément puis rouge »."
             },
             {
               "id": 336,
@@ -11835,7 +11835,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_336_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « priorité à  droite ; jaune, bleu, rouge ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « priorité à  droite ; jaune, bleu, rouge »."
             },
             {
               "id": 337,
@@ -11879,7 +11879,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_337_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « perte de priorité ; priorité de passage ; jaune et rouge simultanément puis bleu et blanc après ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « perte de priorité ; priorité de passage ; jaune et rouge simultanément puis bleu et blanc après »."
             },
             {
               "id": 338,
@@ -11922,7 +11922,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_338_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « perte de priorité ; priorité de passage ; bleu et jaune simultanément puis rouge après ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « perte de priorité ; priorité de passage ; bleu et jaune simultanément puis rouge après »."
             },
             {
               "id": 339,
@@ -11966,7 +11966,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_339_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « priorité de passage ; perte de priorité ; rouge d’abord, puis bleu et jaune après ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « priorité de passage ; perte de priorité ; rouge d’abord, puis bleu et jaune après »."
             },
             {
               "id": 340,
@@ -12010,7 +12010,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_340_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « perte de priorité ; priorité de passage ; bleu et rouge simultanément, puis jaune après ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « perte de priorité ; priorité de passage ; bleu et rouge simultanément, puis jaune après »."
             },
             {
               "id": 341,
@@ -12057,7 +12057,7 @@ window.QCM_DATA = {
                 "assets/images/q_341_16.png",
                 "assets/images/q_341_17.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Panneau / Option A."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Panneau / Option A »."
             },
             {
               "id": 342,
@@ -12104,7 +12104,7 @@ window.QCM_DATA = {
                 "assets/images/q_342_21.png",
                 "assets/images/q_342_22.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Panneau / Option B."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Panneau / Option B »."
             },
             {
               "id": 343,
@@ -12157,7 +12157,7 @@ window.QCM_DATA = {
                 "assets/images/q_343_26.png",
                 "assets/images/q_343_27.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Panneau / Option B ; Panneau / Option E."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Panneau / Option B ; Panneau / Option E »."
             },
             {
               "id": 344,
@@ -12208,7 +12208,7 @@ window.QCM_DATA = {
                 "assets/images/q_344_21.png",
                 "assets/images/q_344_22.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Panneau / Option E."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Panneau / Option E »."
             },
             {
               "id": 345,
@@ -12260,7 +12260,7 @@ window.QCM_DATA = {
                 "assets/images/q_345_21.png",
                 "assets/images/q_345_22.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Panneau / Option E."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Panneau / Option E »."
             }
           ]
         },
@@ -12318,7 +12318,7 @@ window.QCM_DATA = {
                 "assets/images/q_346_26.png",
                 "assets/images/q_346_27.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Panneau / Option C."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Panneau / Option C »."
             },
             {
               "id": 347,
@@ -12366,7 +12366,7 @@ window.QCM_DATA = {
                 "assets/images/q_347_16.png",
                 "assets/images/q_347_17.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Panneau / Option B."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Panneau / Option B »."
             },
             {
               "id": 348,
@@ -12414,7 +12414,7 @@ window.QCM_DATA = {
                 "assets/images/q_348_11.png",
                 "assets/images/q_348_12.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Panneau / Option A ; Panneau / Option C."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Panneau / Option A ; Panneau / Option C »."
             },
             {
               "id": 349,
@@ -12453,7 +12453,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_349_7.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « nous sommes en présence d’une ligne d’avertissement ; le véhicule bleu peut dépasser ; la ligne de rive peut être franchie ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « nous sommes en présence d’une ligne d’avertissement ; le véhicule bleu peut dépasser ; la ligne de rive peut être franchie »."
             },
             {
               "id": 350,
@@ -12494,7 +12494,7 @@ window.QCM_DATA = {
                 "assets/images/q_350_4.png",
                 "assets/images/q_350_5.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Panneau / Option A ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Panneau / Option A »."
             },
             {
               "id": 351,
@@ -12527,7 +12527,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_351_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « rouge et bleu simultanément puis blanc et jaune sur ordre de l’agent ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « rouge et bleu simultanément puis blanc et jaune sur ordre de l’agent »."
             },
             {
               "id": 352,
@@ -12561,7 +12561,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_352_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « bleu et vert simultanément puis rouge et jaune sur l’ordre de l’agent ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « bleu et vert simultanément puis rouge et jaune sur l’ordre de l’agent »."
             },
             {
               "id": 353,
@@ -12597,7 +12597,7 @@ window.QCM_DATA = {
                 "assets/images/q_353_4.png",
                 "assets/images/q_353_5.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « ralentir ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « ralentir »."
             },
             {
               "id": 354,
@@ -12634,7 +12634,7 @@ window.QCM_DATA = {
                 "assets/images/q_354_4.png",
                 "assets/images/q_354_5.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « ralentir ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « ralentir »."
             },
             {
               "id": 355,
@@ -12670,7 +12670,7 @@ window.QCM_DATA = {
                 "assets/images/q_355_7.png",
                 "assets/images/q_355_8.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « s’arrêter ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « s’arrêter »."
             },
             {
               "id": 356,
@@ -12704,7 +12704,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_356_1.png"
               ],
-              "explanation": "Sur cette image d'intersection (Im 6), l'ordre de passage est déterminé par l'autorité de l'agent de police qui régule la circulation et autorise les véhicules selon l'orientation de ses bras."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « vert, jaune et rouge, bleu sur l’ordre de l’agent »."
             },
             {
               "id": 357,
@@ -12737,7 +12737,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_357_2.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « vert et jaune, puis rouge et bleu sur ordre de l’agent ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « vert et jaune, puis rouge et bleu sur ordre de l’agent »."
             },
             {
               "id": 358,
@@ -12771,7 +12771,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_358_3.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « rouge et jaune simultanément puis bleue au feu vert ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'intersection du Code de la Route : L'ordre de passage est déterminé par la signalisation en place et les règles de priorité. La bonne décision est : « rouge et jaune simultanément puis bleue au feu vert »."
             }
           ]
         }
@@ -12823,7 +12823,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : une zone d’intempéries."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « une zone d’intempéries »."
             },
             {
               "id": 360,
@@ -12854,7 +12854,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je peux faire demi-tour ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je peux faire demi-tour »."
             },
             {
               "id": 361,
@@ -12889,7 +12889,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « A serrer ma droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « A serrer ma droite »."
             },
             {
               "id": 362,
@@ -12921,7 +12921,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « La voie la plus à gauche ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « La voie la plus à gauche »."
             },
             {
               "id": 363,
@@ -12952,7 +12952,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "L'arrêt est l'immobilisation momentanée du véhicule le temps de faire monter ou descendre des personnes ou de charger/décharger des objets, le conducteur devant rester à bord ou à proximité immédiate pour pouvoir le déplacer en cas de besoin."
+              "explanation": "L'arrêt est l'immobilisation momentanée du véhicule le temps d'embarquer des passagers ou de charger des bagages, le conducteur restant à bord ou à proximité immédiate pour déplacer le véhicule si nécessaire."
             },
             {
               "id": 364,
@@ -12984,7 +12984,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "L'arrêt est l'immobilisation momentanée du véhicule le temps de faire monter ou descendre des personnes ou de charger/décharger des objets, le conducteur devant rester à bord ou à proximité immédiate pour pouvoir le déplacer en cas de besoin."
+              "explanation": "L'arrêt est l'immobilisation momentanée du véhicule le temps d'embarquer des passagers ou de charger des bagages, le conducteur restant à bord ou à proximité immédiate pour déplacer le véhicule si nécessaire."
             },
             {
               "id": 365,
@@ -13020,7 +13020,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Le stationnement est l'immobilisation prolongée du véhicule pour une raison autre que la montée/descente de passagers ou le chargement, le conducteur ayant quitté son véhicule."
+              "explanation": "Le stationnement est l'immobilisation du véhicule pour une longue durée ou lorsque le conducteur s'en est éloigné."
             },
             {
               "id": 366,
@@ -13051,7 +13051,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Stationner avant le panneau."
+              "explanation": "Réglementation du stationnement : Les interdictions signalées par panneau s'appliquent à partir du panneau jusqu'à la prochaine intersection. La bonne règle est : « Stationner avant le panneau »."
             },
             {
               "id": 367,
@@ -13083,7 +13083,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : A partir du panneau."
+              "explanation": "Réglementation du stationnement : Les interdictions signalées par panneau s'appliquent à partir du panneau jusqu'à la prochaine intersection. La bonne règle est : « A partir du panneau »."
             },
             {
               "id": 368,
@@ -13119,7 +13119,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : quand la chaussée est mouillée ; quand les pneus sont usés."
+              "explanation": "La distance de freinage dépend directement du carré de la vitesse et de l'adhérence. Sur chaussée mouillée ou avec des pneus lisses, la distance de freinage est multipliée par 2."
             },
             {
               "id": 369,
@@ -13154,7 +13154,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « je ralentis ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « je ralentis »."
             },
             {
               "id": 370,
@@ -13191,7 +13191,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : si le conducteur est fatigué ; si la chaussée est légèrement mouillée ; si les pneus sont usés."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « si le conducteur est fatigué ; si la chaussée est légèrement mouillée ; si les pneus sont usés »."
             },
             {
               "id": 371,
@@ -13223,7 +13223,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « l’aquaplaning ; la glissade ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « l’aquaplaning ; la glissade »."
             },
             {
               "id": 372,
@@ -13255,7 +13255,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « la distance d’arrêt ; la distance de freinage ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "La distance de freinage dépend directement du carré de la vitesse et de l'adhérence. Sur chaussée mouillée ou avec des pneus lisses, la distance de freinage est multipliée par 2."
             },
             {
               "id": 373,
@@ -13296,7 +13296,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : de la vitesse ; de l’adhérence."
+              "explanation": "La distance de freinage dépend directement du carré de la vitesse et de l'adhérence. Sur chaussée mouillée ou avec des pneus lisses, la distance de freinage est multipliée par 2."
             },
             {
               "id": 374,
@@ -13328,7 +13328,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « ralentir ; signaler son intention ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « ralentir ; signaler son intention »."
             },
             {
               "id": 375,
@@ -13360,7 +13360,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « ralentir ; klaxonner ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « ralentir ; klaxonner »."
             },
             {
               "id": 376,
@@ -13403,7 +13403,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « s’assurer que la route qu’il veut emprunter n’est pas en sens interdit ; surveiller la route vers l’avant et l’arrière ; signaler son intention à l’aide du clignotant ; ralentir sans freiner brusquement pour ne pas surprendre les usagers qui le suivent ; respecter les priorités de passage et notamment les piétons qui traversent ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « s’assurer que la route qu’il veut emprunter n’est pas en sens interdit ; surveiller la route vers l’avant et l’arrière ; signaler son intention à l’aide du clignotant ; ralentir sans freiner brusquement pour ne pas surprendre les usagers qui le suivent ; respecter les priorités de passage et notamment les piétons qui traversent »."
             },
             {
               "id": 377,
@@ -13447,7 +13447,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : de l’importance du trafic ; des risques prévisibles 102 ; de l’adhérence ; de la visibilité ; de sa propre vigilance."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « de l’importance du trafic ; des risques prévisibles 102 ; de l’adhérence ; de la visibilité ; de sa propre vigilance »."
             },
             {
               "id": 378,
@@ -13483,7 +13483,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « lorsqu’il souffle par rafales ; si je tracte une caravane ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « lorsqu’il souffle par rafales ; si je tracte une caravane »."
             }
           ]
         },
@@ -13525,7 +13525,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 100 km/h."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « 100 km/h »."
             },
             {
               "id": 380,
@@ -13557,7 +13557,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « atteindre la vitesse de circulation de la chaussée abordée ; M’engager sans ralentir la circulation ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « atteindre la vitesse de circulation de la chaussée abordée ; M’engager sans ralentir la circulation »."
             },
             {
               "id": 381,
@@ -13588,7 +13588,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « J’accélère en contrôlant, je mets le clignotant dès que je peux m’insérer ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « J’accélère en contrôlant, je mets le clignotant dès que je peux m’insérer »."
             },
             {
               "id": 382,
@@ -13625,7 +13625,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Plus le virage est serré ; Plus la force centrifuge est importante ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Plus le virage est serré ; Plus la force centrifuge est importante »."
             },
             {
               "id": 383,
@@ -13656,7 +13656,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « sur l’accotement de gauche ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « sur l’accotement de gauche »."
             },
             {
               "id": 384,
@@ -13692,7 +13692,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : le stationnement est interdit ; le stationnement temporaire est interdit."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « le stationnement est interdit ; le stationnement temporaire est interdit »."
             },
             {
               "id": 385,
@@ -13724,7 +13724,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : par horodateur ; par parcmètre."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « par horodateur ; par parcmètre »."
             },
             {
               "id": 386,
@@ -13760,7 +13760,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : dans une voie réservée aux bus ; devant une sortie de propriété."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « dans une voie réservée aux bus ; devant une sortie de propriété »."
             },
             {
               "id": 387,
@@ -13793,7 +13793,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : chaque fois que la visibilité est réduite ; chaque fois que l’adhérence est réduite."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « chaque fois que la visibilité est réduite ; chaque fois que l’adhérence est réduite »."
             },
             {
               "id": 388,
@@ -13825,7 +13825,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le type de véhicule ; la vitesse de rapprochement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « le type de véhicule ; la vitesse de rapprochement »."
             },
             {
               "id": 389,
@@ -13856,7 +13856,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « percevoir et réagir ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « percevoir et réagir »."
             },
             {
               "id": 390,
@@ -13887,7 +13887,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « une seconde ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « une seconde »."
             },
             {
               "id": 391,
@@ -13919,7 +13919,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « De freinage ; D’arrêt ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « De freinage ; D’arrêt »."
             },
             {
               "id": 392,
@@ -13951,7 +13951,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : 81 mètres 105."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « 81 mètres 105 »."
             },
             {
               "id": 393,
@@ -13979,7 +13979,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : La sécurité ; La fluidité de la circulation."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « La sécurité ; La fluidité de la circulation »."
             },
             {
               "id": 394,
@@ -14012,7 +14012,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Dangereux ; Abusif ; Gênant."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Dangereux ; Abusif ; Gênant »."
             },
             {
               "id": 395,
@@ -14053,7 +14053,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Lorsque la route n’apparaît pas libre ; Dans les descentes rapides ; Lorsqu’on aborde une intersection."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « Lorsque la route n’apparaît pas libre ; Dans les descentes rapides ; Lorsqu’on aborde une intersection »."
             },
             {
               "id": 396,
@@ -14080,7 +14080,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « En stationnement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « En stationnement »."
             },
             {
               "id": 397,
@@ -14107,7 +14107,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « En marche arrière ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « En marche arrière »."
             },
             {
               "id": 398,
@@ -14139,7 +14139,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 110 km/h."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « 110 km/h »."
             }
           ]
         },
@@ -14181,7 +14181,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 50 km/h."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « 50 km/h »."
             },
             {
               "id": 400,
@@ -14212,7 +14212,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Sur une place d’évitement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Sur une place d’évitement »."
             },
             {
               "id": 401,
@@ -14244,7 +14244,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : je rétrograde pour utiliser le frein moteur ; je dose mon freinage à l’aide du frein à main déverrouillé."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « je rétrograde pour utiliser le frein moteur ; je dose mon freinage à l’aide du frein à main déverrouillé »."
             },
             {
               "id": 402,
@@ -14275,7 +14275,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « braquer calmement pour ramener le véhicule sur sa trajectoire ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « braquer calmement pour ramener le véhicule sur sa trajectoire »."
             },
             {
               "id": 403,
@@ -14303,7 +14303,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « je freine légèrement et je reviens progressivement sur la chaussée ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « je freine légèrement et je reviens progressivement sur la chaussée »."
             }
           ]
         }
@@ -14356,7 +14356,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « je dois signaler mon véhicule à l’aide des feux de détresse ; je reste vigilant ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « je dois signaler mon véhicule à l’aide des feux de détresse ; je reste vigilant »."
             },
             {
               "id": 405,
@@ -14387,7 +14387,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Serrer ma droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Serrer ma droite »."
             },
             {
               "id": 406,
@@ -14419,7 +14419,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Mettre le clignotant à droite ; Ralentir ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Mettre le clignotant à droite ; Ralentir »."
             },
             {
               "id": 407,
@@ -14450,7 +14450,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Me déporter au milieu de la chaussée ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Me déporter au milieu de la chaussée »."
             },
             {
               "id": 408,
@@ -14483,7 +14483,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Respecter les règles de priorité ; Serrer ma gauche ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Respecter les règles de priorité ; Serrer ma gauche »."
             },
             {
               "id": 409,
@@ -14515,7 +14515,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : A l’approche d’un virage ; A l’approche d’une intersection."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « A l’approche d’un virage ; A l’approche d’une intersection »."
             },
             {
               "id": 410,
@@ -14551,7 +14551,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : A la vue d’un panneau de limitation de vitesse ; A l’approche d’un passage à niveau."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « A la vue d’un panneau de limitation de vitesse ; A l’approche d’un passage à niveau »."
             },
             {
               "id": 411,
@@ -14582,7 +14582,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le stationnement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le stationnement »."
             },
             {
               "id": 412,
@@ -14617,7 +14617,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : 7 jours."
+              "explanation": "Selon le Code de la route, tout stationnement ininterrompu d'un véhicule au même endroit de la voie publique pendant plus de 7 jours consécutifs est qualifié de stationnement abusif et passible de mise en fourrière."
             },
             {
               "id": 413,
@@ -14651,7 +14651,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_413_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Interdit l’accès à tous les véhicules à moteur."
+              "explanation": "Le panneau B7b interdit l'accès à tous les véhicules à moteur sans exception (y compris les cyclomoteurs). La bonne réponse officielle est : « Interdit l’accès à tous les véhicules à moteur »."
             },
             {
               "id": 414,
@@ -14685,7 +14685,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_414_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je ne peux pas m’arrêter ; Je ne peux pas m’arrêter mais je peux stationner."
+              "explanation": "Le panneau B6d (disque rouge à fond bleu avec croix rouge) interdit formellement à la fois l'arrêt et le stationnement. La bonne réponse officielle est : « Je ne peux pas m’arrêter ; Je ne peux pas m’arrêter mais je peux stationner »."
             },
             {
               "id": 415,
@@ -14722,7 +14722,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Pour ralentir ; Pour aborder un virage ; Pour aborder une descente dangereuse."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Pour ralentir ; Pour aborder un virage ; Pour aborder une descente dangereuse »."
             },
             {
               "id": 416,
@@ -14755,7 +14755,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_416_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Accès interdit aux véhicules à traction animale."
+              "explanation": "Le panneau B9c interdit l'accès aux véhicules à traction animale. La bonne réponse officielle est : « Accès interdit aux véhicules à traction animale »."
             },
             {
               "id": 417,
@@ -14792,7 +14792,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Ralentisseur (dos d’âne) ; Virage ; Travaux."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « Ralentisseur (dos d’âne) ; Virage ; Travaux »."
             },
             {
               "id": 418,
@@ -14830,7 +14830,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : De l’importance du trafic 110 ; De certains risques prévisibles ; De la visibilité."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « De l’importance du trafic 110 ; De certains risques prévisibles ; De la visibilité »."
             },
             {
               "id": 419,
@@ -14861,7 +14861,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 60km/h."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « 60km/h »."
             },
             {
               "id": 420,
@@ -14892,7 +14892,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « La force qui pousse le véhicule même quand on accélère plus ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « La force qui pousse le véhicule même quand on accélère plus »."
             },
             {
               "id": 421,
@@ -14924,7 +14924,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Elle rend le freinage plus long ; Elle rend plus difficile le changement de direction ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Elle rend le freinage plus long ; Elle rend plus difficile le changement de direction »."
             },
             {
               "id": 422,
@@ -14955,7 +14955,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Surprendre les autres usagers venant de l’arrière."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « Surprendre les autres usagers venant de l’arrière »."
             },
             {
               "id": 423,
@@ -14988,7 +14988,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Respecter la vitesse imposée ; Observer la vitesse de sécurité ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Respecter la vitesse imposée ; Observer la vitesse de sécurité »."
             }
           ]
         },
@@ -15030,7 +15030,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Avant le virage."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « Avant le virage »."
             },
             {
               "id": 425,
@@ -15062,7 +15062,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Ennuis mécaniques ; Etat de la chaussée ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Ennuis mécaniques ; Etat de la chaussée »."
             },
             {
               "id": 426,
@@ -15094,7 +15094,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Régler le flux de circulation ; Réduire les risques d’accidents."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « Régler le flux de circulation ; Réduire les risques d’accidents »."
             },
             {
               "id": 427,
@@ -15139,7 +15139,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_427_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : A 30 km/h ; A plus de 30 km/h ; A la vitesse réglementaire ; A moins de 30 km/h."
+              "explanation": "Le panneau B43 (disque bleu avec chiffre 30 barré d'une diagonale rouge) indique la fin de vitesse minimale obligatoire. La bonne réponse officielle est : « A 30 km/h ; A plus de 30 km/h ; A la vitesse réglementaire ; A moins de 30 km/h »."
             },
             {
               "id": 428,
@@ -15171,7 +15171,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Dans un virage ; A proximité d’une intersection."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Dans un virage ; A proximité d’une intersection »."
             },
             {
               "id": 429,
@@ -15207,7 +15207,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Sur le côté droit ou sur le côté gauche ; Sur les accotements."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Sur le côté droit ou sur le côté gauche ; Sur les accotements »."
             },
             {
               "id": 430,
@@ -15238,7 +15238,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Sur le côté droit ou sur le côté gauche ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Sur le côté droit ou sur le côté gauche »."
             },
             {
               "id": 431,
@@ -15271,7 +15271,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « La force centrifuge ; L’adhérence ; La visibilité ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « La force centrifuge ; L’adhérence ; La visibilité »."
             },
             {
               "id": 432,
@@ -15302,7 +15302,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : En deuxième vitesse."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « En deuxième vitesse »."
             },
             {
               "id": 433,
@@ -15334,7 +15334,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Interdit le stationnement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Interdit le stationnement »."
             },
             {
               "id": 434,
@@ -15366,7 +15366,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Interdit le stationnement ; Autorise l’arrêt ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Interdit le stationnement ; Autorise l’arrêt »."
             },
             {
               "id": 435,
@@ -15398,7 +15398,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je risque de déraper et de me retrouver hors de la chaussée ; Je risque de  déraper et de heurter l’usager venant en sens inverse ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je risque de déraper et de me retrouver hors de la chaussée ; Je risque de  déraper et de heurter l’usager venant en sens inverse »."
             },
             {
               "id": 436,
@@ -15429,7 +15429,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je réduis ma vive allure en maintenant ma droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je réduis ma vive allure en maintenant ma droite »."
             },
             {
               "id": 437,
@@ -15460,7 +15460,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Indique une zone d’arrêt de bus ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Indique une zone d’arrêt de bus »."
             },
             {
               "id": 438,
@@ -15492,7 +15492,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Sur le côté droit ou sur le côté gauche 114 ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Sur le côté droit ou sur le côté gauche 114 »."
             },
             {
               "id": 439,
@@ -15528,7 +15528,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Avec mon clignotant droit en me positionnant sur l’accotement ; Avec mon clignotant droit en serrant ma droite."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Avec mon clignotant droit en me positionnant sur l’accotement ; Avec mon clignotant droit en serrant ma droite »."
             },
             {
               "id": 440,
@@ -15559,7 +15559,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Freiner ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Freiner »."
             },
             {
               "id": 441,
@@ -15590,7 +15590,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je freine franchement et je débraie au dernier moment ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je freine franchement et je débraie au dernier moment »."
             },
             {
               "id": 442,
@@ -15625,7 +15625,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Sur une chaussée à double sens de circulation ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Sur une chaussée à double sens de circulation »."
             },
             {
               "id": 443,
@@ -15657,7 +15657,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Sur une chaussée à sens unique ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Sur une chaussée à sens unique »."
             }
           ]
         },
@@ -15695,7 +15695,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Non ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Non »."
             },
             {
               "id": 445,
@@ -15726,7 +15726,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « L’arrêt et le stationnement sont interdits à la hauteur de ce trottoir ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « L’arrêt et le stationnement sont interdits à la hauteur de ce trottoir »."
             },
             {
               "id": 446,
@@ -15757,7 +15757,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : 90 km/h."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « 90 km/h »."
             },
             {
               "id": 447,
@@ -15798,7 +15798,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Du type de revêtement ; De la vitesse ; De l’état des pneumatiques."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « Du type de revêtement ; De la vitesse ; De l’état des pneumatiques »."
             },
             {
               "id": 448,
@@ -15835,7 +15835,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « La fatigue ; L’état d’ivresse ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « La fatigue ; L’état d’ivresse »."
             },
             {
               "id": 449,
@@ -15866,7 +15866,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Moins fort que quand la chaussée est sèche."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Moins fort que quand la chaussée est sèche »."
             },
             {
               "id": 450,
@@ -15901,7 +15901,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Rien de tout ce qui précède ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Rien de tout ce qui précède »."
             },
             {
               "id": 451,
@@ -15942,7 +15942,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : A la vue d’un panneau de limitation de vitesse ; En passant d’une zone éclairée à une zone d’ombre ; A l’approche d’une intersection."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « A la vue d’un panneau de limitation de vitesse ; En passant d’une zone éclairée à une zone d’ombre ; A l’approche d’une intersection »."
             },
             {
               "id": 452,
@@ -15976,7 +15976,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_452_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je peux faire plus de 30 km/h ; Je peux faire moins de 30 km/h."
+              "explanation": "Le panneau B43 (disque bleu avec chiffre 30 barré d'une diagonale rouge) indique la fin de vitesse minimale obligatoire. La bonne réponse officielle est : « Je peux faire plus de 30 km/h ; Je peux faire moins de 30 km/h »."
             },
             {
               "id": 453,
@@ -16013,7 +16013,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Ralentir avant d’aborder le virage ; Bien serrer la droite avant d’aborder le virage ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Ralentir avant d’aborder le virage ; Bien serrer la droite avant d’aborder le virage »."
             },
             {
               "id": 454,
@@ -16050,7 +16050,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_454_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Interdit de faire demi-tour jusqu’à la prochaine intersection incluse."
+              "explanation": "Le panneau B2c interdit de faire demi-tour jusqu'à la prochaine intersection incluse. La bonne réponse officielle est : « Interdit de faire demi-tour jusqu’à la prochaine intersection incluse »."
             },
             {
               "id": 455,
@@ -16087,7 +16087,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_455_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je peux stationner avant le panneau."
+              "explanation": "Le panneau B6a1 interdit le stationnement du côté où il est implanté jusqu'à la prochaine intersection. L'arrêt temporaire reste autorisé. La bonne réponse officielle est : « Je peux stationner avant le panneau »."
             },
             {
               "id": 456,
@@ -16125,7 +16125,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_456_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je peux faire demi-tour ; Je vais tout droit à la prochaine intersection."
+              "explanation": "Le panneau B21b (flèche blanche verticale vers le haut dans un cercle bleu) oblige à aller tout droit à la prochaine intersection. La bonne réponse officielle est : « Je peux faire demi-tour ; Je vais tout droit à la prochaine intersection »."
             },
             {
               "id": 457,
@@ -16158,7 +16158,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_457_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Fin de vitesse minimale obligatoire."
+              "explanation": "Le panneau B43 (disque bleu avec chiffre 30 barré d'une diagonale rouge) indique la fin de vitesse minimale obligatoire. La bonne réponse officielle est : « Fin de vitesse minimale obligatoire »."
             },
             {
               "id": 458,
@@ -16190,7 +16190,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « A gauche sans gêner les véhicules venant en sens inverse 118 ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « A gauche sans gêner les véhicules venant en sens inverse 118 »."
             },
             {
               "id": 459,
@@ -16225,7 +16225,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Rien de tout ce qui précède ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Rien de tout ce qui précède »."
             },
             {
               "id": 460,
@@ -16256,7 +16256,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : 25m environ."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 25m environ »."
             },
             {
               "id": 461,
@@ -16287,7 +16287,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Moins bonne que s’il avait plu toute la journée."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Moins bonne que s’il avait plu toute la journée »."
             },
             {
               "id": 462,
@@ -16322,7 +16322,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Deux autoroutes."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « Deux autoroutes »."
             },
             {
               "id": 463,
@@ -16354,7 +16354,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Par disque de stationnement."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Par disque de stationnement »."
             }
           ]
         },
@@ -16397,7 +16397,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Ralentir le véhicule dans une descente ; Repartir après un ralentissement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Ralentir le véhicule dans une descente ; Repartir après un ralentissement »."
             },
             {
               "id": 465,
@@ -16432,7 +16432,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je dois rouler près du bord droit  de la chaussée autant que la permettent son profil et son état ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je dois rouler près du bord droit  de la chaussée autant que la permettent son profil et son état »."
             },
             {
               "id": 466,
@@ -16463,7 +16463,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Je décélère progressivement en maintenant la trajectoire."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Je décélère progressivement en maintenant la trajectoire »."
             },
             {
               "id": 467,
@@ -16494,7 +16494,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Braquer calmement pour ramener le véhicule dans sa trajectoire ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Braquer calmement pour ramener le véhicule dans sa trajectoire »."
             },
             {
               "id": 468,
@@ -16528,7 +16528,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_468_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Circulation à sens unique."
+              "explanation": "Le panneau C12 (carré bleu avec flèche blanche vers le haut) indique une route ou chaussée à sens unique. La bonne réponse officielle est : « Circulation à sens unique »."
             },
             {
               "id": 469,
@@ -16569,7 +16569,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : A proximité d’une intersection ; Au sommet de côte ; Dans les virages."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « A proximité d’une intersection ; Au sommet de côte ; Dans les virages »."
             },
             {
               "id": 470,
@@ -16600,7 +16600,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Mettre le clignotant à gauche et céder le passage à droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Mettre le clignotant à gauche et céder le passage à droite »."
             },
             {
               "id": 471,
@@ -16632,7 +16632,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Par voie d’accès ; Par voie d’accélération."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « Par voie d’accès ; Par voie d’accélération »."
             },
             {
               "id": 472,
@@ -16664,7 +16664,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « En agglomération ; A l’entrée d’une ville ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « En agglomération ; A l’entrée d’une ville »."
             },
             {
               "id": 473,
@@ -16696,7 +16696,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 90 km/h."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « 90 km/h »."
             },
             {
               "id": 474,
@@ -16727,7 +16727,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Permet d’atteindre la vitesse minimale autorisée sur autoroute ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Permet d’atteindre la vitesse minimale autorisée sur autoroute »."
             },
             {
               "id": 475,
@@ -16758,7 +16758,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Immobilisation forcée."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Immobilisation forcée »."
             },
             {
               "id": 476,
@@ -16790,7 +16790,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Pour s’arrêter en cas de panne ; Pour s’arrêter en cas de malaise."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Pour s’arrêter en cas de panne ; Pour s’arrêter en cas de malaise »."
             },
             {
               "id": 477,
@@ -16822,7 +16822,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Demi-tour ; Marche arrière."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « Demi-tour ; Marche arrière »."
             },
             {
               "id": 478,
@@ -16854,7 +16854,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : oblige à céder le passage aux usagers de l’autoroute."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « oblige à céder le passage aux usagers de l’autoroute »."
             },
             {
               "id": 479,
@@ -16890,7 +16890,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Chaussée, trottoirs ; Terre plein-central, chaussée, trottoirs ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Chaussée, trottoirs ; Terre plein-central, chaussée, trottoirs »."
             },
             {
               "id": 480,
@@ -16921,7 +16921,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Pour les piétons ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Pour les piétons »."
             },
             {
               "id": 481,
@@ -16952,7 +16952,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « A la circulation des véhicules ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « A la circulation des véhicules »."
             },
             {
               "id": 482,
@@ -16984,7 +16984,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Une partie de la chaussée réservée pour la circulation des véhicules ; Une partie de la chaussée réservée pour la circulation dans un sens ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Une partie de la chaussée réservée pour la circulation des véhicules ; Une partie de la chaussée réservée pour la circulation dans un sens »."
             },
             {
               "id": 483,
@@ -17016,7 +17016,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Sur la bande d’arrêt d’urgence ; Sur l’aire de repos."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Sur la bande d’arrêt d’urgence ; Sur l’aire de repos »."
             }
           ]
         },
@@ -17063,7 +17063,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Fonction de la législation en vigueur dans chaque pays."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « Fonction de la législation en vigueur dans chaque pays »."
             },
             {
               "id": 485,
@@ -17098,7 +17098,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Fonction de la législation en vigueur dans chaque pays."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « Fonction de la législation en vigueur dans chaque pays »."
             },
             {
               "id": 486,
@@ -17133,7 +17133,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 50km/h."
+              "explanation": "Règle de vitesse en agglomération : La vitesse est limitée à 50 km/h pour protéger les usagers vulnérables. La bonne réponse est : « 50km/h »."
             },
             {
               "id": 487,
@@ -17168,7 +17168,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : J’utilise la cabine d’appel d’urgence pour me faire dépanner."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « J’utilise la cabine d’appel d’urgence pour me faire dépanner »."
             },
             {
               "id": 488,
@@ -17205,7 +17205,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : je  gare sur la bande d’arrêt d’urgence ; Je vais à pied  jusqu'à la prochaine borne d’appel."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « je  gare sur la bande d’arrêt d’urgence ; Je vais à pied  jusqu'à la prochaine borne d’appel »."
             },
             {
               "id": 489,
@@ -17242,7 +17242,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Aux ambulances effectuant un transport urgent de blessés ; Aux services d’entretien se rendant sur un lieu d’intervention ; Aux véhicules prioritaires en mission.."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Aux ambulances effectuant un transport urgent de blessés ; Aux services d’entretien se rendant sur un lieu d’intervention ; Aux véhicules prioritaires en mission. »."
             },
             {
               "id": 490,
@@ -17277,7 +17277,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : tous les deux kilomètres."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « tous les deux kilomètres »."
             },
             {
               "id": 491,
@@ -17314,7 +17314,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : réduire sa vitesse ; se réadapter à la vitesse normale ; tenir compte des intersections et de la présence des autres usagers."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « réduire sa vitesse ; se réadapter à la vitesse normale ; tenir compte des intersections et de la présence des autres usagers »."
             },
             {
               "id": 492,
@@ -17357,7 +17357,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : piétons ; cyclomoteurs ; véhicules agricoles ; cavaliers ; véhicules lents."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « piétons ; cyclomoteurs ; véhicules agricoles ; cavaliers ; véhicules lents »."
             },
             {
               "id": 493,
@@ -17399,7 +17399,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : piétons ; cavaliers ; véhicules lents."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « piétons ; cavaliers ; véhicules lents »."
             },
             {
               "id": 494,
@@ -17435,7 +17435,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le rétroviseur droit ; le rétroviseur intérieur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « le rétroviseur droit ; le rétroviseur intérieur »."
             },
             {
               "id": 495,
@@ -17462,7 +17462,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « préparer un changement de direction ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « préparer un changement de direction »."
             },
             {
               "id": 496,
@@ -17493,7 +17493,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Le raccordement de deux autoroutes."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « Le raccordement de deux autoroutes »."
             },
             {
               "id": 497,
@@ -17525,7 +17525,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : A sens unique ; Interdite aux piétons, cyclistes et cyclomotoristes."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « A sens unique ; Interdite aux piétons, cyclistes et cyclomotoristes »."
             },
             {
               "id": 498,
@@ -17557,7 +17557,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « aux véhicules dont la vitesse est inférieure à 60km/h ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « aux véhicules dont la vitesse est inférieure à 60km/h »."
             },
             {
               "id": 499,
@@ -17588,7 +17588,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Par la gauche."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « Par la gauche »."
             },
             {
               "id": 500,
@@ -17623,7 +17623,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Rien de tout ce qui précède ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Rien de tout ce qui précède »."
             },
             {
               "id": 501,
@@ -17658,7 +17658,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Bataille – épi – créneau."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Bataille – épi – créneau »."
             },
             {
               "id": 502,
@@ -17693,7 +17693,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « A séparer deux chaussées ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « A séparer deux chaussées »."
             },
             {
               "id": 503,
@@ -17725,7 +17725,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Mettre le clignotant de gauche, utiliser le rétroviseur de gauche et m’engager avec prudence."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Mettre le clignotant de gauche, utiliser le rétroviseur de gauche et m’engager avec prudence »."
             }
           ]
         }
@@ -17777,7 +17777,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Céder le passage aux usagers venant de la droite et de la gauche ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Céder le passage aux usagers venant de la droite et de la gauche »."
             },
             {
               "id": 505,
@@ -17808,7 +17808,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Jeter un coup d’œil à gauche ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Jeter un coup d’œil à gauche »."
             },
             {
               "id": 506,
@@ -17839,7 +17839,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le frein à pied et le frein moteur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le frein à pied et le frein moteur »."
             },
             {
               "id": 507,
@@ -17870,7 +17870,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Je passe en deuxième."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Je passe en deuxième »."
             },
             {
               "id": 508,
@@ -17902,7 +17902,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je ne peux ni circuler, ni stationner ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je ne peux ni circuler, ni stationner »."
             },
             {
               "id": 509,
@@ -17939,7 +17939,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Si on est sous l’effet des boissons alcoolisées ou des médicaments ; Si on est fatigué et somnolant ; Si on se sent nerveux ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Si on est sous l’effet des boissons alcoolisées ou des médicaments ; Si on est fatigué et somnolant ; Si on se sent nerveux »."
             },
             {
               "id": 510,
@@ -17970,7 +17970,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Pour avertir les autres usagers ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Pour avertir les autres usagers »."
             },
             {
               "id": 511,
@@ -18011,7 +18011,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : La carte grise ; L’attestation d’assurance ; La visite technique."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « La carte grise ; L’attestation d’assurance ; La visite technique »."
             },
             {
               "id": 512,
@@ -18049,7 +18049,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Les motocyclistes ; Les piétons ; Les automobilistes ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Les motocyclistes ; Les piétons ; Les automobilistes »."
             },
             {
               "id": 513,
@@ -18080,7 +18080,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je serre ma droite sans accélérer ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je serre ma droite sans accélérer »."
             },
             {
               "id": 514,
@@ -18112,7 +18112,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 6 passagers adultes à bord ; 5 passagers adultes à bord ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 6 passagers adultes à bord ; 5 passagers adultes à bord »."
             },
             {
               "id": 515,
@@ -18147,7 +18147,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Nécessite une attention soutenue de ma part ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Nécessite une attention soutenue de ma part »."
             },
             {
               "id": 516,
@@ -18178,7 +18178,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : 15m environ."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 15m environ »."
             },
             {
               "id": 517,
@@ -18221,7 +18221,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : la fatigue ; le non respect des règles de circulation ; la vitesse excessive ou non adapté ; la conduite dans un état d’ivresse.."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « la fatigue ; le non respect des règles de circulation ; la vitesse excessive ou non adapté ; la conduite dans un état d’ivresse. »."
             },
             {
               "id": 518,
@@ -18252,7 +18252,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est «  ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "En cas de traitement médical en cours pour effectuer un long trajet, il est indispensable de se renseigner auprès de son médecin ou pharmacien pour vérifier l'absence d'effets secondaires incompatibles avec la conduite (somnolence, vertiges)."
             },
             {
               "id": 519,
@@ -18283,7 +18283,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Ralentir ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Ralentir »."
             },
             {
               "id": 520,
@@ -18314,7 +18314,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Je m’arrête et j’apprécie la situation."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Je m’arrête et j’apprécie la situation »."
             },
             {
               "id": 521,
@@ -18345,7 +18345,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « des passagers uniquement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « des passagers uniquement »."
             },
             {
               "id": 522,
@@ -18376,7 +18376,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « doit se concentrer sur la conduite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « doit se concentrer sur la conduite »."
             },
             {
               "id": 523,
@@ -18408,7 +18408,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Attendre d’autres usagers de la route pour solliciter leur aide ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Attendre d’autres usagers de la route pour solliciter leur aide »."
             }
           ]
         },
@@ -18450,7 +18450,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « les feux de détresse ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « les feux de détresse »."
             },
             {
               "id": 525,
@@ -18481,7 +18481,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « leur céder le passage ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « leur céder le passage »."
             },
             {
               "id": 526,
@@ -18516,7 +18516,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Les véhicules des sapeurs-pompiers en mission ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Les véhicules des sapeurs-pompiers en mission »."
             },
             {
               "id": 527,
@@ -18548,7 +18548,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « les véhicules de police en mission ; les véhicules de SAMU en mission ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « les véhicules de police en mission ; les véhicules de SAMU en mission »."
             },
             {
               "id": 528,
@@ -18580,7 +18580,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je m’arrête pour la laisser passer ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je m’arrête pour la laisser passer »."
             },
             {
               "id": 529,
@@ -18616,7 +18616,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je  m’arrête si aucun véhicule ne vient  en sens inverse ; Je descends de ma voiture pour les aider à traverser ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je  m’arrête si aucun véhicule ne vient  en sens inverse ; Je descends de ma voiture pour les aider à traverser »."
             },
             {
               "id": 530,
@@ -18657,7 +18657,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Sous l’effet de boissons alcoolisées ; Sous l’effet de la fatigue ; En cas de visibilité insuffisante grave ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Sous l’effet de boissons alcoolisées ; Sous l’effet de la fatigue ; En cas de visibilité insuffisante grave »."
             },
             {
               "id": 531,
@@ -18693,7 +18693,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : je ralentis au maximum et je m’arrête au besoin ; je ralentis et je fixe le bord droit de la chaussée."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « je ralentis au maximum et je m’arrête au besoin ; je ralentis et je fixe le bord droit de la chaussée »."
             },
             {
               "id": 532,
@@ -18724,7 +18724,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Protéger, alerter et secourir."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Protéger, alerter et secourir »."
             },
             {
               "id": 533,
@@ -18756,7 +18756,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « l’extincteur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « l’extincteur »."
             },
             {
               "id": 534,
@@ -18787,7 +18787,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Des triangles de pré signalisation."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Des triangles de pré signalisation »."
             },
             {
               "id": 535,
@@ -18818,7 +18818,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : à 30m au moins."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « à 30m au moins »."
             },
             {
               "id": 536,
@@ -18854,7 +18854,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Les sapeurs pompiers ; les gendarmes."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Les sapeurs pompiers ; les gendarmes »."
             },
             {
               "id": 537,
@@ -18889,7 +18889,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : je ne lui donne rien."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « je ne lui donne rien »."
             },
             {
               "id": 538,
@@ -18922,7 +18922,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « L’hémorragie ; L’asphyxie ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « L’hémorragie ; L’asphyxie »."
             },
             {
               "id": 539,
@@ -18963,7 +18963,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : en faisant un pansement compressif ; en faisant une pression directe sur la plaie avec un linge propre plié ; en appuyant sur les points de compression."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « en faisant un pansement compressif ; en faisant une pression directe sur la plaie avec un linge propre plié ; en appuyant sur les points de compression »."
             },
             {
               "id": 540,
@@ -18994,7 +18994,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Par l’arrêt du mouvement du ventre et de la poitrine ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Par l’arrêt du mouvement du ventre et de la poitrine »."
             },
             {
               "id": 541,
@@ -19035,7 +19035,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « en desserrant les vêtements de la victime ; en pratiquant la respiration bouche à bouche après désobstruction des voies aériennes supérieures ; en mettant le blessé dans la Position Latérale de Sécurité (P.L.S.) ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « en desserrant les vêtements de la victime ; en pratiquant la respiration bouche à bouche après désobstruction des voies aériennes supérieures ; en mettant le blessé dans la Position Latérale de Sécurité (P.L.S.) »."
             },
             {
               "id": 542,
@@ -19067,7 +19067,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Douleur, gonflement, mouvements possibles ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Douleur, gonflement, mouvements possibles »."
             },
             {
               "id": 543,
@@ -19098,7 +19098,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « La sortie du sang hors des vaisseaux sanguins ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « La sortie du sang hors des vaisseaux sanguins »."
             }
           ]
         },
@@ -19146,7 +19146,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « D’un orifice naturel ; A l’extérieur du corps par une plaie ; D’un orifice naturel ou à l’extérieur du corps par une plaie ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « D’un orifice naturel ; A l’extérieur du corps par une plaie ; D’un orifice naturel ou à l’extérieur du corps par une plaie »."
             },
             {
               "id": 545,
@@ -19177,7 +19177,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « A l’intérieur du corps hors des vaisseaux ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « A l’intérieur du corps hors des vaisseaux »."
             },
             {
               "id": 546,
@@ -19208,7 +19208,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « J’empêche la victime de courir, je l’enroule dans une couverture et je l’évacue à l’hôpital ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « J’empêche la victime de courir, je l’enroule dans une couverture et je l’évacue à l’hôpital »."
             },
             {
               "id": 547,
@@ -19240,7 +19240,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je déshabille la victime, je la douche le plus vite possible et je le fais évacuer vers un centre médical ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Je déshabille la victime, je la douche le plus vite possible et je le fais évacuer vers un centre médical »."
             },
             {
               "id": 548,
@@ -19271,7 +19271,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « je rince l’œil pendant au moins 10 minutes avec de l’eau courante et je mets une compresse, puis je l’évacue chez l’ophtalmologiste ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « je rince l’œil pendant au moins 10 minutes avec de l’eau courante et je mets une compresse, puis je l’évacue chez l’ophtalmologiste »."
             },
             {
               "id": 549,
@@ -19302,7 +19302,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « je soulève légèrement sa tête, un aide le tire par les pieds en le glissant sur le sol dans l’axe du corps ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « je soulève légèrement sa tête, un aide le tire par les pieds en le glissant sur le sol dans l’axe du corps »."
             },
             {
               "id": 550,
@@ -19337,7 +19337,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Elle permet à la victime d’être couché sur le côté, d’éviter la chute de la langue en arrière, l’encombrement des voies respiratoires par le sang, le vomissement et la mucosité."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Elle permet à la victime d’être couché sur le côté, d’éviter la chute de la langue en arrière, l’encombrement des voies respiratoires par le sang, le vomissement et la mucosité »."
             },
             {
               "id": 551,
@@ -19373,7 +19373,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Il permet de réanimer une victime qui présente un arrêt circulatoire ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Il permet de réanimer une victime qui présente un arrêt circulatoire »."
             },
             {
               "id": 552,
@@ -19404,7 +19404,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Lorsque les ligaments sont déchirés, l’articulation déboitée ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Lorsque les ligaments sont déchirés, l’articulation déboitée »."
             },
             {
               "id": 553,
@@ -19435,7 +19435,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Lorsqu’il y a étirement ou  déchirure des ligaments, les surfaces articulaires restent en contact ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Lorsqu’il y a étirement ou  déchirure des ligaments, les surfaces articulaires restent en contact »."
             },
             {
               "id": 554,
@@ -19466,7 +19466,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je dois le remuer le moins possible et respecter le bloc tête-cou- tronc ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Je dois le remuer le moins possible et respecter le bloc tête-cou- tronc »."
             },
             {
               "id": 555,
@@ -19497,7 +19497,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « La rupture brutale d’un os ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « La rupture brutale d’un os »."
             },
             {
               "id": 556,
@@ -19528,7 +19528,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Un os est cassé et ne prend pas contact avec l’extérieur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Un os est cassé et ne prend pas contact avec l’extérieur »."
             },
             {
               "id": 557,
@@ -19560,7 +19560,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Un os est cassé et prend  contact avec l’extérieur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Un os est cassé et prend  contact avec l’extérieur »."
             },
             {
               "id": 558,
@@ -19595,7 +19595,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « lourdeur de tête – picotement des yeux – lourdeurs des paupières ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « lourdeur de tête – picotement des yeux – lourdeurs des paupières »."
             },
             {
               "id": 559,
@@ -19626,7 +19626,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Oui."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Oui »."
             },
             {
               "id": 560,
@@ -19657,7 +19657,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Réduit les facultés mentales et physiques du conducteur."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « Réduit les facultés mentales et physiques du conducteur »."
             },
             {
               "id": 561,
@@ -19692,7 +19692,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : rien de tout ce qui précède."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « rien de tout ce qui précède »."
             },
             {
               "id": 562,
@@ -19725,7 +19725,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : si je fais ralentir un véhicule 139 ; si j’oblige un usager à changer de voie."
+              "explanation": "Règles sur autoroute : Réservée aux véhicules rapides à moteur. Sont formellement interdits : faire demi-tour, reculer ou stationner sur la bande d'arrêt d'urgence. La réponse officielle est : « si je fais ralentir un véhicule 139 ; si j’oblige un usager à changer de voie »."
             },
             {
               "id": 563,
@@ -19757,7 +19757,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : à l’aide des bornes d’appel d’urgence placées tous les 2km ; à l’aide de mon téléphone portable en composant le numéro d’un service secours."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « à l’aide des bornes d’appel d’urgence placées tous les 2km ; à l’aide de mon téléphone portable en composant le numéro d’un service secours »."
             }
           ]
         },
@@ -19799,7 +19799,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « je règle le siège puis les rétroviseurs et je mets la ceinture ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « je règle le siège puis les rétroviseurs et je mets la ceinture »."
             },
             {
               "id": 565,
@@ -19836,7 +19836,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : 80km/h ; 70km/h ; 60km/h."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « 80km/h ; 70km/h ; 60km/h »."
             },
             {
               "id": 566,
@@ -19871,7 +19871,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : la quantité d’alcool contenue dans un litre de sang."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « la quantité d’alcool contenue dans un litre de sang »."
             },
             {
               "id": 567,
@@ -19908,7 +19908,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : l’alcotest ; l’éthylotest."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « l’alcotest ; l’éthylotest »."
             },
             {
               "id": 568,
@@ -19944,7 +19944,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : analyse de sang ; éthylomètre."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « analyse de sang ; éthylomètre »."
             },
             {
               "id": 569,
@@ -19975,7 +19975,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 9h 15mn ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 9h 15mn »."
             },
             {
               "id": 570,
@@ -20010,7 +20010,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « rien de tout ce qui précède ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « rien de tout ce qui précède »."
             },
             {
               "id": 571,
@@ -20045,7 +20045,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « écouter la radio ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « écouter la radio »."
             },
             {
               "id": 572,
@@ -20082,7 +20082,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : en feux de position ; en feux de croisement."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « en feux de position ; en feux de croisement »."
             },
             {
               "id": 573,
@@ -20114,7 +20114,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : occasionné un accident matériel ; occasionné un accident corporel."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « occasionné un accident matériel ; occasionné un accident corporel »."
             },
             {
               "id": 574,
@@ -20151,7 +20151,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je téléphone ; Je mange un sandwich ; Je bavarde avec les passagers ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je téléphone ; Je mange un sandwich ; Je bavarde avec les passagers »."
             },
             {
               "id": 575,
@@ -20184,7 +20184,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « des effets d’ivresse ; une diminution du champ visuel ; l’euphorie ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « des effets d’ivresse ; une diminution du champ visuel ; l’euphorie »."
             },
             {
               "id": 576,
@@ -20223,7 +20223,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : dégager la chaussée après marquage pour ne pas gêner la circulation ; avertir son assureur (compagnie d’assurance) ; communiquer son identité (adresse) à toute personne impliquée dans l’accident ; rester calme et courtois."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « dégager la chaussée après marquage pour ne pas gêner la circulation ; avertir son assureur (compagnie d’assurance) ; communiquer son identité (adresse) à toute personne impliquée dans l’accident ; rester calme et courtois »."
             },
             {
               "id": 577,
@@ -20260,7 +20260,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « céder le passage aux intersections ; céder le passage aux intersections munies de feux tricolores ; faciliter leurs manœuvres, de croissement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « céder le passage aux intersections ; céder le passage aux intersections munies de feux tricolores ; faciliter leurs manœuvres, de croissement »."
             },
             {
               "id": 578,
@@ -20293,7 +20293,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « bâillement ; picotement des yeux ; somnolence ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « bâillement ; picotement des yeux ; somnolence »."
             },
             {
               "id": 579,
@@ -20330,7 +20330,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « réaction tardive ; mauvaise analyse ; mauvaise appréciation des vitesses ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « réaction tardive ; mauvaise analyse ; mauvaise appréciation des vitesses »."
             },
             {
               "id": 580,
@@ -20362,7 +20362,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « pendant le trajet se reposer régulièrement ; pratiquer l’alternance au volant ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « pendant le trajet se reposer régulièrement ; pratiquer l’alternance au volant »."
             },
             {
               "id": 581,
@@ -20401,7 +20401,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « être en forme pour conduire ; avoir un véhicule en bon état de fonctionnement ; anticiper les situations critiques ; être courtois avec les autres usagers ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « être en forme pour conduire ; avoir un véhicule en bon état de fonctionnement ; anticiper les situations critiques ; être courtois avec les autres usagers »."
             },
             {
               "id": 582,
@@ -20439,7 +20439,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « choisir un bon style de conduite ; bien régler son moteur ; bon gonflage des pneus ; aérodynamisme bien adapté ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « choisir un bon style de conduite ; bien régler son moteur ; bon gonflage des pneus ; aérodynamisme bien adapté »."
             },
             {
               "id": 583,
@@ -20481,7 +20481,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : s’arrêter après marquage ; dégager la chaussée pour ne pas gêner la circulation ; avertir sa compagnie d’assurance ; communiquer son identité et son adresse à toute personne impliquée dans l’accident."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « s’arrêter après marquage ; dégager la chaussée pour ne pas gêner la circulation ; avertir sa compagnie d’assurance ; communiquer son identité et son adresse à toute personne impliquée dans l’accident »."
             }
           ]
         },
@@ -20528,7 +20528,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "L'alcool altère gravement les facultés de conduite : il rétrécit le champ visuel, réduit la vigilance, fausse l'estimation des distances et allonge le temps de réaction."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « diminue le champ de vision, ; réduit la vigilance »."
             },
             {
               "id": 585,
@@ -20560,7 +20560,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « en lisière d’une forêt ; le long d’un cours d’eau ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « en lisière d’une forêt ; le long d’un cours d’eau »."
             },
             {
               "id": 586,
@@ -20593,7 +20593,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Dès que le jour tombe 144 ; Dès qu’il fait nuit."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Dès que le jour tombe 144 ; Dès qu’il fait nuit »."
             },
             {
               "id": 587,
@@ -20624,7 +20624,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Mes feux de position."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Mes feux de position »."
             },
             {
               "id": 588,
@@ -20662,7 +20662,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "L'alcool altère gravement les facultés de conduite : il rétrécit le champ visuel, réduit la vigilance, fausse l'estimation des distances et allonge le temps de réaction."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « Du champ visuel ; Des capacités d’analyse ; Du temps de réaction ; Des habiletés motrices »."
             },
             {
               "id": 589,
@@ -20693,7 +20693,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Au Bénin et selon les standards de sécurité routière, le seuil d'alcoolémie légal à partir duquel la conduite devient répréhensible est fixé à 0,5 g d'alcool par litre de sang."
+              "explanation": "Au Bénin, le taux maximal d'alcoolémie autorisé au volant est fixé à 0,5 g d'alcool par litre de sang (soit 0,25 mg par litre d'air expiré). Au-delà, la conduite constitue une infraction sévèrement réprimée."
             },
             {
               "id": 590,
@@ -20724,7 +20724,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : par deux."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « par deux »."
             },
             {
               "id": 591,
@@ -20756,7 +20756,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : 2 heures."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « 2 heures »."
             },
             {
               "id": 592,
@@ -20788,7 +20788,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Les effets de l’alcool ; Le temps de réaction."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « Les effets de l’alcool ; Le temps de réaction »."
             },
             {
               "id": 593,
@@ -20819,7 +20819,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Toutes les deux heures ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Toutes les deux heures »."
             },
             {
               "id": 594,
@@ -20850,7 +20850,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Entre demi-heure et une heure après absorption."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « Entre demi-heure et une heure après absorption »."
             },
             {
               "id": 595,
@@ -20882,7 +20882,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Le dépistage est positif ; Le conducteur refuse le dépistage."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « Le dépistage est positif ; Le conducteur refuse le dépistage »."
             },
             {
               "id": 596,
@@ -20914,7 +20914,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Si l’on est impliqué dans un accident corporel."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « Si l’on est impliqué dans un accident corporel »."
             },
             {
               "id": 597,
@@ -20950,7 +20950,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le manque de sommeil ; La  visibilité réduite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « Le manque de sommeil ; La  visibilité réduite »."
             },
             {
               "id": 598,
@@ -20982,7 +20982,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Etre bien installé au volant ; Prendre la route après un bon repos ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « Etre bien installé au volant ; Prendre la route après un bon repos »."
             },
             {
               "id": 599,
@@ -21017,7 +21017,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Marquer  une pause ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « Marquer  une pause »."
             },
             {
               "id": 600,
@@ -21049,7 +21049,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Je débranche la batterie des véhicules ; Je coupe le contact des véhicules."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Je débranche la batterie des véhicules ; Je coupe le contact des véhicules »."
             },
             {
               "id": 601,
@@ -21083,7 +21083,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : J’utilise les feux de mon véhicule ; Je fais des signes avec une lampe de poche ; Je place mes triangles de pré signalisation."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « J’utilise les feux de mon véhicule ; Je fais des signes avec une lampe de poche ; Je place mes triangles de pré signalisation »."
             },
             {
               "id": 602,
@@ -21115,7 +21115,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Facultatif ; Recommandé."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Facultatif ; Recommandé »."
             },
             {
               "id": 603,
@@ -21147,7 +21147,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « couvre les dommages occasionnés aux autres ; est aussi appelée assurance aux tiers ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « couvre les dommages occasionnés aux autres ; est aussi appelée assurance aux tiers »."
             }
           ]
         },
@@ -21194,7 +21194,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : exposer ce que j’ai vu aux forces de l’ordre’ ; laisser mes coordonnées pour un témoignage ultérieur."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « exposer ce que j’ai vu aux forces de l’ordre’ ; laisser mes coordonnées pour un témoignage ultérieur »."
             },
             {
               "id": 605,
@@ -21230,7 +21230,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : les couvrir ; pratiquer les gestes qui sauvent."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « les couvrir ; pratiquer les gestes qui sauvent »."
             },
             {
               "id": 606,
@@ -21268,7 +21268,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le lieu précis de l’accident ; le nombre et le type de véhicules impliqués ; le nombre et l’état des blessés ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « le lieu précis de l’accident ; le nombre et le type de véhicules impliqués ; le nombre et l’état des blessés »."
             },
             {
               "id": 607,
@@ -21299,7 +21299,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : baliser les lieux pour éviter un autre accident."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « baliser les lieux pour éviter un autre accident »."
             },
             {
               "id": 608,
@@ -21330,7 +21330,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le coté ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « le coté »."
             },
             {
               "id": 609,
@@ -21361,7 +21361,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « en  enclenchant la 1ère ou la marche en arrière et en actionnant le démarreur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « en  enclenchant la 1ère ou la marche en arrière et en actionnant le démarreur »."
             },
             {
               "id": 610,
@@ -21392,7 +21392,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « recommandée ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « recommandée »."
             },
             {
               "id": 611,
@@ -21424,7 +21424,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « dépend de la charge du véhicule ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « dépend de la charge du véhicule »."
             },
             {
               "id": 612,
@@ -21455,7 +21455,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « un produit détergent spécial ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « un produit détergent spécial »."
             },
             {
               "id": 613,
@@ -21491,7 +21491,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « après un choc violent contre un trottoir ; je ressens des vibrations au niveau du volant ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « après un choc violent contre un trottoir ; je ressens des vibrations au niveau du volant »."
             },
             {
               "id": 614,
@@ -21523,7 +21523,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « les feux ; le système dégivrage de la lunette arrière ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « les feux ; le système dégivrage de la lunette arrière »."
             },
             {
               "id": 615,
@@ -21560,7 +21560,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « faire entretenir régulièrement son véhicule ; éviter de rouler avec une galerie vide sur le toit ; avoir les pneus bien gonflés ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « faire entretenir régulièrement son véhicule ; éviter de rouler avec une galerie vide sur le toit ; avoir les pneus bien gonflés »."
             },
             {
               "id": 616,
@@ -21598,7 +21598,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « après un choc violent ; en cas d’usure  de mes pneus ; si mon véhicule se déporte ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « après un choc violent ; en cas d’usure  de mes pneus ; si mon véhicule se déporte »."
             },
             {
               "id": 617,
@@ -21635,7 +21635,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « la vision ; le confort ; la manipulation des commandes ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « la vision ; le confort ; la manipulation des commandes »."
             },
             {
               "id": 618,
@@ -21668,7 +21668,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « modifier sa trajectoire ; activer ses clignotants ; modifier son allure ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « modifier sa trajectoire ; activer ses clignotants ; modifier son allure »."
             },
             {
               "id": 619,
@@ -21700,7 +21700,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « une intention de dépasser ; l’approche à une intersection la nuit ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « une intention de dépasser ; l’approche à une intersection la nuit »."
             },
             {
               "id": 620,
@@ -21731,7 +21731,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « avertir de ma présence un usager qui ne me regarde pas ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « avertir de ma présence un usager qui ne me regarde pas »."
             },
             {
               "id": 621,
@@ -21764,7 +21764,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « la nuit, en agglomération et hors agglomération ; le jour en agglomération sauf danger immédiat ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « la nuit, en agglomération et hors agglomération ; le jour en agglomération sauf danger immédiat »."
             },
             {
               "id": 622,
@@ -21796,7 +21796,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « contrôler que ma position ne  gêne d’autres usagers ; tenir compte les mouvements des autres usagers ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « contrôler que ma position ne  gêne d’autres usagers ; tenir compte les mouvements des autres usagers »."
             },
             {
               "id": 623,
@@ -21823,7 +21823,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « je ralentis  pour pouvoir m’arrêter le cas échéant ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « je ralentis  pour pouvoir m’arrêter le cas échéant »."
             }
           ]
         },
@@ -21865,7 +21865,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : dès que l’on a trouvé le point de patinage."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « dès que l’on a trouvé le point de patinage »."
             },
             {
               "id": 625,
@@ -21896,7 +21896,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : débrayer en fin de freinage seulement."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « débrayer en fin de freinage seulement »."
             },
             {
               "id": 626,
@@ -21935,7 +21935,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_626_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Panneau / Option B ; Panneau / Option D ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Panneau / Option B ; Panneau / Option D »."
             },
             {
               "id": 627,
@@ -21966,7 +21966,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « de répartir après un ralentissement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « de répartir après un ralentissement »."
             },
             {
               "id": 628,
@@ -21993,7 +21993,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : lâche l’accélérateur."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « lâche l’accélérateur »."
             },
             {
               "id": 629,
@@ -22024,7 +22024,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « si je me retourne bien ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « si je me retourne bien »."
             },
             {
               "id": 630,
@@ -22056,7 +22056,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « dans un virage ; lorsque la circulation est dense et rapide ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « dans un virage ; lorsque la circulation est dense et rapide »."
             },
             {
               "id": 631,
@@ -22092,7 +22092,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « la conduite de nuit ; une dette de sommeil ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « la conduite de nuit ; une dette de sommeil »."
             },
             {
               "id": 632,
@@ -22124,7 +22124,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : je ne dois toucher au téléphone."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « je ne dois toucher au téléphone »."
             },
             {
               "id": 633,
@@ -22159,7 +22159,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « lorsque je suis équipé d’un kit oreillette en cas d’urgence ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « lorsque je suis équipé d’un kit oreillette en cas d’urgence »."
             },
             {
               "id": 634,
@@ -22191,7 +22191,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « je ne dois pas toucher au téléphone ; je prends le téléphone pour vérifier mon correspondant ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « je ne dois pas toucher au téléphone ; je prends le téléphone pour vérifier mon correspondant »."
             },
             {
               "id": 635,
@@ -22222,7 +22222,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Lorsque je suis impliqué dans un accident."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Lorsque je suis impliqué dans un accident »."
             },
             {
               "id": 636,
@@ -22263,7 +22263,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Si je suis sous l’effet de boissons alcoolisées ou de certains médicaments ; Si je suis fatigué ; Si je me sens nerveux ou surexcité ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Si je suis sous l’effet de boissons alcoolisées ou de certains médicaments ; Si je suis fatigué ; Si je me sens nerveux ou surexcité »."
             },
             {
               "id": 637,
@@ -22299,7 +22299,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Augmente le temps de réaction."
+              "explanation": "Santé et aptitude à la conduite : L'alcool, les stupéfiants et la fatigue allongent considérablement le temps de réaction et altèrent le champ visuel. La règle de sécurité prescrit : « Augmente le temps de réaction »."
             },
             {
               "id": 638,
@@ -22334,7 +22334,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : A aucun moment."
+              "explanation": "Règle des feux tricolores : Les feux de signalisation régissent la traversée de l'intersection. La règle officielle confirme que : « A aucun moment »."
             },
             {
               "id": 639,
@@ -22365,7 +22365,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je dois m’abstenir de prendre de l’alcool ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je dois m’abstenir de prendre de l’alcool »."
             },
             {
               "id": 640,
@@ -22396,7 +22396,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : Je conduis toujours avec mon permis de conduire."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « Je conduis toujours avec mon permis de conduire »."
             },
             {
               "id": 641,
@@ -22428,7 +22428,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Me présenter au Centre National de Sécurité Routière pour les dispositions de reprise de mon permis de conduire."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Me présenter au Centre National de Sécurité Routière pour les dispositions de reprise de mon permis de conduire »."
             },
             {
               "id": 642,
@@ -22463,7 +22463,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : D’auditionner le(s) mise(s) en cause, de décider du retrait partiel ou définitif du Permis de conduire et de sensibiliser."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « D’auditionner le(s) mise(s) en cause, de décider du retrait partiel ou définitif du Permis de conduire et de sensibiliser »."
             },
             {
               "id": 643,
@@ -22498,7 +22498,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Rien de tout ce qui précède."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Rien de tout ce qui précède »."
             }
           ]
         },
@@ -22544,7 +22544,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : Le Centre National de Sécurité Routière."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « Le Centre National de Sécurité Routière »."
             },
             {
               "id": 645,
@@ -22576,7 +22576,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Au Centre National de Sécurité Routière."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Au Centre National de Sécurité Routière »."
             }
           ]
         }
@@ -22633,7 +22633,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Sur une motocyclette, le passager doit être assis sur une selle double ou un siège arrière fixe, les pieds sur les repose-pieds, et faire corps avec la machine et le conducteur pour stabiliser la trajectoire."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Doit être assis sur le siège arrière ; Doit faire corps avec la moto et son conducteur »."
             },
             {
               "id": 647,
@@ -22664,7 +22664,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je peux trainer ma moto sur le trottoir, le moteur arrêté ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je peux trainer ma moto sur le trottoir, le moteur arrêté »."
             },
             {
               "id": 648,
@@ -22695,7 +22695,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je dois rester dans ma file sauf pour préparer un changement de direction ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je dois rester dans ma file sauf pour préparer un changement de direction »."
             },
             {
               "id": 649,
@@ -22726,7 +22726,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Après le relèvement de la barrière ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Après le relèvement de la barrière »."
             },
             {
               "id": 650,
@@ -22762,7 +22762,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Pour les motocyclettes 157 ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Pour les motocyclettes 157 »."
             },
             {
               "id": 651,
@@ -22793,7 +22793,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : N’excède pas 75cm3."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « N’excède pas 75cm3 »."
             },
             {
               "id": 652,
@@ -22829,7 +22829,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : Est inférieur à 400cm3 ; Est égale à 400cm3."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « Est inférieur à 400cm3 ; Est égale à 400cm3 »."
             },
             {
               "id": 653,
@@ -22867,7 +22867,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : N’excède pas 450cm3 ; Excède 400cm3 ; Est inférieure à 400cm3 ; Est égale à 400cm3."
+              "explanation": "Le panneau A3 annonce un rétrécissement de la chaussée des deux côtés. La bonne réponse officielle est : « N’excède pas 450cm3 ; Excède 400cm3 ; Est inférieure à 400cm3 ; Est égale à 400cm3 »."
             },
             {
               "id": 654,
@@ -22905,7 +22905,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Niveau d’huile à moteur ; Eau dans le radiateur ; Essence dans le réservoir ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « Niveau d’huile à moteur ; Eau dans le radiateur ; Essence dans le réservoir »."
             },
             {
               "id": 655,
@@ -22936,7 +22936,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Sur la béquille centrale ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Sur la béquille centrale »."
             },
             {
               "id": 656,
@@ -22973,7 +22973,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Aux piétons qui pourraient surgir ; Aux portières qui pourraient s’ouvrir ; Aux véhicules qui pourraient quitter leur stationnement."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Aux piétons qui pourraient surgir ; Aux portières qui pourraient s’ouvrir ; Aux véhicules qui pourraient quitter leur stationnement »."
             },
             {
               "id": 657,
@@ -23010,7 +23010,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « S’habituer progressivement ; Augmenter la distance de sécurité ; Adopter une bonne position de conduite, de freinage et de tenue de route ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « S’habituer progressivement ; Augmenter la distance de sécurité ; Adopter une bonne position de conduite, de freinage et de tenue de route »."
             },
             {
               "id": 658,
@@ -23047,7 +23047,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Position des béquilles ; Bon ajustement du casque (conducteur et passager) ; Réglage des rétroviseurs ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Position des béquilles ; Bon ajustement du casque (conducteur et passager) ; Réglage des rétroviseurs »."
             },
             {
               "id": 659,
@@ -23084,7 +23084,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Casque intégral 159 ; Casque enveloppant."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Casque intégral 159 ; Casque enveloppant »."
             },
             {
               "id": 660,
@@ -23121,7 +23121,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Etre bien assis sur la selle ; Avoir les bras légèrement fléchis ; Garder les genoux contre le réservoir ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Etre bien assis sur la selle ; Avoir les bras légèrement fléchis ; Garder les genoux contre le réservoir »."
             },
             {
               "id": 661,
@@ -23152,7 +23152,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : 16ans."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « 16ans »."
             },
             {
               "id": 662,
@@ -23183,7 +23183,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Sur les motocyclettes ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Sur les motocyclettes »."
             },
             {
               "id": 663,
@@ -23210,7 +23210,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Oui ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Oui »."
             },
             {
               "id": 664,
@@ -23242,7 +23242,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « un ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « un »."
             },
             {
               "id": 665,
@@ -23274,7 +23274,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Si je suis seul ; Pour tous les occupants ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Si je suis seul ; Pour tous les occupants »."
             }
           ]
         },
@@ -23316,7 +23316,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le traumatisme crânien ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le traumatisme crânien »."
             },
             {
               "id": 667,
@@ -23347,7 +23347,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : 18ans."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « 18ans »."
             },
             {
               "id": 668,
@@ -23378,7 +23378,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Avoir un siège muni de courroie-attache ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Avoir un siège muni de courroie-attache »."
             },
             {
               "id": 669,
@@ -23409,7 +23409,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : 21ans."
+              "explanation": "Le panneau A3 annonce un rétrécissement de la chaussée des deux côtés. La bonne réponse officielle est : « 21ans »."
             },
             {
               "id": 670,
@@ -23443,7 +23443,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_670_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Débouché de cycliste venant de gauche seulement."
+              "explanation": "Le panneau de danger A21b annonce le débouché de cyclistes venant de la gauche seulement."
             },
             {
               "id": 671,
@@ -23481,7 +23481,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_671_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je peux rouler à moins de 60km/h ; Je peux rouler à 60km/h strictement."
+              "explanation": "Le panneau B14 impose une limitation de vitesse : interdiction de rouler à une vitesse supérieure à celle indiquée. La bonne réponse officielle est : « Je peux rouler à moins de 60km/h ; Je peux rouler à 60km/h strictement »."
             },
             {
               "id": 672,
@@ -23514,7 +23514,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_672_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : concerne uniquement les conducteurs à moto."
+              "explanation": "Le panneau B14 impose une limitation de vitesse : interdiction de rouler à une vitesse supérieure à celle indiquée. La bonne réponse officielle est : « concerne uniquement les conducteurs à moto »."
             },
             {
               "id": 673,
@@ -23549,7 +23549,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « rien de tout ce  qui précède ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « rien de tout ce  qui précède »."
             },
             {
               "id": 674,
@@ -23584,7 +23584,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « N’est pas autorisée ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « N’est pas autorisée »."
             },
             {
               "id": 675,
@@ -23617,7 +23617,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : 200cm3 ; 400cm3."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « 200cm3 ; 400cm3 »."
             }
           ]
         }
@@ -23674,7 +23674,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Le permis moto A2 autorise la conduite de motocyclettes d'une cylindrée maximale de 400 cm³ dès l'âge de 18 ans."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Pourvus d’un moteur thermique ; Dont la cylindrée dépasse 50cm3 »."
             },
             {
               "id": 677,
@@ -23705,7 +23705,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Le permis moto A2 autorise la conduite de motocyclettes d'une cylindrée maximale de 400 cm³ dès l'âge de 18 ans."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Dont la cylindrée ne dépasse pas 50cm3 »."
             },
             {
               "id": 678,
@@ -23746,7 +23746,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Les avertisseurs ; le rétroviseur gauche ; le frein avant ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Les avertisseurs ; le rétroviseur gauche ; le frein avant »."
             },
             {
               "id": 679,
@@ -23779,7 +23779,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Pour les véhicules légers (Permis B) ou poids lourds (Permis C1/C), les conditions d'âge minimal et de PTAC sont strictement définies par le décret portant réglementation du permis de conduire au Bénin."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Mettre le clignotant ; Ralentir »."
             },
             {
               "id": 680,
@@ -23810,7 +23810,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Me déporter au milieu ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Me déporter au milieu »."
             },
             {
               "id": 681,
@@ -23846,7 +23846,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : pour tracter ma remorque je dois détenir le permis E (B) ; ma remorque  doit porter sa propre plaque d’immatriculation."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « pour tracter ma remorque je dois détenir le permis E (B) ; ma remorque  doit porter sa propre plaque d’immatriculation »."
             },
             {
               "id": 682,
@@ -23888,7 +23888,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_682_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Je peux rouler à 50km/h strictement ; Je peux rouler à moins de 50km/h."
+              "explanation": "Le panneau B14 impose une limitation de vitesse : interdiction de rouler à une vitesse supérieure à celle indiquée. La bonne réponse officielle est : « Je peux rouler à 50km/h strictement ; Je peux rouler à moins de 50km/h »."
             },
             {
               "id": 683,
@@ -23925,7 +23925,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : je peux conduire un véhicule dont le PTAC est inférieur ou égal à 3,5T ; je peux conduire une camionnette dont le PTAC est égal ou inférieur à 3,5T."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « je peux conduire un véhicule dont le PTAC est inférieur ou égal à 3,5T ; je peux conduire une camionnette dont le PTAC est égal ou inférieur à 3,5T »."
             },
             {
               "id": 684,
@@ -23956,7 +23956,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : poids léger."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « poids léger »."
             },
             {
               "id": 685,
@@ -23987,7 +23987,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je fais dépasser l’échelle de 1m à l’arrière ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je fais dépasser l’échelle de 1m à l’arrière »."
             },
             {
               "id": 686,
@@ -24022,7 +24022,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : 90km/h."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « 90km/h »."
             },
             {
               "id": 687,
@@ -24060,7 +24060,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_687_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : je peux rouler à moins de 50km/h ; Je peux rouler à 50km/h strictement."
+              "explanation": "Le panneau B14 impose une limitation de vitesse : interdiction de rouler à une vitesse supérieure à celle indiquée. La bonne réponse officielle est : « je peux rouler à moins de 50km/h ; Je peux rouler à 50km/h strictement »."
             },
             {
               "id": 688,
@@ -24092,7 +24092,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Pour les véhicules légers (Permis B) ou poids lourds (Permis C1/C), les conditions d'âge minimal et de PTAC sont strictement définies par le décret portant réglementation du permis de conduire au Bénin."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « 500kg »."
             }
           ]
         }
@@ -24148,7 +24148,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Pour les véhicules légers (Permis B) ou poids lourds (Permis C1/C), les conditions d'âge minimal et de PTAC sont strictement définies par le décret portant réglementation du permis de conduire au Bénin."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « 21ans »."
             },
             {
               "id": 690,
@@ -24179,7 +24179,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 3m au plus à l’avant et 5m à l’arrière ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 3m au plus à l’avant et 5m à l’arrière »."
             },
             {
               "id": 691,
@@ -24214,7 +24214,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « d’un véhicule tracteur routier et d’une semi-remorque ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « d’un véhicule tracteur routier et d’une semi-remorque »."
             },
             {
               "id": 692,
@@ -24251,7 +24251,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « d’un tracteur routier et de deux semi-remorques ; d’un véhicule articulé et d’une semi-remorque ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « d’un tracteur routier et de deux semi-remorques ; d’un véhicule articulé et d’une semi-remorque »."
             },
             {
               "id": 693,
@@ -24286,7 +24286,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 16,5m ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 16,5m »."
             },
             {
               "id": 694,
@@ -24317,7 +24317,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : 21ans."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « 21ans »."
             },
             {
               "id": 695,
@@ -24352,7 +24352,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : Chrono tachygraphe."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « Chrono tachygraphe »."
             },
             {
               "id": 696,
@@ -24384,7 +24384,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « De la vitesse du véhicule et la distance parcoure ; Du temps de conduite et de repos ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « De la vitesse du véhicule et la distance parcoure ; Du temps de conduite et de repos »."
             },
             {
               "id": 697,
@@ -24416,7 +24416,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : Etre titulaire du permis de conduire catégorie C."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « Etre titulaire du permis de conduire catégorie C »."
             },
             {
               "id": 698,
@@ -24451,7 +24451,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : Rien de tout cela."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « Rien de tout cela »."
             },
             {
               "id": 699,
@@ -24482,7 +24482,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Rétrograder et utiliser au maximum le frein moteur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Rétrograder et utiliser au maximum le frein moteur »."
             },
             {
               "id": 700,
@@ -24513,7 +24513,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « M’assurer que je peux circuler sans causer de dommage aux ouvrages d’art, aux installations aériennes situés au-dessus des voies publiques ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « M’assurer que je peux circuler sans causer de dommage aux ouvrages d’art, aux installations aériennes situés au-dessus des voies publiques »."
             },
             {
               "id": 701,
@@ -24544,7 +24544,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 3,5m ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 3,5m »."
             },
             {
               "id": 702,
@@ -24581,7 +24581,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Permet de descendre à une allure réduite dans une longue et forte pente ; Permet d’éviter l’usure précoce des tambours et des garnitures ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Permet de descendre à une allure réduite dans une longue et forte pente ; Permet d’éviter l’usure précoce des tambours et des garnitures »."
             },
             {
               "id": 703,
@@ -24612,7 +24612,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 0m ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 0m »."
             },
             {
               "id": 704,
@@ -24643,7 +24643,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 3m ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 3m »."
             },
             {
               "id": 705,
@@ -24675,7 +24675,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Serrer ma gauche ; Me déporter au milieu ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Serrer ma gauche ; Me déporter au milieu »."
             },
             {
               "id": 706,
@@ -24707,7 +24707,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Serrer ma droite et mettre le clignotant à gauche ; Respecter les règles de priorité ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Serrer ma droite et mettre le clignotant à gauche ; Respecter les règles de priorité »."
             },
             {
               "id": 707,
@@ -24739,7 +24739,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : Je peux conduire un véhicule de 15tonnes, chargement compris."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « Je peux conduire un véhicule de 15tonnes, chargement compris »."
             },
             {
               "id": 708,
@@ -24771,7 +24771,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : Je peux conduire un véhicule de 36tonnes, chargement compris ; Je peux conduire un véhicule de 7tonnes, chargement compris."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « Je peux conduire un véhicule de 36tonnes, chargement compris ; Je peux conduire un véhicule de 7tonnes, chargement compris »."
             }
           ]
         },
@@ -24813,7 +24813,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le camion ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le camion »."
             },
             {
               "id": 710,
@@ -24845,7 +24845,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Bien régler les injecteurs de mon moteur ; Utiliser un carburant de bonne qualité."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Bien régler les injecteurs de mon moteur ; Utiliser un carburant de bonne qualité »."
             },
             {
               "id": 711,
@@ -24882,7 +24882,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : 2,10m ; 2,15m ; 2,20m."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « 2,10m ; 2,15m ; 2,20m »."
             },
             {
               "id": 712,
@@ -24917,7 +24917,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_712_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « faire un demi-tour si sa hauteur est supérieure à 4,5m ; ralentir, vérifier la gauche et la droite puis passer si sa hauteur ne dépasse pas 4,5m ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « faire un demi-tour si sa hauteur est supérieure à 4,5m ; ralentir, vérifier la gauche et la droite puis passer si sa hauteur ne dépasse pas 4,5m »."
             },
             {
               "id": 713,
@@ -24953,7 +24953,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Sont de couleur blanche à l’avant ; Sont de couleur  rouge à l’arrière."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Sont de couleur blanche à l’avant ; Sont de couleur  rouge à l’arrière »."
             },
             {
               "id": 714,
@@ -24985,7 +24985,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : D’éviter le choc en cas de freinage ; De faciliter aux véhicules légers le dépassement."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « D’éviter le choc en cas de freinage ; De faciliter aux véhicules légers le dépassement »."
             },
             {
               "id": 715,
@@ -25017,7 +25017,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : Emprunter la voie de droite."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « Emprunter la voie de droite »."
             },
             {
               "id": 716,
@@ -25052,7 +25052,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « rien de tout ce qui précède ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « rien de tout ce qui précède »."
             },
             {
               "id": 717,
@@ -25087,7 +25087,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Rien de tout ce qui précède ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Rien de tout ce qui précède »."
             },
             {
               "id": 718,
@@ -25122,7 +25122,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 18m ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 18m »."
             },
             {
               "id": 719,
@@ -25157,7 +25157,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : 45mn."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « 45mn »."
             },
             {
               "id": 720,
@@ -25193,7 +25193,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 50m environ."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « 50m environ »."
             },
             {
               "id": 721,
@@ -25230,7 +25230,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Je ralentis ; J’utilise le ralentisseur ; Je rétrograde ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Je ralentis ; J’utilise le ralentisseur ; Je rétrograde »."
             },
             {
               "id": 722,
@@ -25270,7 +25270,7 @@ window.QCM_DATA = {
                 "assets/images/q_722_2.png",
                 "assets/images/q_722_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : à tout véhicule de transport de marchandises de tourner à gauche ; aux véhicules de transport de marchandises dont le PTAC est inférieur à 3,5T de tourner à gauche ; aux véhicules de transport de marchandises dont le PTAC est supérieur à 3,5T de tourner à gauche."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « à tout véhicule de transport de marchandises de tourner à gauche ; aux véhicules de transport de marchandises dont le PTAC est inférieur à 3,5T de tourner à gauche ; aux véhicules de transport de marchandises dont le PTAC est supérieur à 3,5T de tourner à gauche »."
             },
             {
               "id": 723,
@@ -25308,7 +25308,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_723_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : aux véhicules de transport de marchandises dont le PTAC excède 3,5T de dépasser tout véhicule à moteur à l’exception des véhicules à deux roues sans side-car ; à un véhicule poids lourd de dépasser une voiture."
+              "explanation": "Le panneau B3 interdit de dépasser tous les véhicules à moteur autres que les deux-roues sans side-car. La bonne réponse officielle est : « aux véhicules de transport de marchandises dont le PTAC excède 3,5T de dépasser tout véhicule à moteur à l’exception des véhicules à deux roues sans side-car ; à un véhicule poids lourd de dépasser une voiture »."
             },
             {
               "id": 724,
@@ -25342,7 +25342,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_724_4.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : accès interdit aux véhicules de transport de marchandises dont le PTAC excède 5 ,5T."
+              "explanation": "Le panneau B8-1 (cercle rouge avec camion et panonceau 5,5t) interdit l'accès aux véhicules de transport de marchandises dont le PTAC excède 5,5 tonnes."
             },
             {
               "id": 725,
@@ -25379,7 +25379,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_725_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Accès interdit aux véhicules pesant sur un essieu plus de 2,5T."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Accès interdit aux véhicules pesant sur un essieu plus de 2,5T »."
             },
             {
               "id": 726,
@@ -25412,7 +25412,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_726_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : m’indique une voie  réservée aux véhicules lents à 500m."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « m’indique une voie  réservée aux véhicules lents à 500m »."
             },
             {
               "id": 727,
@@ -25441,7 +25441,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_727_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Accès interdit aux véhicules transportant plus d’une certaine quantité de produits de nature à polluer l’eau."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Accès interdit aux véhicules transportant plus d’une certaine quantité de produits de nature à polluer l’eau »."
             },
             {
               "id": 728,
@@ -25473,7 +25473,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « La douane aux frontières ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « La douane aux frontières »."
             }
           ]
         },
@@ -25520,7 +25520,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Toutes les portes à l’exception de celles de la cabine doivent être scellées ; Les élingues d’attache de la bâche doivent être scellées ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Toutes les portes à l’exception de celles de la cabine doivent être scellées ; Les élingues d’attache de la bâche doivent être scellées »."
             },
             {
               "id": 730,
@@ -25551,7 +25551,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « international ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « international »."
             },
             {
               "id": 731,
@@ -25592,7 +25592,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « la carte grise ; la plaque de tare ; la plaque du constructeur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « la carte grise ; la plaque de tare ; la plaque du constructeur »."
             },
             {
               "id": 732,
@@ -25627,7 +25627,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le code de la route ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le code de la route »."
             },
             {
               "id": 733,
@@ -25666,7 +25666,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le poids à vide ; Le poids total autorisé en charge ; Le poids total roulant autorisé ; La surface ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le poids à vide ; Le poids total autorisé en charge ; Le poids total roulant autorisé ; La surface »."
             },
             {
               "id": 734,
@@ -25697,7 +25697,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Serrer ma gauche ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Serrer ma gauche »."
             },
             {
               "id": 735,
@@ -25729,7 +25729,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Mettre le clignotant à droite ; Ralentir ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Mettre le clignotant à droite ; Ralentir »."
             },
             {
               "id": 736,
@@ -25761,7 +25761,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Me déporter au milieu ; Serrer ma gauche ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Me déporter au milieu ; Serrer ma gauche »."
             },
             {
               "id": 737,
@@ -25792,7 +25792,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Mettre le clignotant à gauche, céder le passage à droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Mettre le clignotant à gauche, céder le passage à droite »."
             },
             {
               "id": 738,
@@ -25825,7 +25825,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Serrer ma droite et mettre le clignotant à gauche ; Respecter les règles de priorité ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Serrer ma droite et mettre le clignotant à gauche ; Respecter les règles de priorité »."
             }
           ]
         }
@@ -25877,7 +25877,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Mettre le clignotant à gauche et appliquer la priorité à droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Mettre le clignotant à gauche et appliquer la priorité à droite »."
             },
             {
               "id": 740,
@@ -25909,7 +25909,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Serrer ma droite et mettre le clignotant à gauche ; Respecter les règles de priorité ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Serrer ma droite et mettre le clignotant à gauche ; Respecter les règles de priorité »."
             },
             {
               "id": 741,
@@ -25949,7 +25949,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Transport de passagers assis uniquement ; Transport de passagers assis sur une longue distance ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Transport de passagers assis uniquement ; Transport de passagers assis sur une longue distance »."
             },
             {
               "id": 742,
@@ -25989,7 +25989,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Transport urbain ; Transport de passagers debout ou assis ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Transport urbain ; Transport de passagers debout ou assis »."
             },
             {
               "id": 743,
@@ -26027,7 +26027,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : 2,10m ; 2,15m ; 2,20m."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « 2,10m ; 2,15m ; 2,20m »."
             },
             {
               "id": 744,
@@ -26063,7 +26063,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Sont de couleur blanche à l’avant ; Sont de couleur rouge à l’arrière."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Sont de couleur blanche à l’avant ; Sont de couleur rouge à l’arrière »."
             },
             {
               "id": 745,
@@ -26098,7 +26098,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « L’extincteur et la boîte de premiers secours ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « L’extincteur et la boîte de premiers secours »."
             },
             {
               "id": 746,
@@ -26133,7 +26133,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : 21ans."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « 21ans »."
             },
             {
               "id": 747,
@@ -26169,7 +26169,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Sous son siège ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Sous son siège »."
             },
             {
               "id": 748,
@@ -26206,7 +26206,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Arrêter le moteur ; Faire évacuer les passagers ; Eviter la panique."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Arrêter le moteur ; Faire évacuer les passagers ; Eviter la panique »."
             },
             {
               "id": 749,
@@ -26243,7 +26243,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Fermer le robinet de carburant ; Couper le circuit électrique ; Placer les triangles de pré signalisation ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Fermer le robinet de carburant ; Couper le circuit électrique ; Placer les triangles de pré signalisation »."
             },
             {
               "id": 750,
@@ -26284,7 +26284,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Rassurer les passagers pour éviter la panique ; Couper le circuit électrique ; Briser les issues de secours en utilisant le marteau pic ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Rassurer les passagers pour éviter la panique ; Couper le circuit électrique ; Briser les issues de secours en utilisant le marteau pic »."
             },
             {
               "id": 751,
@@ -26315,7 +26315,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Obligatoire dans les véhicules de transport en commun de personnes ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Obligatoire dans les véhicules de transport en commun de personnes »."
             },
             {
               "id": 752,
@@ -26347,7 +26347,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « interdit ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « interdit »."
             },
             {
               "id": 753,
@@ -26382,7 +26382,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 90km/h."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « 90km/h »."
             },
             {
               "id": 754,
@@ -26417,7 +26417,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 75km/h."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « 75km/h »."
             },
             {
               "id": 755,
@@ -26452,7 +26452,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 65km/h."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « 65km/h »."
             },
             {
               "id": 756,
@@ -26488,7 +26488,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 60km/h."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « 60km/h »."
             },
             {
               "id": 757,
@@ -26523,7 +26523,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 4h30mn ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 4h30mn »."
             },
             {
               "id": 758,
@@ -26558,7 +26558,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 9h ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 9h »."
             }
           ]
         },
@@ -26600,7 +26600,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : Chrono tachygraphe."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « Chrono tachygraphe »."
             },
             {
               "id": 760,
@@ -26632,7 +26632,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « De la vitesse du véhicule et de la distance parcourue ; Du temps de conduite et de repos ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « De la vitesse du véhicule et de la distance parcourue ; Du temps de conduite et de repos »."
             },
             {
               "id": 761,
@@ -26665,7 +26665,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : D’éviter le une collision en cas de freinage brusque ; De faciliter le dépassement par les véhicules légers."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « D’éviter le une collision en cas de freinage brusque ; De faciliter le dépassement par les véhicules légers »."
             },
             {
               "id": 762,
@@ -26696,7 +26696,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « La voie de droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « La voie de droite »."
             },
             {
               "id": 763,
@@ -26727,7 +26727,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Interdite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Interdite »."
             },
             {
               "id": 764,
@@ -26759,7 +26759,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « interdite ; autorisée après homologation  des aménagements ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « interdite ; autorisée après homologation  des aménagements »."
             },
             {
               "id": 765,
@@ -26797,7 +26797,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_765_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Fin d’interdiction de dépasser aux véhicules de transport de marchandises de plus de 3,5T."
+              "explanation": "Le panneau B34a indique la fin d'interdiction de dépasser pour les poids lourds de transport de marchandises. La bonne réponse officielle est : « Fin d’interdiction de dépasser aux véhicules de transport de marchandises de plus de 3,5T »."
             },
             {
               "id": 766,
@@ -26834,7 +26834,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_766_1.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Fin de voies réservées aux véhicules de transport en commun de personnes."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Fin de voies réservées aux véhicules de transport en commun de personnes »."
             },
             {
               "id": 767,
@@ -26871,7 +26871,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_767_2.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Voie réservée aux autobus."
+              "explanation": "Le panneau B27 (disque bleu avec symbole de bus) réserve obligatoirement la voie aux véhicules de transport en commun de personnes. La bonne réponse officielle est : « Voie réservée aux autobus »."
             },
             {
               "id": 768,
@@ -26908,7 +26908,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Un dispositif réfléchissant rouge ; Un feu rouge visible à 150m en cas de visibilité insuffisante ; Une lanterne rouge ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Un dispositif réfléchissant rouge ; Un feu rouge visible à 150m en cas de visibilité insuffisante ; Une lanterne rouge »."
             },
             {
               "id": 769,
@@ -26942,7 +26942,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_769_3.png"
               ],
-              "explanation": "Les panneaux de danger (triangulaires à fond blanc ou jaune et bord rouge) annoncent un risque potentiel en amont. En rase campagne, ils sont placés à 150 m du danger et en agglomération à 50 m. Ici : Accès interdit aux véhicules ou ensemble de véhicules dont la longueur dépasse 10m."
+              "explanation": "Le panneau B10a interdit l'accès aux véhicules ou ensembles de véhicules dont la longueur dépasse le chiffre indiqué. La bonne réponse officielle est : « Accès interdit aux véhicules ou ensemble de véhicules dont la longueur dépasse 10m »."
             },
             {
               "id": 770,
@@ -26978,7 +26978,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 130km/h ; 110km/h  ou selon la législation en vigueur dans chaque pays."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « 130km/h ; 110km/h  ou selon la législation en vigueur dans chaque pays »."
             },
             {
               "id": 771,
@@ -27013,7 +27013,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 50km/h."
+              "explanation": "Règle de vitesse en agglomération : La vitesse est limitée à 50 km/h pour protéger les usagers vulnérables. La bonne réponse est : « 50km/h »."
             },
             {
               "id": 772,
@@ -27044,7 +27044,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : DR (TCR)."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « DR (TCR) »."
             },
             {
               "id": 773,
@@ -27075,7 +27075,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : 21ans."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « 21ans »."
             },
             {
               "id": 774,
@@ -27111,7 +27111,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : 50m."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « 50m »."
             },
             {
               "id": 775,
@@ -27142,7 +27142,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Rétrograder et utiliser au maximum le frein moteur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Rétrograder et utiliser au maximum le frein moteur »."
             },
             {
               "id": 776,
@@ -27173,7 +27173,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « M’assurer que je peux passer sans causer des dommages aux ouvrages d’art et aux installations aériennes, situés au-dessus des voies publiques ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « M’assurer que je peux passer sans causer des dommages aux ouvrages d’art et aux installations aériennes, situés au-dessus des voies publiques »."
             },
             {
               "id": 777,
@@ -27204,7 +27204,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 3,5m ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 3,5m »."
             },
             {
               "id": 778,
@@ -27240,7 +27240,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : Aucun permis ne l’autorise."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « Aucun permis ne l’autorise »."
             }
           ]
         },
@@ -27282,7 +27282,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Permet de descendre à une allure réduite dans une longue et forte descente ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Permet de descendre à une allure réduite dans une longue et forte descente »."
             },
             {
               "id": 780,
@@ -27313,7 +27313,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 0m ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 0m »."
             },
             {
               "id": 781,
@@ -27344,7 +27344,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 3m ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 3m »."
             },
             {
               "id": 782,
@@ -27375,7 +27375,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 13tonnes ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 13tonnes »."
             },
             {
               "id": 783,
@@ -27407,7 +27407,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « du poids du véhicule, les réservoirs remplis avec les équipements de bord ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « du poids du véhicule, les réservoirs remplis avec les équipements de bord »."
             },
             {
               "id": 784,
@@ -27444,7 +27444,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : le conducteur ; les passagers d’un autocar ; les enfants à bord d’un véhicule de transport d’enfants."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « le conducteur ; les passagers d’un autocar ; les enfants à bord d’un véhicule de transport d’enfants »."
             },
             {
               "id": 785,
@@ -27477,7 +27477,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « les feux de détresse ; les feux du véhicule ; l’alimentation électrique du moteur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « les feux de détresse ; les feux du véhicule ; l’alimentation électrique du moteur »."
             },
             {
               "id": 786,
@@ -27508,7 +27508,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : 1mm."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « 1mm »."
             },
             {
               "id": 787,
@@ -27543,7 +27543,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « mon sac à main ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « mon sac à main »."
             },
             {
               "id": 788,
@@ -27581,7 +27581,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « la soute pour tous les bagages ; le porte-bagage de l’intérieur pour les colis légers ; le porte-bagage du dessus du toit pour les bagages légers ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « la soute pour tous les bagages ; le porte-bagage de l’intérieur pour les colis légers ; le porte-bagage du dessus du toit pour les bagages légers »."
             },
             {
               "id": 789,
@@ -27617,7 +27617,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : lors de la montée et de la descente des enfants ; lors de l’arrêt du véhicule."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « lors de la montée et de la descente des enfants ; lors de l’arrêt du véhicule »."
             },
             {
               "id": 790,
@@ -27648,7 +27648,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 1an ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 1an »."
             },
             {
               "id": 791,
@@ -27683,7 +27683,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 2ans ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 2ans »."
             },
             {
               "id": 792,
@@ -27718,7 +27718,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 5ans ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 5ans »."
             },
             {
               "id": 793,
@@ -27754,7 +27754,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Rien de tout ce qui précède ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Rien de tout ce qui précède »."
             },
             {
               "id": 794,
@@ -27785,7 +27785,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Le véhicule descendant."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Le véhicule descendant »."
             },
             {
               "id": 795,
@@ -27816,7 +27816,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : Le camion."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « Le camion »."
             },
             {
               "id": 796,
@@ -27847,7 +27847,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le camion ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le camion »."
             },
             {
               "id": 797,
@@ -27878,7 +27878,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Me déporter au milieu ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Me déporter au milieu »."
             },
             {
               "id": 798,
@@ -27911,7 +27911,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Mettre le clignotant à droite ; Ralentir ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Mettre le clignotant à droite ; Ralentir »."
             }
           ]
         }
@@ -27963,7 +27963,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Me déporter au milieu ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Me déporter au milieu »."
             },
             {
               "id": 800,
@@ -27998,7 +27998,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Explosion."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Explosion »."
             },
             {
               "id": 801,
@@ -28029,7 +28029,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Les deux soupapes sont fermées ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Les deux soupapes sont fermées »."
             },
             {
               "id": 802,
@@ -28061,7 +28061,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le piston descend ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le piston descend »."
             },
             {
               "id": 803,
@@ -28092,7 +28092,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le carburateur produit un mélange gazeux ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le carburateur produit un mélange gazeux »."
             },
             {
               "id": 804,
@@ -28128,7 +28128,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « La batterie accumule le courant ; La batterie fournit l’énergie nécessaire au démarrage du moteur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « La batterie accumule le courant ; La batterie fournit l’énergie nécessaire au démarrage du moteur »."
             },
             {
               "id": 805,
@@ -28163,7 +28163,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le radiateur contribue au refroidissement du moteur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le radiateur contribue au refroidissement du moteur »."
             },
             {
               "id": 806,
@@ -28194,7 +28194,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Le réservoir et le carburateur."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Le réservoir et le carburateur »."
             },
             {
               "id": 807,
@@ -28226,7 +28226,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « la bobine transforme le courant primaire de la batterie en courant secondaire ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « la bobine transforme le courant primaire de la batterie en courant secondaire »."
             },
             {
               "id": 808,
@@ -28257,7 +28257,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « L’allumeur distribue du courant aux bougies ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « L’allumeur distribue du courant aux bougies »."
             },
             {
               "id": 809,
@@ -28288,7 +28288,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Batterie – bobine – allumeur – bougies."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Batterie – bobine – allumeur – bougies »."
             },
             {
               "id": 810,
@@ -28319,7 +28319,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Essence – air – courant électrique."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Essence – air – courant électrique »."
             },
             {
               "id": 811,
@@ -28355,7 +28355,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Joint de culasse brûlé ; Culasse bombée."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Joint de culasse brûlé ; Culasse bombée »."
             },
             {
               "id": 812,
@@ -28387,7 +28387,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Deux feux de position – deux clignotants – deux feux stop – deux cataphotes – feux plaques d’immatriculation 192."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Deux feux de position – deux clignotants – deux feux stop – deux cataphotes – feux plaques d’immatriculation 192 »."
             },
             {
               "id": 813,
@@ -28418,7 +28418,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : une mauvaise adhérence."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « une mauvaise adhérence »."
             },
             {
               "id": 814,
@@ -28449,7 +28449,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Trois sortes."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Trois sortes »."
             },
             {
               "id": 815,
@@ -28484,7 +28484,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 0 à 9 mois ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 0 à 9 mois »."
             },
             {
               "id": 816,
@@ -28519,7 +28519,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : 9 mois à 4 ans."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « 9 mois à 4 ans »."
             },
             {
               "id": 817,
@@ -28556,7 +28556,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Bielles coulées 193 ; Moteur bloqué."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Bielles coulées 193 ; Moteur bloqué »."
             },
             {
               "id": 818,
@@ -28587,7 +28587,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « L’échauffement du moteur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « L’échauffement du moteur »."
             }
           ]
         },
@@ -28629,7 +28629,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Le circuit de charge interrompue ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Le circuit de charge interrompue »."
             },
             {
               "id": 820,
@@ -28664,7 +28664,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : 3 pompes."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « 3 pompes »."
             },
             {
               "id": 821,
@@ -28701,7 +28701,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Pompe à essence ; Pompe à huile ; Pompe à eau."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Pompe à essence ; Pompe à huile ; Pompe à eau »."
             },
             {
               "id": 822,
@@ -28733,7 +28733,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « 20m ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « 20m »."
             },
             {
               "id": 823,
@@ -28765,7 +28765,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Les feux de position ; Les feux de croisement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Les feux de position ; Les feux de croisement »."
             },
             {
               "id": 824,
@@ -28797,7 +28797,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Les feux de position ; Les feux de croisement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Les feux de position ; Les feux de croisement »."
             },
             {
               "id": 825,
@@ -28832,7 +28832,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Tous les jours."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Tous les jours »."
             },
             {
               "id": 826,
@@ -28868,7 +28868,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Tous les jours ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Tous les jours »."
             },
             {
               "id": 827,
@@ -28903,7 +28903,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « L’eau distillée ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « L’eau distillée »."
             },
             {
               "id": 828,
@@ -28938,7 +28938,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Au  tableau de bord ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Au  tableau de bord »."
             },
             {
               "id": 829,
@@ -28969,7 +28969,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Sur le tableau de bord."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Sur le tableau de bord »."
             },
             {
               "id": 830,
@@ -29004,7 +29004,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Du manque de carburant."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Du manque de carburant »."
             },
             {
               "id": 831,
@@ -29040,7 +29040,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : les cosses mal serrées sur les bornes 196."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « les cosses mal serrées sur les bornes 196 »."
             },
             {
               "id": 832,
@@ -29075,7 +29075,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Arrêter le moteur, le laisser se refroidir, mettre de l’eau et consulter  après un garagiste ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Arrêter le moteur, le laisser se refroidir, mettre de l’eau et consulter  après un garagiste »."
             },
             {
               "id": 833,
@@ -29106,7 +29106,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « –  La carte grise - le certificat d’assurance - la vignette de l’année en cours - la visite technique ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « –  La carte grise - le certificat d’assurance - la vignette de l’année en cours - la visite technique »."
             },
             {
               "id": 834,
@@ -29142,7 +29142,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « cinq ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « cinq »."
             },
             {
               "id": 835,
@@ -29173,7 +29173,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Avec la plaque d’immatriculation homologuée par le service chargé des transports ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Avec la plaque d’immatriculation homologuée par le service chargé des transports »."
             },
             {
               "id": 836,
@@ -29205,7 +29205,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Par temps de pluie ; Quand le pare brise est sale ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Par temps de pluie ; Quand le pare brise est sale »."
             },
             {
               "id": 837,
@@ -29236,7 +29236,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : 100m environ."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « 100m environ »."
             },
             {
               "id": 838,
@@ -29267,7 +29267,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Les feux de croisement."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Les feux de croisement »."
             }
           ]
         },
@@ -29309,7 +29309,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Règle du Code : Le stationnement ou l'arrêt ne doit jamais gêner la visibilité ni bloquer le passage des autres usagers ou des véhicules de secours. La disposition légale applicable est : les feux de position."
+              "explanation": "Règle d'arrêt et de stationnement : Le véhicule doit être immobilisé sans gêner la circulation ni masquer la visibilité des autres usagers. La disposition légale est : « les feux de position »."
             },
             {
               "id": 840,
@@ -29350,7 +29350,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : indiquer que je suis en panne ; indiquer que je suis le dernier d’un  convoi."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « indiquer que je suis en panne ; indiquer que je suis le dernier d’un  convoi »."
             },
             {
               "id": 841,
@@ -29381,7 +29381,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Je ne peux pas circuler."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Je ne peux pas circuler »."
             },
             {
               "id": 842,
@@ -29412,7 +29412,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « A signaler la position d’un véhicule en panne sur la chaussée ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « A signaler la position d’un véhicule en panne sur la chaussée »."
             },
             {
               "id": 843,
@@ -29443,7 +29443,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « A éteindre un début d’incendie sur un véhicule ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « A éteindre un début d’incendie sur un véhicule »."
             },
             {
               "id": 844,
@@ -29474,7 +29474,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Est obligatoire pour tout déplacement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Secourisme routier (Protéger, Alerter, Secourir) : En présence d'un accident, il faut sécuriser la zone, prévenir les secours et éviter tout geste dangereux (ne pas déplacer un blessé sauf péril imminent). La bonne pratique est : « Est obligatoire pour tout déplacement »."
             },
             {
               "id": 845,
@@ -29507,7 +29507,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Bien régler le moteur de mon véhicule ; Utiliser un carburant de bonne qualité."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Bien régler le moteur de mon véhicule ; Utiliser un carburant de bonne qualité »."
             },
             {
               "id": 846,
@@ -29538,7 +29538,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Du kilométrage parcouru."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Du kilométrage parcouru »."
             },
             {
               "id": 847,
@@ -29569,7 +29569,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Tous les jours."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Tous les jours »."
             },
             {
               "id": 848,
@@ -29610,7 +29610,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Un court-circuit ; Fuite d’essence ; Les flammes de la tuyauterie d’échappement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Un court-circuit ; Fuite d’essence ; Les flammes de la tuyauterie d’échappement »."
             },
             {
               "id": 849,
@@ -29642,7 +29642,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : La surcharge et le défaut de gonflage ; Le démarrage violent et les coups de trottoir."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « La surcharge et le défaut de gonflage ; Le démarrage violent et les coups de trottoir »."
             },
             {
               "id": 850,
@@ -29679,7 +29679,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « les véhicules de transport de marchandises 200 ; les véhicules de transport en commun de personnes ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « les véhicules de transport de marchandises 200 ; les véhicules de transport en commun de personnes »."
             },
             {
               "id": 851,
@@ -29716,7 +29716,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « obligatoires ; de couleur rouge ; visibles la nuit par temps clair à une distance de 100m quand ils sont éclairés par les feux de route ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « obligatoires ; de couleur rouge ; visibles la nuit par temps clair à une distance de 100m quand ils sont éclairés par les feux de route »."
             },
             {
               "id": 852,
@@ -29753,7 +29753,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Un dispositif réfléchissant rouge ; Un feu rouge visible à 150m en cas de visibilité insuffisante ; Une lanterne rouge ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Un dispositif réfléchissant rouge ; Un feu rouge visible à 150m en cas de visibilité insuffisante ; Une lanterne rouge »."
             },
             {
               "id": 853,
@@ -29784,7 +29784,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : 100m environ."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « 100m environ »."
             },
             {
               "id": 854,
@@ -29815,7 +29815,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Feux de croisement."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Feux de croisement »."
             },
             {
               "id": 855,
@@ -29853,7 +29853,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Les bougies défectueuses ; L’allumeur déréglé ; La vis platinée déréglée."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Les bougies défectueuses ; L’allumeur déréglé ; La vis platinée déréglée »."
             },
             {
               "id": 856,
@@ -29884,7 +29884,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Deux ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Deux »."
             },
             {
               "id": 857,
@@ -29916,7 +29916,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Un cric ; Une roue secours ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Un cric ; Une roue secours »."
             },
             {
               "id": 858,
@@ -29947,7 +29947,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Maintient efficacement le conducteur et les passagers sur leur siège en cas d’accident, de collision ou de freinage brusque."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Maintient efficacement le conducteur et les passagers sur leur siège en cas d’accident, de collision ou de freinage brusque »."
             }
           ]
         },
@@ -29994,7 +29994,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Réservoir – pompe à essence – carburateur ; Réservoir – Pompe à essence – pompe à injection - injecteurs."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Réservoir – pompe à essence – carburateur ; Réservoir – Pompe à essence – pompe à injection - injecteurs »."
             },
             {
               "id": 860,
@@ -30031,7 +30031,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « je jette du sable ou de la terre à la base des flammes ; j’utilise l’extincteur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « je jette du sable ou de la terre à la base des flammes ; j’utilise l’extincteur »."
             },
             {
               "id": 861,
@@ -30062,7 +30062,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « certains niveaux ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « certains niveaux »."
             },
             {
               "id": 862,
@@ -30105,7 +30105,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « je cale le véhicule et sors la roue secours, la clé de roue et le cric, ; je desserre les écrous ; je débloque et libère la roue crevée, ; je mets la roue secours et resserrer les écroues, ; je soulève le véhicule du coté de la crevaison. ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « je cale le véhicule et sors la roue secours, la clé de roue et le cric, ; je desserre les écrous ; je débloque et libère la roue crevée, ; je mets la roue secours et resserrer les écroues, ; je soulève le véhicule du coté de la crevaison. »."
             },
             {
               "id": 863,
@@ -30136,7 +30136,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « la carte grise ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « la carte grise »."
             },
             {
               "id": 864,
@@ -30167,7 +30167,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « tous les ans ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « tous les ans »."
             },
             {
               "id": 865,
@@ -30199,7 +30199,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « A couvrir les dégâts causés à autrui ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « A couvrir les dégâts causés à autrui »."
             },
             {
               "id": 866,
@@ -30230,7 +30230,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « avec la visite technique ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « avec la visite technique »."
             },
             {
               "id": 867,
@@ -30266,7 +30266,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « pour les véhicules de transport en commun de personnes ; pour les véhicules de transport de marchandises ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « pour les véhicules de transport en commun de personnes ; pour les véhicules de transport de marchandises »."
             },
             {
               "id": 868,
@@ -30302,7 +30302,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : La tenue de route est améliorée ; L’adhérence  est bonne."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « La tenue de route est améliorée ; L’adhérence  est bonne »."
             },
             {
               "id": 869,
@@ -30337,7 +30337,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « peut diminuer l’étanchéité de la roue ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « peut diminuer l’étanchéité de la roue »."
             },
             {
               "id": 870,
@@ -30373,7 +30373,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dispositions de sécurité routière : Le respect de ces précautions est obligatoire pour préserver la vie des occupants et des tiers. La règle impose que : Rien de tout ce qui précède."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Rien de tout ce qui précède »."
             },
             {
               "id": 871,
@@ -30404,7 +30404,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : 1,6mm."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « 1,6mm »."
             },
             {
               "id": 872,
@@ -30440,7 +30440,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : 30m pour les feux de croisement ; 100m pour les feux de route."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « 30m pour les feux de croisement ; 100m pour les feux de route »."
             },
             {
               "id": 873,
@@ -30471,7 +30471,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « plus d’essence ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « plus d’essence »."
             },
             {
               "id": 874,
@@ -30506,7 +30506,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « est relié au moteur et entraine le véhicule ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « est relié au moteur et entraine le véhicule »."
             },
             {
               "id": 875,
@@ -30544,7 +30544,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « à l’avant ; à l’arrière ; à l’avant et à l’arrière ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « à l’avant ; à l’arrière ; à l’avant et à l’arrière »."
             },
             {
               "id": 876,
@@ -30579,7 +30579,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « si les roues motrices sont  à l’avant ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « si les roues motrices sont  à l’avant »."
             },
             {
               "id": 877,
@@ -30614,7 +30614,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « si les roues motrices sont à l’arrière ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « si les roues motrices sont à l’arrière »."
             },
             {
               "id": 878,
@@ -30649,7 +30649,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « à l’avant ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « à l’avant »."
             }
           ]
         },
@@ -30697,7 +30697,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : de croisement ; de brouillard avant ; de brouillard arrière."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « de croisement ; de brouillard avant ; de brouillard arrière »."
             },
             {
               "id": 880,
@@ -30730,7 +30730,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « allongent la distance de freinage ; compliquent la tenue de route ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « allongent la distance de freinage ; compliquent la tenue de route »."
             },
             {
               "id": 881,
@@ -30772,7 +30772,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le technicien préposé ; le pompiste ; le gardien ; tout usager capable de s’en servir ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « le technicien préposé ; le pompiste ; le gardien ; tout usager capable de s’en servir »."
             },
             {
               "id": 882,
@@ -30813,7 +30813,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Mon permis de conduite ; La carte grise ; L’assurance et la visite technique ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Mon permis de conduite ; La carte grise ; L’assurance et la visite technique »."
             },
             {
               "id": 883,
@@ -30850,7 +30850,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « si le chargement fait cabrer l’avant du véhicule ; si je charge des bagages sur le toit ; si je tracte une caravane ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « si le chargement fait cabrer l’avant du véhicule ; si je charge des bagages sur le toit ; si je tracte une caravane »."
             },
             {
               "id": 884,
@@ -30888,7 +30888,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : usure plus rapide ; la carcasse se fatigue plus vite ; détérioration des composantes internes du pneu."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « usure plus rapide ; la carcasse se fatigue plus vite ; détérioration des composantes internes du pneu »."
             },
             {
               "id": 885,
@@ -30925,7 +30925,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : la pression à froid ; la présence du bouchon de valve ; les écrous de fixation des roues."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « la pression à froid ; la présence du bouchon de valve ; les écrous de fixation des roues »."
             },
             {
               "id": 886,
@@ -30962,7 +30962,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « tenue de route réduite ; instabilité ; risque de renversement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « tenue de route réduite ; instabilité ; risque de renversement »."
             },
             {
               "id": 887,
@@ -30994,7 +30994,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « de pneus spéciaux ; de pneus à crampons ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « de pneus spéciaux ; de pneus à crampons »."
             },
             {
               "id": 888,
@@ -31031,7 +31031,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « mes feux de croisement ; mes feux de brouillard avant ; mon ou mes feux de brouillard arrière ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « mes feux de croisement ; mes feux de brouillard avant ; mon ou mes feux de brouillard arrière »."
             },
             {
               "id": 889,
@@ -31068,7 +31068,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « la ventilation et le chauffage ; le dégivreur arrière ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « la ventilation et le chauffage ; le dégivreur arrière »."
             },
             {
               "id": 890,
@@ -31105,7 +31105,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le lave-glace ; les essuie-glaces ; le pare-soleil ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « le lave-glace ; les essuie-glaces ; le pare-soleil »."
             },
             {
               "id": 891,
@@ -31136,7 +31136,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « la  carte  routière ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « la  carte  routière »."
             },
             {
               "id": 892,
@@ -31167,7 +31167,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Tournant  bleus."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Tournant  bleus »."
             },
             {
               "id": 893,
@@ -31194,7 +31194,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « d’un indice formel ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « d’un indice formel »."
             },
             {
               "id": 894,
@@ -31226,7 +31226,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « par une odeur ; par un bruit ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « par une odeur ; par un bruit »."
             },
             {
               "id": 895,
@@ -31259,7 +31259,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Sur le confort ; Sur la consommation ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Sur le confort ; Sur la consommation »."
             },
             {
               "id": 896,
@@ -31295,7 +31295,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « La vignette fiscale en haut, à droite ; Le certificat d’assurance en bas, à droite ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « La vignette fiscale en haut, à droite ; Le certificat d’assurance en bas, à droite »."
             },
             {
               "id": 897,
@@ -31333,7 +31333,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Ma responsabilité est engagée ; Je ne portais pas la ceinture ; Je conduisais avec une alcoolémie positive ; Je ne portais pas les lunettes mentionnées sur mon permis ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Ma responsabilité est engagée ; Je ne portais pas la ceinture ; Je conduisais avec une alcoolémie positive ; Je ne portais pas les lunettes mentionnées sur mon permis »."
             },
             {
               "id": 898,
@@ -31365,7 +31365,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : une influence sur la tenue de route ; a une influence sur la suspension."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « une influence sur la tenue de route ; a une influence sur la suspension »."
             }
           ]
         },
@@ -31413,7 +31413,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « il n’est pas recommandé de monter des pneus de structures différentes ; il n’est pas recommandé de monter des pneus de marques différentes ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « il n’est pas recommandé de monter des pneus de structures différentes ; il n’est pas recommandé de monter des pneus de marques différentes »."
             },
             {
               "id": 900,
@@ -31450,7 +31450,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le contact permanent du pneu avec la route ; la stabilité du véhicule ; la sécurité ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « le contact permanent du pneu avec la route ; la stabilité du véhicule ; la sécurité »."
             },
             {
               "id": 901,
@@ -31482,7 +31482,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : visuellement avant d’utiliser le véhicule ; au moins une fois par mois avec un manomètre pour la pression."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « visuellement avant d’utiliser le véhicule ; au moins une fois par mois avec un manomètre pour la pression »."
             },
             {
               "id": 902,
@@ -31513,7 +31513,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : je fais immédiatement vérifier mon véhicule."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « je fais immédiatement vérifier mon véhicule »."
             },
             {
               "id": 903,
@@ -31545,7 +31545,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « est indiquée sur le carnet d’entretien du véhicule ; varie selon les véhicules ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « est indiquée sur le carnet d’entretien du véhicule ; varie selon les véhicules »."
             },
             {
               "id": 904,
@@ -31577,7 +31577,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « l’état des cosses 211 ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « l’état des cosses 211 »."
             },
             {
               "id": 905,
@@ -31608,7 +31608,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « je fais vérifier l’étanchéité  du circuit ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « je fais vérifier l’étanchéité  du circuit »."
             },
             {
               "id": 906,
@@ -31645,7 +31645,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « de l’huile à  moteur ; du liquide de frein ; du liquide de refroidissement ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « de l’huile à  moteur ; du liquide de frein ; du liquide de refroidissement »."
             },
             {
               "id": 907,
@@ -31682,7 +31682,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « une lampe de poche ; un tournevis ; un chiffon ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « une lampe de poche ; un tournevis ; un chiffon »."
             },
             {
               "id": 908,
@@ -31709,7 +31709,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « d’utiliser une barre fixée aux points d’ancrage prévus ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « d’utiliser une barre fixée aux points d’ancrage prévus »."
             },
             {
               "id": 909,
@@ -31741,7 +31741,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le levier de vitesse lorsqu’une vitesse n’est enclenchée ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « le levier de vitesse lorsqu’une vitesse n’est enclenchée »."
             },
             {
               "id": 910,
@@ -31768,7 +31768,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Les limitations de vitesse protègent la sécurité de tous : 50 km/h en agglomération, et une vitesse adaptée aux conditions météorologiques et à la visibilité (50 km/h en cas de visibilité inférieure à 50 m). La réponse officielle est : embrayer."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « embrayer »."
             },
             {
               "id": 911,
@@ -31803,7 +31803,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « passer les vitesses ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « passer les vitesses »."
             },
             {
               "id": 912,
@@ -31840,7 +31840,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_912_1.png"
               ],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Panneau / Option C."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Panneau / Option C »."
             },
             {
               "id": 913,
@@ -31871,7 +31871,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le moteur commence à entrainer les roues ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « le moteur commence à entrainer les roues »."
             },
             {
               "id": 914,
@@ -31903,7 +31903,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « d’assurer la liaison progressive entre le moteur et les roues 213 ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « d’assurer la liaison progressive entre le moteur et les roues 213 »."
             },
             {
               "id": 915,
@@ -31940,7 +31940,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « un indicateur de vitesse ; un compteur kilométrique ; une jauge de carburant ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « un indicateur de vitesse ; un compteur kilométrique ; une jauge de carburant »."
             },
             {
               "id": 916,
@@ -31971,7 +31971,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « ne peut voir au travers du pare-brise ou dans ses rétroviseurs ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « ne peut voir au travers du pare-brise ou dans ses rétroviseurs »."
             },
             {
               "id": 917,
@@ -32003,7 +32003,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le type de véhicule ; le réglage des rétroviseurs ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « le type de véhicule ; le réglage des rétroviseurs »."
             },
             {
               "id": 918,
@@ -32030,7 +32030,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : lâche l’accélérateur."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « lâche l’accélérateur »."
             }
           ]
         },
@@ -32071,7 +32071,7 @@ window.QCM_DATA = {
               "images": [
                 "assets/images/q_919_1.png"
               ],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « en circulation ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Les voyants rouges du tableau de bord (batterie, température moteur, pression d'huile, freinage) sont des témoins d'alarme critique : ils imposent l'arrêt d'urgence immédiat dès qu'ils s'allument en circulation."
             },
             {
               "id": 920,
@@ -32103,7 +32103,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « baliser les lieux, ; caler le véhicule, ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « baliser les lieux, ; caler le véhicule, »."
             },
             {
               "id": 921,
@@ -32140,7 +32140,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « extincteur à poudre ; extincteur à mousse ou CO2 ; extincteur polyvalent ABC ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « extincteur à poudre ; extincteur à mousse ou CO2 ; extincteur polyvalent ABC »."
             },
             {
               "id": 922,
@@ -32177,7 +32177,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Si la voiture se déporte à droite ou à gauche au freinage ; Si la course de la pédale est trop longue ; Si j’entends des grincements au freinage."
+              "explanation": "Sécurité des vitesses et distances : Le conducteur doit constamment ajuster son allure et ses distances de sécurité en fonction des conditions de visibilité et du trafic. Ici : « Si la voiture se déporte à droite ou à gauche au freinage ; Si la course de la pédale est trop longue ; Si j’entends des grincements au freinage »."
             },
             {
               "id": 923,
@@ -32215,7 +32215,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « avoir le système d’allumage bien régler ; rouler avec des pneumatiques bien gonflés ; adapter la vitesse au régime du moteur ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « avoir le système d’allumage bien régler ; rouler avec des pneumatiques bien gonflés ; adapter la vitesse au régime du moteur »."
             },
             {
               "id": 924,
@@ -32247,7 +32247,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « le signal de détresse ; le triangle de pré-signalisation ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « le signal de détresse ; le triangle de pré-signalisation »."
             },
             {
               "id": 925,
@@ -32278,7 +32278,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "À l'avant d'un véhicule automobile de tourisme, les feux obligatoires comprennent au minimum deux feux de route (phares), deux feux de croisement (codes), deux feux de position et deux indicateurs de direction (clignotants)."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « deux feux de route – deux indicateurs de changement de direction – deux feux de croisement – deux feux de position »."
             },
             {
               "id": 926,
@@ -32314,7 +32314,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : La batterie – le carburateur – l’alternateur ; La boite régulatrice - l’allumeur et la bougie."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « La batterie – le carburateur – l’alternateur ; La boite régulatrice - l’allumeur et la bougie »."
             },
             {
               "id": 927,
@@ -32346,7 +32346,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Dans un moteur à explosion à 4 temps, le cycle thermodynamique se déroule toujours dans l'ordre suivant : 1) Admission, 2) Compression, 3) Explosion/Détente, 4) Échappement."
+              "explanation": "Dans un moteur à combustion à 4 temps, le cycle complet se compose dans l'ordre de : 1) Admission, 2) Compression, 3) Explosion-Détente (seul temps moteur fournissant de la puissance), et 4) Échappement des gaz."
             },
             {
               "id": 928,
@@ -32377,7 +32377,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Réglementation des titres de conduite au Bénin : Les catégories de permis sont délimitées en fonction de l'âge minimal, du PTAC du véhicule et du nombre de passagers autorisés. La prescription officielle est : Plus de 250 kilogrammes."
+              "explanation": "Réglementation des permis de conduire au Bénin : Les conditions d'âge, de puissance et de PTAC sont strictement définies par le décret d'application du Code de la Route. La disposition applicable est : « Plus de 250 kilogrammes »."
             },
             {
               "id": 929,
@@ -32412,7 +32412,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": false,
               "images": [],
-              "explanation": "Entretien et sécurité mécanique : Le bon état technique du véhicule et de ses organes de sécurité (freinage, suspension, éclairage, pneumatiques) est impératif pour circuler en toute légalité. Ici : Je freine avec la pédale."
+              "explanation": "Mécanique et équipement de sécurité : Le bon fonctionnement des organes essentiels (freins, éclairage, pneumatiques, circuit de charge) garantit la sécurité routière. La réponse technique officielle est : « Je freine avec la pédale »."
             },
             {
               "id": 930,
@@ -32448,7 +32448,7 @@ window.QCM_DATA = {
               ],
               "is_multiple_choice": true,
               "images": [],
-              "explanation": "Selon les dispositions officielles du Code de la Route du Bénin, la bonne réponse est « Les pneus ; Les ressorts et les amortisseurs ». Cette règle vise à assurer la fluidité de la circulation et la sécurité de l'ensemble des usagers de la route."
+              "explanation": "Selon le Code de la Route officiel du Bénin, la disposition applicable à cette situation est : « Les pneus ; Les ressorts et les amortisseurs »."
             }
           ]
         }
