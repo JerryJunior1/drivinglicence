@@ -113,7 +113,18 @@
     confirmTitle: document.getElementById('confirm-title'),
     confirmDesc: document.getElementById('confirm-desc'),
     btnConfirmCancel: document.getElementById('btn-confirm-cancel'),
-    btnConfirmOk: document.getElementById('btn-confirm-ok')
+    btnConfirmOk: document.getElementById('btn-confirm-ok'),
+    // Active Session & Backup elements
+    resumeSessionBanner: document.getElementById('resume-session-banner'),
+    resumeSessionTitle: document.getElementById('resume-session-title'),
+    resumeSessionDesc: document.getElementById('resume-session-desc'),
+    resumeProgressFill: document.getElementById('resume-progress-fill'),
+    btnResumeQuiz: document.getElementById('btn-resume-quiz'),
+    btnResumeLabel: document.getElementById('btn-resume-label'),
+    btnDiscardSession: document.getElementById('btn-discard-session'),
+    btnExportProgress: document.getElementById('btn-export-progress'),
+    btnImportProgress: document.getElementById('btn-import-progress'),
+    importFileInput: document.getElementById('import-file-input')
   };
 
   // ==============================================================================
@@ -225,6 +236,217 @@
 
     dom.headerPassedCount.textContent = passedCount;
     dom.headerTotalSeries.textContent = totalSeries;
+  }
+
+  // ==============================================================================
+  // ACTIVE SESSION AUTOSAVE & PROGRESSION BACKUP / RESTORE
+  // ==============================================================================
+
+  function saveActiveSession() {
+    if (!state.activeSeries || state.isExamBlanc) return;
+
+    // Serialize User Answers Sets into arrays for localStorage
+    const serializedAnswers = {};
+    if (state.userAnswers) {
+      Object.keys(state.userAnswers).forEach(qid => {
+        if (state.userAnswers[qid] && state.userAnswers[qid].size > 0) {
+          serializedAnswers[qid] = Array.from(state.userAnswers[qid]);
+        }
+      });
+    }
+
+    const session = {
+      series: state.activeSeries,
+      chapter: state.activeChapter,
+      quizMode: state.quizMode,
+      currentQIndex: state.currentQIndex,
+      userAnswers: serializedAnswers,
+      validatedQuestions: state.validatedQuestions || {},
+      examSecondsLeft: state.examSecondsLeft,
+      timestamp: Date.now()
+    };
+
+    try {
+      localStorage.setItem('qcm_benin_active_session', JSON.stringify(session));
+    } catch (e) {
+      console.warn("Impossible d'enregistrer la session active:", e);
+    }
+  }
+
+  function clearActiveSession() {
+    try {
+      localStorage.removeItem('qcm_benin_active_session');
+    } catch (e) {}
+    checkAndRenderActiveSessionBanner();
+  }
+
+  function getActiveSession() {
+    try {
+      const raw = localStorage.getItem('qcm_benin_active_session');
+      return raw ? JSON.parse(raw) : null;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function checkAndRenderActiveSessionBanner() {
+    if (!dom.resumeSessionBanner) return;
+    const session = getActiveSession();
+    if (!session || !session.series || session.isExamBlanc) {
+      dom.resumeSessionBanner.style.display = 'none';
+      return;
+    }
+
+    const questions = session.series.questions || [];
+    const total = questions.length || 20;
+    const answeredCount = Object.keys(session.userAnswers || {}).length;
+    const currentNum = Math.min((session.currentQIndex || 0) + 1, total);
+    const percent = Math.round((currentNum / total) * 100);
+
+    const chName = session.chapter ? session.chapter.title : (session.series.chapter_title || "Code de la Route");
+    const sTitle = session.series.title || `Série ${session.series.series_number}`;
+
+    dom.resumeSessionTitle.textContent = `${chName} • ${sTitle}`;
+    dom.resumeSessionDesc.textContent = `Progression sauvegardée : Question ${currentNum} sur ${total} (${answeredCount} question(s) répondue(s)) — ${session.quizMode === 'exam' ? 'Mode Examen' : 'Mode Entraînement'}.`;
+    dom.resumeProgressFill.style.width = `${percent}%`;
+    dom.btnResumeLabel.textContent = `Reprendre la série (Q. ${currentNum}/${total})`;
+
+    dom.resumeSessionBanner.style.display = 'flex';
+  }
+
+  function resumeActiveSession() {
+    const session = getActiveSession();
+    if (!session || !session.series) return;
+
+    state.activeSeries = session.series;
+    state.activeChapter = session.chapter;
+    state.quizMode = session.quizMode || 'training';
+    state.isExamBlanc = false;
+    state.currentQIndex = session.currentQIndex || 0;
+    state.validatedQuestions = session.validatedQuestions || {};
+    state.examSecondsLeft = session.examSecondsLeft || (20 * 60);
+
+    // Restore answers as Sets
+    state.userAnswers = {};
+    if (session.userAnswers) {
+      Object.keys(session.userAnswers).forEach(qid => {
+        state.userAnswers[qid] = new Set(session.userAnswers[qid]);
+      });
+    }
+
+    // Set quiz header badges
+    const ch = state.activeChapter;
+    dom.quizChapterTag.textContent = ch ? `CHAPITRE ${ch.num || ch.id}` : "CODE DE LA ROUTE";
+    dom.quizSeriesTitle.textContent = `${state.activeSeries.title} (${state.activeSeries.range_label})`;
+    dom.quizModeBadge.textContent = state.quizMode === 'exam' ? "Mode Examen Chronométré" : "Mode Entraînement";
+    dom.quizModeBadge.className = `mode-badge ${state.quizMode}`;
+
+    if (state.quizMode === 'exam') {
+      dom.quizTimerBox.style.display = 'flex';
+      updateTimerDisplay();
+      if (state.timerInterval) clearInterval(state.timerInterval);
+      state.timerInterval = setInterval(() => {
+        state.examSecondsLeft--;
+        updateTimerDisplay();
+        saveActiveSession();
+        if (state.examSecondsLeft <= 0) {
+          clearInterval(state.timerInterval);
+          showCustomConfirm({
+            icon: '⏰',
+            title: 'Temps écoulé !',
+            desc: 'La durée maximale de 20 minutes est expirée. Votre examen va être corrigé automatiquement.',
+            confirmText: 'Voir mes résultats',
+            hideCancel: true,
+            onConfirm: () => {
+              finishQuiz();
+            }
+          });
+        }
+      }, 1000);
+    } else {
+      dom.quizTimerBox.style.display = 'none';
+    }
+
+    renderStepperDots();
+    renderCurrentQuestion();
+    showView(dom.viewQuiz);
+  }
+
+  function exportProgress() {
+    const backup = {
+      app: "qcm_code_de_route_benin",
+      version: "2.0",
+      exportDate: new Date().toISOString(),
+      savedProgress: state.savedProgress,
+      activeSession: getActiveSession()
+    };
+    const jsonStr = JSON.stringify(backup, null, 2);
+    const blob = new Blob([jsonStr], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    const dateStr = new Date().toISOString().slice(0, 10);
+    a.href = url;
+    a.download = `progression_code_benin_${dateStr}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+
+    showCustomConfirm({
+      icon: '💾',
+      title: 'Progression sauvegardée !',
+      desc: 'Votre fichier de progression a été téléchargé sur votre appareil. Vous pouvez le garder en sécurité ou le restaurer sur un autre téléphone/ordinateur.',
+      confirmText: 'Parfait',
+      hideCancel: true
+    });
+  }
+
+  function importProgressFromFile(file) {
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const parsed = JSON.parse(e.target.result);
+        let importedProgress = null;
+        if (parsed.savedProgress && typeof parsed.savedProgress === 'object') {
+          importedProgress = parsed.savedProgress;
+        } else if (typeof parsed === 'object') {
+          importedProgress = parsed;
+        }
+
+        if (!importedProgress) throw new Error("Format invalide");
+
+        state.savedProgress = { ...state.savedProgress, ...importedProgress };
+        localStorage.setItem('qcm_benin_progress', JSON.stringify(state.savedProgress));
+
+        if (parsed.activeSession) {
+          localStorage.setItem('qcm_benin_active_session', JSON.stringify(parsed.activeSession));
+        }
+
+        updateGlobalHeaderStats();
+        renderDashboard();
+        checkAndRenderActiveSessionBanner();
+
+        const count = Object.keys(importedProgress).length;
+        showCustomConfirm({
+          icon: '✅',
+          title: 'Progression restaurée !',
+          desc: `Vos données (${count} séries) et votre progression ont été restaurées avec succès.`,
+          confirmText: 'Super !',
+          hideCancel: true
+        });
+      } catch (err) {
+        showCustomConfirm({
+          icon: '⚠️',
+          title: 'Fichier non reconnu',
+          desc: 'Le fichier sélectionné ne semble pas être une sauvegarde valide de progression.',
+          confirmText: 'Fermer',
+          isDanger: true,
+          hideCancel: true
+        });
+      }
+    };
+    reader.readAsText(file);
   }
 
   // ==============================================================================
@@ -363,24 +585,49 @@
       state.quizMode = 'exam';
     });
 
-    // Quiz controls - Quit quiz custom confirmation
+    // Quiz controls - Quit quiz with autosave protection
     dom.btnQuizQuit.addEventListener('click', () => {
+      saveActiveSession();
       showCustomConfirm({
-        icon: '🚪',
-        title: 'Quitter le questionnaire ?',
-        desc: 'Votre progression en cours sur cette série ne sera pas enregistrée.',
-        confirmText: 'Quitter',
+        icon: '💾',
+        title: 'Suspendre le questionnaire ?',
+        desc: `Votre progression est sauvegardée en direct à la question ${state.currentQIndex + 1}/${state.activeSeries.questions.length}. Vous pourrez la reprendre à tout moment depuis le tableau de bord !`,
+        confirmText: 'Sauvegarder & Quitter',
         cancelText: 'Continuer le test',
-        isDanger: true,
+        isDanger: false,
         onConfirm: () => {
           if (state.timerInterval) clearInterval(state.timerInterval);
-          if (state.activeChapter) {
-            showView(dom.viewSeries);
-          } else {
-            showView(dom.viewDashboard);
-          }
+          showView(dom.viewDashboard);
+          renderDashboard();
+          checkAndRenderActiveSessionBanner();
         }
       });
+    });
+
+    // Active session resume and discard buttons
+    dom.btnResumeQuiz.addEventListener('click', resumeActiveSession);
+    dom.btnDiscardSession.addEventListener('click', () => {
+      showCustomConfirm({
+        icon: '🗑️',
+        title: 'Abandonner la série en cours ?',
+        desc: 'Les réponses saisies pour cette session non terminée seront effacées. Vos séries déjà validées restent intactes.',
+        confirmText: 'Abandonner',
+        cancelText: 'Annuler',
+        isDanger: true,
+        onConfirm: () => {
+          clearActiveSession();
+        }
+      });
+    });
+
+    // Backup & Restore
+    dom.btnExportProgress.addEventListener('click', exportProgress);
+    dom.btnImportProgress.addEventListener('click', () => dom.importFileInput.click());
+    dom.importFileInput.addEventListener('change', (e) => {
+      if (e.target.files && e.target.files.length > 0) {
+        importProgressFromFile(e.target.files[0]);
+        e.target.value = '';
+      }
     });
 
     dom.btnQuizPrev.addEventListener('click', goToPreviousQuestion);
@@ -426,6 +673,7 @@
 
   function renderDashboard() {
     if (!state.data) return;
+    checkAndRenderActiveSessionBanner();
     dom.chaptersContainer.innerHTML = '';
 
     state.data.chapters.forEach(ch => {
@@ -662,6 +910,7 @@
     renderStepperDots();
     renderCurrentQuestion();
     showView(dom.viewQuiz);
+    if (!state.isExamBlanc) saveActiveSession();
   }
 
   function updateTimerDisplay() {
@@ -824,6 +1073,7 @@
     }
 
     renderCurrentQuestion();
+    if (!state.isExamBlanc) saveActiveSession();
   }
 
   function validateCurrentTrainingQuestion() {
@@ -833,12 +1083,14 @@
 
     state.validatedQuestions[state.currentQIndex] = true;
     renderCurrentQuestion();
+    if (!state.isExamBlanc) saveActiveSession();
   }
 
   function goToPreviousQuestion() {
     if (state.currentQIndex > 0) {
       state.currentQIndex--;
       renderCurrentQuestion();
+      if (!state.isExamBlanc) saveActiveSession();
     }
   }
 
@@ -847,6 +1099,7 @@
     if (state.currentQIndex < total - 1) {
       state.currentQIndex++;
       renderCurrentQuestion();
+      if (!state.isExamBlanc) saveActiveSession();
     } else {
       // Finish quiz
       finishQuiz();
@@ -893,6 +1146,7 @@
     // Save Progress in LocalStorage (except Exam Blanc which is a random practice)
     if (!state.isExamBlanc) {
       saveProgress(state.activeSeries.series_id, score, total, isPassed);
+      clearActiveSession();
     }
 
     // Cache results
