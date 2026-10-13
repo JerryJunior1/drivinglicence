@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code de la Route Bénin — QCM Officiel (930 Questions)</title>
+  <meta name="description" content="Plateforme officielle d'entraînement au Code de la Route du Bénin. 11 chapitres, 930 questions QCM découpées en séries de 20 questions avec images et corrections. Seuil d'admission : 14/20.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Background decorative glows -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <!-- Main Navigation Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-group" id="btn-home-logo" role="button" tabindex="0" title="Retour à l'accueil">
+        <div class="brand-badge">
+          <span class="flag-stripe green"></span>
+          <span class="flag-stripe yellow"></span>
+          <span class="flag-stripe red"></span>
+        </div>
+        <div class="brand-text">
+          <h1 class="brand-title">Code de la Route <span class="badge-country">Bénin</span></h1>
+          <p class="brand-subtitle">Direction Générale des Transports Terrestres • 930 Questions</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- Quick Stats Pill -->
+        <div class="stats-pill" id="global-stats-pill" title="Progression globale">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          <span>Séries réussies : <strong id="header-passed-count">0</strong>/<span id="header-total-series">51</span></span>
+        </div>
+
+        <!-- Mémento Button -->
+        <button class="btn btn-secondary btn-icon-text" id="btn-nav-memento">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+          <span class="btn-text">Mémento Ch. I</span>
+        </button>
+
+        <!-- Examen Blanc Button -->
+        <button class="btn btn-accent btn-icon-text" id="btn-nav-exam-blanc">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/></svg>
+          <span class="btn-text">Examen Blanc (20 Q)</span>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button class="btn-icon theme-toggle-btn" id="theme-toggle" aria-label="Changer de thème">
+          <svg class="icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- App Main Content Container -->
+  <main class="app-main" id="app-content">
+
+    <!-- VIEW 1: DASHBOARD / CHAPTERS LIST -->
+    <section class="view-panel active" id="view-dashboard">
+      <div class="dashboard-hero">
+        <div class="hero-badge">Préparation Officielle Permis de Conduire</div>
+        <h2 class="hero-title">Révisez le Code avec les 11 Chapitres Officiels</h2>
+        <p class="hero-desc">
+          Entraînez-vous série par série (20 questions par questionnaire) avec toutes les illustrations réelles. 
+          Le seuil d'admission officiel est fixé à <strong>14/20</strong> (70%).
+        </p>
+
+        <!-- Fast Stats Banner -->
+        <div class="hero-stats-grid">
+          <div class="hero-stat-card">
+            <span class="stat-number">930</span>
+            <span class="stat-label">Questions QCM</span>
+          </div>
+          <div class="hero-stat-card">
+            <span class="stat-number">254+</span>
+            <span class="stat-label">Images & Panneaux</span>
+          </div>
+          <div class="hero-stat-card">
+            <span class="stat-number">51</span>
+            <span class="stat-label">Séries d'entraînement</span>
+          </div>
+          <div class="hero-stat-card highlight">
+            <span class="stat-number">14 / 20</span>
+            <span class="stat-label">Seuil d'Admission</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chapter Grid Section -->
+      <div class="section-header">
+        <h3 class="section-title">Sélectionnez un Chapitre pour vous entraîner</h3>
+        <button class="btn btn-sm btn-ghost" id="btn-reset-progress">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M3 21v-5h5"/></svg>
+          Réinitialiser ma progression
+        </button>
+      </div>
+
+      <div class="chapters-grid" id="chapters-container">
+        <!-- Dynamically injected via JavaScript -->
+      </div>
+    </section>
+
+    <!-- VIEW 2: CHAPTER SERIES LIST (All 20-Q questionnaires for chosen chapter) -->
+    <section class="view-panel" id="view-series">
+      <div class="view-header-back">
+        <button class="btn btn-secondary btn-icon-text" id="btn-back-to-chapters">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          <span>Retour aux chapitres</span>
+        </button>
+      </div>
+
+      <div class="chapter-banner-card" id="chapter-banner">
+        <div class="chapter-banner-meta">
+          <span class="chapter-tag" id="banner-chapter-num">Chapitre II</span>
+          <h2 class="chapter-banner-title" id="banner-chapter-title">Signalisations Routières</h2>
+          <p class="chapter-banner-desc" id="banner-chapter-desc">205 questions réparties en 11 séries de 20 questions.</p>
+        </div>
+        <div class="chapter-banner-progress">
+          <div class="radial-progress-wrapper">
+            <div class="progress-bar-stat">
+              <span class="big-percent" id="banner-passed-percent">0%</span>
+              <span class="sub-label">Séries admises (≥14/20)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-header">
+        <h3 class="section-title">Questionnaires du chapitre (20 questions par série)</h3>
+        <div class="mode-selector-pill">
+          <span class="mode-label">Mode par défaut :</span>
+          <label class="toggle-pill active" id="pill-mode-train">
+            <input type="radio" name="default_mode" value="training" checked> Entraînement (Correction immédiate)
+          </label>
+          <label class="toggle-pill" id="pill-mode-exam">
+            <input type="radio" name="default_mode" value="exam"> Examen (Chronométré)
+          </label>
+        </div>
+      </div>
+
+      <div class="series-grid" id="series-container">
+        <!-- Dynamically injected series cards -->
+      </div>
+    </section>
+
+    <!-- VIEW 3: CHAPTER I MÉMENTO / COURS -->
+    <section class="view-panel" id="view-memento">
+      <div class="view-header-back">
+        <button class="btn btn-secondary btn-icon-text" id="btn-back-from-memento">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          <span>Retour au tableau de bord</span>
+        </button>
+      </div>
+
+      <div class="memento-hero">
+        <span class="chapter-tag">Chapitre I</span>
+        <h2 class="hero-title">Généralités, Abréviations & Notions Fondamentales</h2>
+        <p class="hero-desc">
+          Ce chapitre préliminaire regroupe les définitions de référence et le cadre réglementaire du Code de la Route au Bénin.
+        </p>
+      </div>
+
+      <div class="memento-sections-container" id="memento-container">
+        <!-- Injected via JavaScript from course_ch1 -->
+      </div>
+    </section>
+
+    <!-- VIEW 4: INTERACTIVE QUIZ (QCM) -->
+    <section class="view-panel" id="view-quiz">
+      <!-- Quiz Navigation Topbar -->
+      <div class="quiz-topbar">
+        <div class="quiz-topbar-left">
+          <button class="btn btn-icon btn-sm" id="btn-quiz-quit" title="Quitter le questionnaire">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          </button>
+          <div class="quiz-identity">
+            <span class="quiz-chapter-crumb" id="quiz-crumb-chapter">Chapitre II</span>
+            <span class="quiz-series-crumb" id="quiz-crumb-series">Série 1 (Q1 à Q20)</span>
+          </div>
+        </div>
+
+        <div class="quiz-topbar-center">
+          <div class="quiz-timer-pill" id="quiz-timer-box" style="display: none;">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <span id="quiz-timer-display">20:00</span>
+          </div>
+          <span class="badge mode-badge" id="quiz-mode-badge">Mode Entraînement</span>
+        </div>
+
+        <div class="quiz-topbar-right">
+          <span class="quiz-counter"><strong id="quiz-current-q-index">1</strong> / <span id="quiz-total-q-count">20</span></span>
+        </div>
+      </div>
+
+      <!-- Question Stepper Dots Bar -->
+      <div class="stepper-dots-container" id="quiz-stepper-dots">
+        <!-- Interactive pills 1..20 -->
+      </div>
+
+      <!-- Main Question Container -->
+      <div class="quiz-card" id="quiz-card">
+        <!-- Question Header Meta -->
+        <div class="quiz-question-meta">
+          <span class="badge q-number-badge" id="q-official-num">Question N° 1</span>
+          <span class="badge q-choice-type-badge" id="q-choice-type">💡 Choix unique</span>
+          <span class="pass-reminder">Seuil requis : <strong>14/20</strong></span>
+        </div>
+
+        <!-- Question Illustration Area (if image exists) -->
+        <div class="quiz-illustration-wrapper" id="quiz-image-box" style="display: none;">
+          <div class="illustration-card" id="btn-zoom-image" title="Cliquer pour agrandir l'image">
+            <img id="quiz-image-img" src="" alt="Illustration de la question du code">
+            <span class="zoom-hint">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35M11 8v6M8 11h6"/></svg>
+              Agrandir
+            </span>
+          </div>
+        </div>
+
+        <!-- Question Prompt Text -->
+        <h3 class="quiz-prompt-text" id="quiz-prompt">
+          Quelles sont les différentes signalisations Routières ?
+        </h3>
+
+        <!-- Options Container -->
+        <div class="quiz-options-list" id="quiz-options-list">
+          <!-- Dynamically injected choices a, b, c, d -->
+        </div>
+
+        <!-- Instant Feedback Banner (Training Mode) -->
+        <div class="feedback-banner" id="quiz-feedback-banner" style="display: none;">
+          <div class="feedback-icon" id="feedback-icon"></div>
+          <div class="feedback-content">
+            <h4 class="feedback-title" id="feedback-title">Bonne réponse !</h4>
+            <p class="feedback-desc" id="feedback-desc">Réponse officielle : <strong>A</strong></p>
+          </div>
+        </div>
+
+        <!-- Bottom Controls -->
+        <div class="quiz-controls-footer">
+          <button class="btn btn-secondary btn-icon-text" id="btn-quiz-prev" disabled>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+            <span>Précédente</span>
+          </button>
+
+          <div class="footer-center-actions">
+            <!-- Training mode action: Valider -->
+            <button class="btn btn-primary" id="btn-quiz-validate" style="display: none;">
+              Valider ma réponse
+            </button>
+          </div>
+
+          <button class="btn btn-primary btn-icon-text" id="btn-quiz-next">
+            <span id="btn-next-label">Suivante</span>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 5: RESULTS & REVIEW SCREEN (Écran de Résultats & Bilan) -->
+    <section class="view-panel" id="view-results">
+      <div class="results-container">
+        
+        <!-- Big Result Card with Admission Status -->
+        <div class="result-hero-card" id="result-hero-card">
+          <div class="result-celebration-icon" id="result-badge-icon">🎉</div>
+          <span class="result-badge-tag" id="result-status-tag">ADMIS !</span>
+          <h2 class="result-hero-title" id="result-hero-heading">Félicitations, vous avez réussi cette série !</h2>
+          
+          <div class="result-score-display">
+            <div class="big-score">
+              <span class="score-numerator" id="res-score-num">16</span>
+              <span class="score-slash">/</span>
+              <span class="score-denominator" id="res-score-den">20</span>
+            </div>
+            <div class="score-threshold-indicator" id="res-threshold-text">
+              Seuil officiel d'admission : <strong>14 / 20</strong>
+            </div>
+          </div>
+
+          <p class="result-summary-message" id="res-summary-message">
+            Excellent travail ! Vous maîtrisez les notions de cette série.
+          </p>
+
+          <!-- Stat details pills -->
+          <div class="result-metrics-row">
+            <div class="metric-item">
+              <span class="metric-val" id="res-metric-correct">16</span>
+              <span class="metric-lbl">Bonnes réponses</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-val" id="res-metric-wrong">4</span>
+              <span class="metric-lbl">Erreurs</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-val" id="res-metric-percent">80%</span>
+              <span class="metric-lbl">Score final</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-val" id="res-metric-time">04:12</span>
+              <span class="metric-lbl">Temps écoulé</span>
+            </div>
+          </div>
+
+          <!-- Primary Action Buttons Requested by User -->
+          <div class="result-actions-group">
+            <button class="btn btn-secondary btn-icon-text" id="btn-res-restart">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 4v6h6M23 20v-6h-6"/><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/></svg>
+              <span>Recommencer la série</span>
+            </button>
+
+            <button class="btn btn-primary btn-icon-text" id="btn-res-next-series">
+              <span>Passer à la série suivante</span>
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+
+            <button class="btn btn-ghost" id="btn-res-back-series">
+              Retour à la liste des séries
+            </button>
+          </div>
+        </div>
+
+        <!-- Detailed Review of All Errors & Questions (Bilan Détaillé) -->
+        <div class="review-section">
+          <div class="review-header">
+            <div>
+              <h3 class="review-title">Bilan détaillé de vos réponses</h3>
+              <p class="review-subtitle">Consultez vos erreurs et révisez les corrections officielles</p>
+            </div>
+            <div class="review-filter-tabs">
+              <button class="filter-tab active" data-filter="all">Toutes (<span id="count-all-filter">20</span>)</button>
+              <button class="filter-tab" data-filter="mistakes">Erreurs uniquement (<span id="count-mistakes-filter">4</span>)</button>
+              <button class="filter-tab" data-filter="correct">Réussies (<span id="count-correct-filter">16</span>)</button>
+            </div>
+          </div>
+
+          <div class="review-items-list" id="review-items-container">
+            <!-- Injected review cards -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Image Lightbox Modal -->
+  <div class="lightbox-modal" id="image-lightbox" role="dialog" aria-modal="true" aria-label="Agrandissement de l'image">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-dialog">
+      <button class="btn-icon lightbox-close" id="btn-close-lightbox" aria-label="Fermer l'agrandissement">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="lightbox-body">
+        <img id="lightbox-img" src="" alt="Image agrandie">
+      </div>
+      <p class="lightbox-caption" id="lightbox-caption">Illustration officielle du Code de la Route</p>
+    </div>
+  </div>
+
+  <!-- Confirmation Modal (Reset Progress) -->
+  <div class="confirm-modal" id="confirm-modal" role="dialog" aria-modal="true">
+    <div class="confirm-backdrop" id="confirm-backdrop"></div>
+    <div class="confirm-card">
+      <h3 class="confirm-title">Réinitialiser votre progression ?</h3>
+      <p class="confirm-desc">Tous vos scores enregistrés et statuts de validation de séries seront effacés de ce navigateur.</p>
+      <div class="confirm-actions">
+        <button class="btn btn-secondary" id="btn-confirm-cancel">Annuler</button>
+        <button class="btn btn-danger" id="btn-confirm-ok">Confirmer la réinitialisation</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Data and Application Scripts -->
+  <script src="assets/data/qcm_data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
