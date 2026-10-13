@@ -695,17 +695,20 @@
       dom.quizFeedbackBanner.style.display = 'flex';
       const isCorrect = isQuestionAnswerCorrect(q, userSelected);
       const officialStr = q.correct_answers.map(a => a.toUpperCase()).join(', ');
+      const explanationHtml = q.explanation 
+        ? `<div class="feedback-explanation"><strong>💡 Règle & Explication :</strong> ${q.explanation}</div>` 
+        : '';
 
       if (isCorrect) {
         dom.quizFeedbackBanner.className = 'feedback-banner success';
         dom.feedbackIcon.textContent = '✅';
         dom.feedbackTitle.textContent = 'Excellente réponse !';
-        dom.feedbackDesc.innerHTML = `Bonne réponse officielle : <strong>${officialStr}</strong>. Continuez ainsi !`;
+        dom.feedbackDesc.innerHTML = `<div>Bonne réponse officielle : <strong>${officialStr}</strong>.</div>${explanationHtml}`;
       } else {
         dom.quizFeedbackBanner.className = 'feedback-banner danger';
         dom.feedbackIcon.textContent = '❌';
         dom.feedbackTitle.textContent = 'Réponse incorrecte';
-        dom.feedbackDesc.innerHTML = `La bonne réponse officielle est : <strong>${officialStr}</strong>.`;
+        dom.feedbackDesc.innerHTML = `<div>La bonne réponse officielle est : <strong>${officialStr}</strong>.</div>${explanationHtml}`;
       }
       dom.btnQuizValidate.style.display = 'none';
     } else {
@@ -937,6 +940,11 @@
             <strong>Bonne réponse :</strong>
             <span class="val">${correctAnsFormatted}</span>
           </div>
+          ${q.explanation ? `
+          <div class="review-row explanation-row">
+            <strong>💡 Explication :</strong>
+            <span class="explanation-text">${q.explanation}</span>
+          </div>` : ''}
         </div>
       `;
 

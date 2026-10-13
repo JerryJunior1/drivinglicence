@@ -1563,6 +1563,39 @@ body {
   font-weight: 700;
 }
 
+.review-row.explanation-row {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--border-subtle);
+  display: block;
+}
+.review-row.explanation-row strong {
+  display: block;
+  color: var(--color-primary);
+  margin-bottom: 0.25rem;
+}
+.review-row.explanation-row .explanation-text {
+  color: var(--text-secondary);
+  line-height: 1.45;
+  display: block;
+}
+
+.feedback-explanation {
+  margin-top: 0.65rem;
+  padding: 0.65rem 0.85rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius-sm);
+  font-size: 0.86rem;
+  line-height: 1.45;
+  color: var(--text-primary);
+  border-left: 3px solid var(--color-primary);
+}
+.feedback-explanation strong {
+  color: var(--color-primary);
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
 /* ==========================================================================
    MODALS: LIGHTBOX & CONFIRMATION
    ========================================================================== */
