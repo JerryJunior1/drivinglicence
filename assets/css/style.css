@@ -1021,23 +1021,7 @@ body {
   border: 1px solid var(--border-subtle);
 }
 
-.q-choice-type-badge {
-  background: var(--color-accent-light);
-  color: var(--color-accent);
-  font-size: 0.78rem;
-}
-.q-choice-type-badge.multiple {
-  background: var(--color-warning-bg);
-  color: var(--color-warning);
-}
 
-.pass-reminder {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-}
-.pass-reminder strong {
-  color: var(--color-success);
-}
 
 /* Question Illustration Area */
 .quiz-illustration-wrapper {

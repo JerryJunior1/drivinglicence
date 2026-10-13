@@ -68,7 +68,6 @@
     quizStepperDots: document.getElementById('quiz-stepper-dots'),
     quizCard: document.getElementById('quiz-card'),
     qOfficialNum: document.getElementById('q-official-num'),
-    qChoiceType: document.getElementById('q-choice-type'),
     quizImageBox: document.getElementById('quiz-image-box'),
     quizImageImg: document.getElementById('quiz-image-img'),
     btnZoomImage: document.getElementById('btn-zoom-image'),
@@ -630,14 +629,6 @@
     dom.quizCurrentQIndex.textContent = state.currentQIndex + 1;
     dom.qOfficialNum.textContent = `Question Officielle N° ${q.id}`;
 
-    // Choice Type indicator
-    if (q.is_multiple_choice) {
-      dom.qChoiceType.textContent = "⚠️ Choix multiples (plusieurs réponses possibles)";
-      dom.qChoiceType.className = "badge q-choice-type-badge multiple";
-    } else {
-      dom.qChoiceType.textContent = "💡 Choix unique (une seule bonne réponse)";
-      dom.qChoiceType.className = "badge q-choice-type-badge";
-    }
 
     // Image
     if (q.images && q.images.length > 0) {
