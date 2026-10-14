@@ -1245,16 +1245,98 @@
       let imgHtml = '';
       if (q.images && q.images.length > 0) {
         imgHtml = `
-          <div class="review-img-box">
-            <img src="${q.images[0]}" alt="Illustration Question">
+          <div class="review-img-box" title="Cliquer pour agrandir l'image">
+            <img src="${q.images[0]}" alt="Illustration Question ${q.id}">
+            <span class="review-img-zoom-hint">🔍 Zoom</span>
           </div>
         `;
       }
 
-      const userAnsFormatted = item.userAnswers.length > 0 
-        ? item.userAnswers.map(a => a.toUpperCase()).join(', ') 
-        : 'Aucune réponse';
-      const correctAnsFormatted = item.correctAnswers.map(a => a.toUpperCase()).join(', ');
+      const userAnswersSet = new Set(item.userAnswers);
+      const correctAnswersSet = new Set(item.correctAnswers);
+
+      // 1. Build Options breakdown list with badges & images
+      let optionsListHtml = '<div class="review-options-list">';
+      q.options.forEach(opt => {
+        const isUser = userAnswersSet.has(opt.id);
+        const isCorrect = correctAnswersSet.has(opt.id);
+
+        let rowClass = 'review-option-row';
+        let badgeHtml = '';
+
+        if (isUser && isCorrect) {
+          rowClass += ' user-correct';
+          badgeHtml = '<span class="review-opt-tag tag-success">✓ Votre choix (Correct)</span>';
+        } else if (isUser && !isCorrect) {
+          rowClass += ' user-wrong';
+          badgeHtml = '<span class="review-opt-tag tag-danger">✗ Votre choix (Incorrect)</span>';
+        } else if (!isUser && isCorrect) {
+          rowClass += ' missed-correct';
+          badgeHtml = '<span class="review-opt-tag tag-missed">★ Bonne réponse (Non cochée)</span>';
+        } else {
+          rowClass += ' neutral';
+        }
+
+        const optImgHtml = opt.image
+          ? `<div class="review-opt-img-wrap"><img src="${opt.image}" class="review-opt-thumb" alt="Option ${opt.id.toUpperCase()}"></div>`
+          : '';
+
+        optionsListHtml += `
+          <div class="${rowClass}">
+            <div class="review-opt-left">
+              <span class="review-opt-indicator">${opt.id.toUpperCase()}</span>
+              ${optImgHtml}
+              <span class="review-opt-text">${opt.text}</span>
+            </div>
+            ${badgeHtml ? `<div class="review-opt-right">${badgeHtml}</div>` : ''}
+          </div>
+        `;
+      });
+      optionsListHtml += '</div>';
+
+      // 2. Build detailed text list for user's selected answers
+      let userAnsDetailedHtml = '';
+      if (item.userAnswers.length > 0) {
+        userAnsDetailedHtml = '<div class="review-ans-items-wrap">';
+        item.userAnswers.forEach(ansId => {
+          const matchedOpt = q.options.find(o => o.id === ansId);
+          const isAnsCorrect = correctAnswersSet.has(ansId);
+          const text = matchedOpt ? matchedOpt.text : '';
+          const optImg = (matchedOpt && matchedOpt.image) 
+            ? `<img src="${matchedOpt.image}" class="review-recap-thumb" alt="${ansId.toUpperCase()}">` 
+            : '';
+          userAnsDetailedHtml += `
+            <div class="review-ans-item ${isAnsCorrect ? 'correct' : 'wrong'}">
+              <span class="ans-badge ${isAnsCorrect ? 'correct' : 'wrong'}">${ansId.toUpperCase()}</span>
+              ${optImg}
+              <span class="ans-desc">${text}</span>
+              <span class="ans-status-icon">${isAnsCorrect ? '✅' : '❌'}</span>
+            </div>
+          `;
+        });
+        userAnsDetailedHtml += '</div>';
+      } else {
+        userAnsDetailedHtml = `<span class="val wrong" style="font-weight: 600;">⚠️ Aucune réponse saisie (Question non répondue)</span>`;
+      }
+
+      // 3. Build detailed text list for official correct answers
+      let correctAnsDetailedHtml = '<div class="review-ans-items-wrap">';
+      item.correctAnswers.forEach(ansId => {
+        const matchedOpt = q.options.find(o => o.id === ansId);
+        const text = matchedOpt ? matchedOpt.text : '';
+        const optImg = (matchedOpt && matchedOpt.image) 
+          ? `<img src="${matchedOpt.image}" class="review-recap-thumb" alt="${ansId.toUpperCase()}">` 
+          : '';
+        correctAnsDetailedHtml += `
+          <div class="review-ans-item correct">
+            <span class="ans-badge correct">${ansId.toUpperCase()}</span>
+            ${optImg}
+            <span class="ans-desc">${text}</span>
+            <span class="ans-status-icon">✓</span>
+          </div>
+        `;
+      });
+      correctAnsDetailedHtml += '</div>';
 
       card.innerHTML = `
         <div class="review-item-top">
@@ -1265,22 +1347,35 @@
         </div>
         ${imgHtml}
         <div class="review-q-prompt">${q.question}</div>
+        
+        ${optionsListHtml}
+
         <div class="review-answers-box">
-          <div class="review-row user-ans">
-            <strong>Votre réponse :</strong>
-            <span class="val ${item.isCorrect ? 'correct' : 'wrong'}">${userAnsFormatted}</span>
+          <div class="review-section-block">
+            <span class="review-section-label">Votre sélection :</span>
+            ${userAnsDetailedHtml}
           </div>
-          <div class="review-row correct-ans">
-            <strong>Bonne réponse :</strong>
-            <span class="val">${correctAnsFormatted}</span>
+
+          <div class="review-section-block">
+            <span class="review-section-label">Bonne réponse officielle :</span>
+            ${correctAnsDetailedHtml}
           </div>
+
           ${q.explanation ? `
           <div class="review-row explanation-row">
-            <strong>💡 Explication :</strong>
+            <strong>💡 Explication & Règle du Code :</strong>
             <span class="explanation-text">${q.explanation}</span>
           </div>` : ''}
         </div>
       `;
+
+      // Enable lightbox click on review image if present
+      if (q.images && q.images.length > 0) {
+        const imgBox = card.querySelector('.review-img-box');
+        if (imgBox) {
+          imgBox.addEventListener('click', () => openLightbox(q.images[0]));
+        }
+      }
 
       dom.reviewItemsContainer.appendChild(card);
     });
@@ -1366,7 +1461,10 @@
   // LIGHTBOX & ZOOM
   // ==============================================================================
 
-  function openLightbox() {
+  function openLightbox(src) {
+    if (src && typeof src === 'string') {
+      dom.lightboxImg.src = src;
+    }
     dom.imageLightbox.classList.add('active');
   }
 
